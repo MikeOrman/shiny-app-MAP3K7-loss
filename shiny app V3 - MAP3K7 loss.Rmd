@@ -488,15 +488,11 @@ rownames(summary.concordance) <- 1:nrow(summary.concordance)
 # Clinical Analysis
 ## Primary tumor grade in primary subtype (TCGA data)
 ```{r}
-summary.full <- gleason(summary.concordance)
-#summary.full$`High-Risk p-val` <- p.adjust(summary.full$`High-Risk p-val`, method = "fdr")
-colnames(summary.full)[9] <- "High Grade Enrichment p-val"
+summary.full <- gleason.altered(summary.concordance)
 ```
 ## DFS in primary subtype (TCGA data)
 ```{r}
-summary.full <- survival(summary.full)
-#summary.full$`Survival pval` <- p.adjust(summary.full$`Survival pval`, method = "fdr")
-colnames(summary.full)[10] <- "Log Rank p-val"
+summary.full <- survival.altered(summary.full)
 ```
 ## Update summary table to include Gene Rank (by molecular FDR) and cytogenetic band
 Add Gene Rank
@@ -512,4 +508,10 @@ summary.full$`Cytogenetic Band` <- loci$Band
 Summary table
 ```{r}
 datatable(summary.full)
+```
+# Identify hits by subtype-specific survival
+```{r}
+hits <- survival.unaltered(summary.full)
+hits <- hits[hits$`Subtype Survival Log-Rank p-val` <= 0.05 & hits$`WT Survival Log-Rank p-val` >= 0.5 & hits$`-log10(Molecular FDR)` >= -log10(0.05),]
+datatable(hits)
 ```
