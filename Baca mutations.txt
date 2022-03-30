@@ -1,0 +1,2756 @@
+Hugo_Symbol	Center	Tumor_Sample_Barcode	SIFT	PolyPhen
+MFN2	broad.mit.edu	P01-28		
+VPS13D	broad.mit.edu	P01-28		probably_damaging(0.916)
+KIAA0754	broad.mit.edu	P01-28		benign(0.002)
+MCOLN3	broad.mit.edu	P01-28	tolerated(0.6)	benign(0.062)
+APOA1BP	broad.mit.edu	P01-28	deleterious_low_confidence(0.01)	unknown(0)
+RGSL1	broad.mit.edu	P01-28	deleterious(0)	possibly_damaging(0.848)
+EDEM3	broad.mit.edu	P01-28	tolerated(0.38)	benign(0.013)
+VN1R5	broad.mit.edu	P01-28		
+C10orf88	broad.mit.edu	P01-28	deleterious(0.04)	possibly_damaging(0.735)
+MUC2	broad.mit.edu	P01-28		probably_damaging(0.996)
+MUC2	broad.mit.edu	P01-28		
+OR51G2	broad.mit.edu	P01-28	deleterious(0.05)	possibly_damaging(0.82)
+SLC3A2	broad.mit.edu	P01-28		
+FGF3	broad.mit.edu	P01-28	tolerated(0.2)	benign(0.229)
+OR8A1	broad.mit.edu	P01-28		
+CLEC4D	broad.mit.edu	P01-28	deleterious(0.04)	possibly_damaging(0.563)
+KRT6B	broad.mit.edu	P01-28		
+URAD	broad.mit.edu	P01-28		
+DNAJC3	broad.mit.edu	P01-28	tolerated(0.1)	benign(0.148)
+MTHFD1	broad.mit.edu	P01-28		
+WWP2	broad.mit.edu	P01-28	deleterious(0.02)	probably_damaging(1)
+AURKB	broad.mit.edu	P01-28	tolerated(0.13)	probably_damaging(0.969)
+TMEM11	broad.mit.edu	P01-28	tolerated(0.11)	benign(0.014)
+HELZ	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(0.999)
+SLC25A10	broad.mit.edu	P01-28	tolerated(0.07)	benign(0.075)
+MBP	broad.mit.edu	P01-28		
+ABHD17A	broad.mit.edu	P01-28	tolerated(0.06)	benign(0.178)
+NWD1	broad.mit.edu	P01-28		
+NWD1	broad.mit.edu	P01-28		
+NWD1	broad.mit.edu	P01-28	tolerated(0.16)	probably_damaging(0.979)
+KCNN1	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(0.986)
+ZNF780B	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(0.996)
+CYP2A6	broad.mit.edu	P01-28		benign(0.002)
+BBC3	broad.mit.edu	P01-28	tolerated_low_confidence(0.2)	unknown(0)
+SHANK1	broad.mit.edu	P01-28		unknown(0)
+TRABD2A	broad.mit.edu	P01-28		
+WDR12	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(0.989)
+TSHZ2	broad.mit.edu	P01-28	tolerated(0.17)	benign(0.287)
+ZBP1	broad.mit.edu	P01-28		
+BRD1	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(0.997)
+GBA3	broad.mit.edu	P01-28	deleterious(0.03)	possibly_damaging(0.775)
+FAT4	broad.mit.edu	P01-28		probably_damaging(0.998)
+SMAD1	broad.mit.edu	P01-28	deleterious(0.01)	probably_damaging(0.997)
+RNF175	broad.mit.edu	P01-28	tolerated(0.08)	benign(0.005)
+HOMER1	broad.mit.edu	P01-28		
+PCDHB7	broad.mit.edu	P01-28	deleterious_low_confidence(0)	benign(0.304)
+PCDHGA2	broad.mit.edu	P01-28	deleterious_low_confidence(0)	probably_damaging(0.976)
+TENM2	broad.mit.edu	P01-28		
+SLIT3	broad.mit.edu	P01-28	tolerated(0.77)	benign(0.008)
+TTBK1	broad.mit.edu	P01-28		
+AARS2	broad.mit.edu	P01-28	tolerated(0.09)	benign(0.05)
+ARMC2	broad.mit.edu	P01-28	tolerated(0.17)	benign(0.024)
+KLRG2	broad.mit.edu	P01-28	tolerated(1)	benign(0.003)
+KIAA1429	broad.mit.edu	P01-28	tolerated(0.26)	probably_damaging(0.995)
+CCDC166	broad.mit.edu	P01-28		
+GCNT1	broad.mit.edu	P01-28	deleterious(0)	probably_damaging(1)
+EHMT1	broad.mit.edu	P01-28	deleterious(0.03)	possibly_damaging(0.542)
+TP53	broad.mit.edu	P01-28		
+RETSAT	broad.mit.edu	P01-28		
+HNRNPCL1	broad.mit.edu	P03-1426	tolerated(0.47)	benign(0)
+AKNAD1	broad.mit.edu	P03-1426		
+LGR6	broad.mit.edu	P03-1426	deleterious(0.02)	probably_damaging(0.999)
+LAMB3	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.981)
+WNT9A	broad.mit.edu	P03-1426		
+A1CF	broad.mit.edu	P03-1426	tolerated(0.06)	benign(0.194)
+MRGPRE	broad.mit.edu	P03-1426	tolerated(0.96)	benign(0.002)
+OR51G1	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.956)
+PAX6	broad.mit.edu	P03-1426	tolerated(0.13)	benign(0.012)
+SLC22A8	broad.mit.edu	P03-1426	tolerated(0.22)	possibly_damaging(0.683)
+ELMOD1	broad.mit.edu	P03-1426		
+OR10G9	broad.mit.edu	P03-1426	tolerated(0.13)	benign(0.025)
+ROBO3	broad.mit.edu	P03-1426		
+TPP2	broad.mit.edu	P03-1426	tolerated(0.07)	possibly_damaging(0.794)
+CEBPE	broad.mit.edu	P03-1426	deleterious(0)	benign(0.346)
+MYH6	broad.mit.edu	P03-1426	deleterious(0.04)	probably_damaging(1)
+MYH6	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.923)
+MYH6	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.923)
+TRMT61A	broad.mit.edu	P03-1426	tolerated(1)	benign(0.004)
+RTF1	broad.mit.edu	P03-1426	deleterious(0)	possibly_damaging(0.623)
+HDAC5	broad.mit.edu	P03-1426	deleterious(0.03)	probably_damaging(0.968)
+CCDC11	broad.mit.edu	P03-1426	deleterious(0)	possibly_damaging(0.609)
+YIF1B	broad.mit.edu	P03-1426	deleterious(0.02)	benign(0.145)
+ZNF575	broad.mit.edu	P03-1426	deleterious(0.01)	probably_damaging(0.944)
+CLEC11A	broad.mit.edu	P03-1426	tolerated_low_confidence(0.24)	benign(0.188)
+USP37	broad.mit.edu	P03-1426	tolerated(0.39)	benign(0.004)
+CCDC108	broad.mit.edu	P03-1426		
+ADRA1D	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.986)
+CD93	broad.mit.edu	P03-1426	tolerated(0.97)	benign(0.007)
+MYBL2	broad.mit.edu	P03-1426		
+LZTFL1	broad.mit.edu	P03-1426	deleterious(0.01)	probably_damaging(0.987)
+WDR53	broad.mit.edu	P03-1426		
+KIAA1211	broad.mit.edu	P03-1426	tolerated(0.3)	possibly_damaging(0.859)
+SH3RF1	broad.mit.edu	P03-1426	tolerated(0.22)	benign(0.103)
+FAT1	broad.mit.edu	P03-1426		
+SIMC1	broad.mit.edu	P03-1426	deleterious_low_confidence(0.03)	probably_damaging(0.934)
+RP9	broad.mit.edu	P03-1426	deleterious(0)	probably_damaging(0.994)
+TOR4A	broad.mit.edu	P03-1426		
+CHM	broad.mit.edu	P03-1426		
+MORC4	broad.mit.edu	P03-1426	tolerated(1)	benign(0.085)
+ATAD3C	broad.mit.edu	P03-2345		
+RBM15	broad.mit.edu	P03-2345		
+RPRD2	broad.mit.edu	P03-2345	deleterious_low_confidence(0)	benign(0.203)
+CREB3L4	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.976)
+NCF2	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.922)
+LRRN2	broad.mit.edu	P03-2345		
+USH2A	broad.mit.edu	P03-2345		benign(0.006)
+WDR64	broad.mit.edu	P03-2345		
+RBP3	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.938)
+CAMK2G	broad.mit.edu	P03-2345	tolerated_low_confidence(0.07)	possibly_damaging(0.498)
+AFAP1L2	broad.mit.edu	P03-2345	tolerated(0.05)	benign(0.251)
+PACS1	broad.mit.edu	P03-2345	tolerated_low_confidence(0.62)	unknown(0)
+PDGFD	broad.mit.edu	P03-2345	deleterious(0.01)	possibly_damaging(0.806)
+GRIA4	broad.mit.edu	P03-2345	deleterious(0.01)	probably_damaging(0.991)
+CD163L1	broad.mit.edu	P03-2345		
+ARHGAP17	broad.mit.edu	P03-2345	tolerated(0.15)	benign(0.16)
+ADAT1	broad.mit.edu	P03-2345	tolerated(0.42)	benign(0.257)
+UBB	broad.mit.edu	P03-2345		
+BAIAP2	broad.mit.edu	P03-2345	tolerated(0.12)	possibly_damaging(0.507)
+JUND	broad.mit.edu	P03-2345		
+FKRP	broad.mit.edu	P03-2345	tolerated(0.27)	benign(0.001)
+LMTK3	broad.mit.edu	P03-2345		unknown(0)
+ZNF418	broad.mit.edu	P03-2345	tolerated(0.11)	probably_damaging(0.956)
+NRP2	broad.mit.edu	P03-2345	tolerated(0.54)	benign(0.107)
+RALGAPB	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.999)
+BAGE2	broad.mit.edu	P03-2345		
+KRTAP10-1	broad.mit.edu	P03-2345	tolerated(0.07)	unknown(0)
+GGT1	broad.mit.edu	P03-2345	tolerated(0.84)	benign(0.004)
+CACNA2D2	broad.mit.edu	P03-2345		
+POC1A	broad.mit.edu	P03-2345		
+MAPK10	broad.mit.edu	P03-2345	deleterious(0.01)	probably_damaging(0.934)
+PCDHGA3	broad.mit.edu	P03-2345	tolerated_low_confidence(0.09)	benign(0.401)
+DPCR1	broad.mit.edu	P03-2345		
+FOXO3	broad.mit.edu	P03-2345	deleterious(0.02)	benign(0.312)
+PCLO	broad.mit.edu	P03-2345		unknown(0)
+ABCB4	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.984)
+DPP6	broad.mit.edu	P03-2345	tolerated(0.36)	benign(0.022)
+WDR60	broad.mit.edu	P03-2345	deleterious(0)	probably_damaging(0.995)
+SLC35G5	broad.mit.edu	P03-2345	deleterious(0.02)	possibly_damaging(0.805)
+APTX	broad.mit.edu	P03-2345		
+GADD45G	broad.mit.edu	P03-2345		
+IRS4	broad.mit.edu	P03-2345	tolerated(0.07)	possibly_damaging(0.643)
+ELMOD1	broad.mit.edu	P03-2345		
+POLG	broad.mit.edu	P03-2345		
+GSE1	broad.mit.edu	P03-2345		
+RP3-470B24.5	broad.mit.edu	P03-2345		
+SIMC1	broad.mit.edu	P04-1084	deleterious_low_confidence(0.03)	probably_damaging(0.934)
+ATAD3B	broad.mit.edu	P04-1084	tolerated_low_confidence(1)	benign(0)
+UBR4	broad.mit.edu	P04-1084		
+PTGFRN	broad.mit.edu	P04-1084		
+CGN	broad.mit.edu	P04-1084	deleterious(0.04)	probably_damaging(0.996)
+ADAMTS4	broad.mit.edu	P04-1084	deleterious(0.04)	probably_damaging(0.987)
+MROH9	broad.mit.edu	P04-1084	deleterious(0.04)	benign(0.164)
+RGSL1	broad.mit.edu	P04-1084	tolerated(0.11)	benign(0.078)
+SMG7	broad.mit.edu	P04-1084	deleterious(0.03)	probably_damaging(0.923)
+CFHR3	broad.mit.edu	P04-1084		
+SPRTN	broad.mit.edu	P04-1084	deleterious_low_confidence(0.04)	benign(0.219)
+MUC5B	broad.mit.edu	P04-1084		
+HBG1	broad.mit.edu	P04-1084	tolerated(0.59)	benign(0)
+FADS3	broad.mit.edu	P04-1084	tolerated(0.36)	benign(0.004)
+NRXN2	broad.mit.edu	P04-1084	deleterious(0.04)	probably_damaging(0.999)
+KDELC2	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.997)
+KRT8	broad.mit.edu	P04-1084		benign(0.008)
+NOS1	broad.mit.edu	P04-1084	tolerated(0.2)	benign(0.007)
+FZD10	broad.mit.edu	P04-1084	deleterious(0.01)	benign(0.004)
+TUBA3C	broad.mit.edu	P04-1084	deleterious_low_confidence(0)	probably_damaging(0.948)
+LPAR6	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(1)
+IGDCC4	broad.mit.edu	P04-1084	tolerated(0.51)	benign(0.004)
+RNF40	broad.mit.edu	P04-1084	tolerated(0.72)	benign(0)
+NLGN2	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(1)
+CACNB1	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(1)
+SP2	broad.mit.edu	P04-1084		
+CDK5RAP3	broad.mit.edu	P04-1084		
+CD300A	broad.mit.edu	P04-1084		
+TBC1D16	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.993)
+ZNF521	broad.mit.edu	P04-1084	deleterious(0.02)	probably_damaging(0.998)
+MAST1	broad.mit.edu	P04-1084		
+UNC13A	broad.mit.edu	P04-1084	tolerated_low_confidence(0.07)	benign(0.01)
+ELL	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.995)
+KLHL26	broad.mit.edu	P04-1084		
+LSM14A	broad.mit.edu	P04-1084		
+LSM14A	broad.mit.edu	P04-1084	tolerated(0.38)	benign(0.003)
+STRN4	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.97)
+LILRA4	broad.mit.edu	P04-1084	tolerated(0.19)	benign(0.097)
+ZIM3	broad.mit.edu	P04-1084	deleterious(0)	possibly_damaging(0.671)
+ACP1	broad.mit.edu	P04-1084		
+PDCL3	broad.mit.edu	P04-1084	tolerated(0.52)	benign(0.003)
+RBMS1	broad.mit.edu	P04-1084		
+TTN	broad.mit.edu	P04-1084		
+TTN	broad.mit.edu	P04-1084		
+TTN	broad.mit.edu	P04-1084		
+CRYGD	broad.mit.edu	P04-1084	deleterious(0.01)	possibly_damaging(0.793)
+CDH26	broad.mit.edu	P04-1084		
+RSPH1	broad.mit.edu	P04-1084		
+KRTAP10-2	broad.mit.edu	P04-1084	tolerated(0.08)	unknown(0)
+POTEH	broad.mit.edu	P04-1084		
+PRR14L	broad.mit.edu	P04-1084		
+FAM208A	broad.mit.edu	P04-1084	deleterious(0.02)	benign(0.139)
+ABI3BP	broad.mit.edu	P04-1084	deleterious(0.04)	possibly_damaging(0.641)
+NPHP3	broad.mit.edu	P04-1084	tolerated(0.16)	benign(0.352)
+NCEH1	broad.mit.edu	P04-1084	deleterious(0.03)	benign(0.318)
+CCDC39	broad.mit.edu	P04-1084	deleterious(0)	benign(0.097)
+KIAA0232	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.995)
+KCTD8	broad.mit.edu	P04-1084	tolerated(0.11)	probably_damaging(0.944)
+FRG1	broad.mit.edu	P04-1084	deleterious(0.01)	benign(0.435)
+PXDC1	broad.mit.edu	P04-1084		
+ZSCAN9	broad.mit.edu	P04-1084	tolerated(1)	benign(0.005)
+OR12D2	broad.mit.edu	P04-1084	tolerated(0.42)	benign(0.013)
+HLA-A	broad.mit.edu	P04-1084	tolerated_low_confidence(0.56)	benign(0.069)
+DPCR1	broad.mit.edu	P04-1084		
+EPHA7	broad.mit.edu	P04-1084		
+UNC5D	broad.mit.edu	P04-1084		
+ZNF618	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.999)
+NSMF	broad.mit.edu	P04-1084	tolerated_low_confidence(0.12)	unknown(0)
+ACTRT1	broad.mit.edu	P04-1084	deleterious(0)	probably_damaging(0.951)
+C11orf80	broad.mit.edu	P04-1084		
+SOGA2	broad.mit.edu	P04-1084		
+MYLK	broad.mit.edu	P04-1084		
+KRTAP10-1	broad.mit.edu	P05-1657	tolerated(0.07)	unknown(0)
+KRT8	broad.mit.edu	P05-1657		benign(0.008)
+ZMYM6	broad.mit.edu	P05-1657		
+BRINP2	broad.mit.edu	P05-1657	deleterious(0)	probably_damaging(0.915)
+FMN2	broad.mit.edu	P05-1657		
+CTNNA3	broad.mit.edu	P05-1657		
+TPP1	broad.mit.edu	P05-1657	tolerated(0.1)	benign(0.374)
+ATM	broad.mit.edu	P05-1657		
+SDHD	broad.mit.edu	P05-1657	tolerated(0.83)	benign(0.003)
+PLEKHH1	broad.mit.edu	P05-1657		
+MYO1E	broad.mit.edu	P05-1657	deleterious(0)	probably_damaging(0.999)
+CALB2	broad.mit.edu	P05-1657		
+ZNF469	broad.mit.edu	P05-1657		
+SPAG7	broad.mit.edu	P05-1657	tolerated(0.36)	benign(0.002)
+ZNF594	broad.mit.edu	P05-1657		
+FLCN	broad.mit.edu	P05-1657		
+ANKRD13B	broad.mit.edu	P05-1657	deleterious(0)	unknown(0)
+C17orf104	broad.mit.edu	P05-1657		
+ARID3A	broad.mit.edu	P05-1657		
+MCOLN1	broad.mit.edu	P05-1657	deleterious(0.02)	probably_damaging(0.935)
+ZNF799	broad.mit.edu	P05-1657		
+RAPGEF4	broad.mit.edu	P05-1657	tolerated(0.12)	benign(0.006)
+CHEK2	broad.mit.edu	P05-1657		
+FRAS1	broad.mit.edu	P05-1657		benign(0.049)
+MTTP	broad.mit.edu	P05-1657	tolerated(0.27)	benign(0.001)
+PCDHB2	broad.mit.edu	P05-1657	deleterious_low_confidence(0)	probably_damaging(0.997)
+PKD1L1	broad.mit.edu	P05-1657	tolerated(0.61)	benign(0.014)
+RP11-468B6.1	broad.mit.edu	P05-1657		
+CSMD3	broad.mit.edu	P05-1657	tolerated(0.29)	benign(0.041)
+SPATA31C1	broad.mit.edu	P05-1657		
+BICD2	broad.mit.edu	P05-1657	deleterious(0)	probably_damaging(0.995)
+CELF2	broad.mit.edu	P05-1657		
+LATS2	broad.mit.edu	P05-1657		
+CTC1	broad.mit.edu	P05-1657		
+ZMIZ2	broad.mit.edu	P05-1657		
+KIAA0754	broad.mit.edu	P05-2709		benign(0.018)
+JAK1	broad.mit.edu	P05-2709		
+COL24A1	broad.mit.edu	P05-2709	tolerated(0.1)	benign(0.303)
+B4GALT3	broad.mit.edu	P05-2709		
+DNAH14	broad.mit.edu	P05-2709		
+OR2M3	broad.mit.edu	P05-2709	deleterious(0.04)	benign(0.005)
+DRGX	broad.mit.edu	P05-2709	tolerated_low_confidence(0.68)	benign(0)
+PLCB3	broad.mit.edu	P05-2709	tolerated(0.36)	benign(0)
+CENPJ	broad.mit.edu	P05-2709		
+PAN3	broad.mit.edu	P05-2709	deleterious(0.01)	probably_damaging(1)
+CEP170B	broad.mit.edu	P05-2709	deleterious(0)	possibly_damaging(0.852)
+GOLGA6L1	broad.mit.edu	P05-2709		unknown(0)
+HERC1	broad.mit.edu	P05-2709		benign(0.274)
+TMC7	broad.mit.edu	P05-2709	deleterious(0.01)	benign(0.063)
+SERPINF2	broad.mit.edu	P05-2709	tolerated(0.23)	benign(0.007)
+CLUH	broad.mit.edu	P05-2709	deleterious(0)	possibly_damaging(0.677)
+NUFIP2	broad.mit.edu	P05-2709	deleterious_low_confidence(0.04)	unknown(0)
+CASKIN2	broad.mit.edu	P05-2709		
+GREB1L	broad.mit.edu	P05-2709		
+FBN3	broad.mit.edu	P05-2709	deleterious(0.01)	possibly_damaging(0.704)
+MYT1L	broad.mit.edu	P05-2709		
+GGCX	broad.mit.edu	P05-2709	deleterious(0.01)	probably_damaging(0.926)
+TMEM127	broad.mit.edu	P05-2709	deleterious(0)	possibly_damaging(0.796)
+GGTLC1	broad.mit.edu	P05-2709	tolerated(1)	benign(0)
+CLIC6	broad.mit.edu	P05-2709		
+NISCH	broad.mit.edu	P05-2709		
+MUC4	broad.mit.edu	P05-2709		
+MUC4	broad.mit.edu	P05-2709		unknown(0)
+TUBB7P	broad.mit.edu	P05-2709		
+IRX1	broad.mit.edu	P05-2709	tolerated(0.08)	possibly_damaging(0.905)
+PCDHB7	broad.mit.edu	P05-2709		
+NMUR2	broad.mit.edu	P05-2709		
+SLC34A1	broad.mit.edu	P05-2709	deleterious(0.04)	benign(0.011)
+PHF3	broad.mit.edu	P05-2709		
+HDAC9	broad.mit.edu	P05-2709		
+EPHB6	broad.mit.edu	P05-2709		
+RPL11	broad.mit.edu	P05-2709		
+INPPL1	broad.mit.edu	P05-2709		
+SLC11A2	broad.mit.edu	P05-2709		
+E4F1	broad.mit.edu	P05-2709		
+TOX3	broad.mit.edu	P05-2709		
+KRT8	broad.mit.edu	P05-3852		benign(0.008)
+KDM1A	broad.mit.edu	P05-3852	deleterious(0)	benign(0.224)
+NASP	broad.mit.edu	P05-3852	deleterious_low_confidence(0.04)	benign(0.016)
+RCSD1	broad.mit.edu	P05-3852	tolerated(0.12)	benign(0.063)
+PRG4	broad.mit.edu	P05-3852		
+EXOC8	broad.mit.edu	P05-3852	tolerated(0.4)	benign(0.008)
+AGAP5	broad.mit.edu	P05-3852		
+RILPL1	broad.mit.edu	P05-3852	deleterious(0.01)	benign(0.408)
+DOCK9	broad.mit.edu	P05-3852	tolerated(0.38)	benign(0.005)
+SERPINA12	broad.mit.edu	P05-3852	tolerated(0.14)	benign(0.046)
+TLE3	broad.mit.edu	P05-3852	tolerated(0.27)	benign(0.024)
+FURIN	broad.mit.edu	P05-3852	deleterious(0.01)	probably_damaging(0.998)
+DYNC1LI2	broad.mit.edu	P05-3852	tolerated_low_confidence(0.08)	benign(0)
+RNF213	broad.mit.edu	P05-3852		possibly_damaging(0.641)
+FBXW9	broad.mit.edu	P05-3852	deleterious(0.04)	possibly_damaging(0.881)
+PSG5	broad.mit.edu	P05-3852	tolerated(0.07)	probably_damaging(0.955)
+FPR3	broad.mit.edu	P05-3852	tolerated(0.6)	benign(0.002)
+RAD51AP2	broad.mit.edu	P05-3852	tolerated(0.26)	probably_damaging(0.982)
+APOB	broad.mit.edu	P05-3852		
+FASTKD1	broad.mit.edu	P05-3852	deleterious(0.01)	possibly_damaging(0.743)
+BANF2	broad.mit.edu	P05-3852	tolerated(0.09)	benign(0.323)
+PNPLA3	broad.mit.edu	P05-3852	tolerated(0.06)	benign(0.086)
+MAPK8IP2	broad.mit.edu	P05-3852	deleterious(0)	possibly_damaging(0.562)
+GRM7	broad.mit.edu	P05-3852	tolerated(0.97)	benign(0.001)
+MUC4	broad.mit.edu	P05-3852		
+SOWAHB	broad.mit.edu	P05-3852	tolerated(0.13)	benign(0.216)
+GFPT2	broad.mit.edu	P05-3852	deleterious(0)	probably_damaging(0.994)
+NFKBIL1	broad.mit.edu	P05-3852		
+SOBP	broad.mit.edu	P05-3852	deleterious(0.01)	probably_damaging(0.953)
+MYB	broad.mit.edu	P05-3852	deleterious(0.02)	possibly_damaging(0.654)
+BICD2	broad.mit.edu	P05-3852	tolerated(0.16)	possibly_damaging(0.785)
+RBM10	broad.mit.edu	P05-3852	tolerated_low_confidence(0.42)	benign(0.217)
+ARID5B	broad.mit.edu	P05-3852		
+IGSF3	broad.mit.edu	P05-620	tolerated(0.11)	possibly_damaging(0.747)
+HSPA6	broad.mit.edu	P05-620	deleterious_low_confidence(0)	probably_damaging(0.996)
+IARS2	broad.mit.edu	P05-620		
+LEFTY2	broad.mit.edu	P05-620		
+UBTD1	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(1)
+EMX2	broad.mit.edu	P05-620		
+OR4C12	broad.mit.edu	P05-620	deleterious_low_confidence(0.05)	possibly_damaging(0.639)
+MS4A12	broad.mit.edu	P05-620		
+MTA2	broad.mit.edu	P05-620		
+FZD4	broad.mit.edu	P05-620	tolerated(0.52)	benign(0.013)
+P2RX2	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(1)
+ZDHHC20	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.953)
+ZDHHC20	broad.mit.edu	P05-620		
+FOXA1	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.999)
+UNC13C	broad.mit.edu	P05-620	tolerated_low_confidence(0.73)	benign(0.001)
+LOXL1	broad.mit.edu	P05-620	tolerated(0.18)	possibly_damaging(0.543)
+MEX3B	broad.mit.edu	P05-620	tolerated(0.45)	benign(0)
+ZNF174	broad.mit.edu	P05-620		
+CAPNS2	broad.mit.edu	P05-620	deleterious(0.05)	benign(0.037)
+CDH11	broad.mit.edu	P05-620		
+NCOR1	broad.mit.edu	P05-620		
+LSM12	broad.mit.edu	P05-620		
+EPG5	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.996)
+LOXHD1	broad.mit.edu	P05-620		
+SALL3	broad.mit.edu	P05-620		
+NWD1	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.997)
+FBXO17	broad.mit.edu	P05-620	tolerated(0.2)	benign(0.002)
+SYT3	broad.mit.edu	P05-620		
+ZNF814	broad.mit.edu	P05-620	tolerated(0.08)	benign(0.057)
+NBAS	broad.mit.edu	P05-620	deleterious(0)	benign(0.161)
+KLHL29	broad.mit.edu	P05-620	tolerated(0.12)	benign(0.039)
+PLEKHH2	broad.mit.edu	P05-620	tolerated(0.54)	benign(0)
+NCAPH	broad.mit.edu	P05-620	tolerated(0.16)	benign(0.12)
+PCDP1	broad.mit.edu	P05-620		
+CHRNA1	broad.mit.edu	P05-620		
+SPEG	broad.mit.edu	P05-620		
+KIF16B	broad.mit.edu	P05-620		
+RALGAPA2	broad.mit.edu	P05-620	tolerated(0.14)	benign(0.012)
+PAX1	broad.mit.edu	P05-620	deleterious(0.01)	possibly_damaging(0.692)
+SCARF2	broad.mit.edu	P05-620	deleterious(0.03)	benign(0.316)
+GTPBP1	broad.mit.edu	P05-620	deleterious(0.01)	benign(0.007)
+METTL6	broad.mit.edu	P05-620	tolerated(0.34)	benign(0.006)
+MAPKAPK3	broad.mit.edu	P05-620	tolerated(0.12)	benign(0.062)
+ECE2	broad.mit.edu	P05-620	deleterious(0.01)	probably_damaging(0.965)
+MUC4	broad.mit.edu	P05-620		
+CHRNA9	broad.mit.edu	P05-620	tolerated(0.14)	benign(0.012)
+HPSE	broad.mit.edu	P05-620	tolerated(0.1)	possibly_damaging(0.608)
+EGF	broad.mit.edu	P05-620	tolerated(0.51)	benign(0.01)
+CCRN4L	broad.mit.edu	P05-620	deleterious_low_confidence(0.01)	possibly_damaging(0.689)
+SLC9A3	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.998)
+SLC9A3	broad.mit.edu	P05-620	deleterious(0)	possibly_damaging(0.845)
+PRDM9	broad.mit.edu	P05-620	deleterious_low_confidence(0.01)	benign(0.023)
+APC	broad.mit.edu	P05-620		
+MFHAS1	broad.mit.edu	P05-620	deleterious(0.05)	probably_damaging(0.996)
+SNAI2	broad.mit.edu	P05-620		
+ZFHX4	broad.mit.edu	P05-620		
+MED30	broad.mit.edu	P05-620	tolerated(0.17)	benign(0.191)
+TATDN1	broad.mit.edu	P05-620		
+TATDN1	broad.mit.edu	P05-620	deleterious(0)	probably_damaging(0.939)
+TMEM2	broad.mit.edu	P05-620		
+COL27A1	broad.mit.edu	P05-620		unknown(0)
+PAPPA	broad.mit.edu	P05-620	tolerated(0.49)	benign(0)
+KLHL34	broad.mit.edu	P05-620		
+BRINP2	broad.mit.edu	P05-620		
+OR2L3	broad.mit.edu	P05-620		
+CHD4	broad.mit.edu	P05-620		
+DVL2	broad.mit.edu	P05-620		
+MAP3K1	broad.mit.edu	P05-620		
+PADI3	broad.mit.edu	P07-144	deleterious(0.03)	benign(0.003)
+USP48	broad.mit.edu	P07-144	tolerated(0.28)	benign(0.003)
+USP24	broad.mit.edu	P07-144	deleterious(0)	probably_damaging(0.986)
+CTTNBP2NL	broad.mit.edu	P07-144	deleterious(0.02)	probably_damaging(0.998)
+LGALS8	broad.mit.edu	P07-144		
+SEC61A2	broad.mit.edu	P07-144	tolerated(0.06)	benign(0.189)
+HPS1	broad.mit.edu	P07-144		
+JAKMIP3	broad.mit.edu	P07-144		
+GPR123	broad.mit.edu	P07-144		
+LRRIQ1	broad.mit.edu	P07-144	deleterious(0.01)	probably_damaging(0.999)
+HECTD4	broad.mit.edu	P07-144		possibly_damaging(0.637)
+MYO16	broad.mit.edu	P07-144		
+RIN3	broad.mit.edu	P07-144	tolerated(0.2)	benign(0)
+RTL1	broad.mit.edu	P07-144	deleterious_low_confidence(0.04)	possibly_damaging(0.492)
+MSLNL	broad.mit.edu	P07-144	tolerated(0.05)	probably_damaging(0.944)
+MYBBP1A	broad.mit.edu	P07-144	deleterious(0.04)	possibly_damaging(0.708)
+PIK3R6	broad.mit.edu	P07-144	tolerated(0.06)	benign(0.353)
+CDH7	broad.mit.edu	P07-144		
+MIDN	broad.mit.edu	P07-144	deleterious(0.05)	probably_damaging(0.962)
+ACTL9	broad.mit.edu	P07-144	deleterious(0.01)	probably_damaging(0.924)
+MUC16	broad.mit.edu	P07-144		benign(0.095)
+RNASEH2A	broad.mit.edu	P07-144	deleterious(0)	probably_damaging(0.996)
+GIPC1	broad.mit.edu	P07-144		
+ZNF676	broad.mit.edu	P07-144	tolerated(0.41)	benign(0.01)
+ZNF567	broad.mit.edu	P07-144	tolerated(0.24)	benign(0.004)
+HEATR5B	broad.mit.edu	P07-144	tolerated(1)	benign(0.002)
+THADA	broad.mit.edu	P07-144		
+ZEB2	broad.mit.edu	P07-144		
+UPP2	broad.mit.edu	P07-144		
+COL3A1	broad.mit.edu	P07-144		unknown(0)
+PLEKHM3	broad.mit.edu	P07-144		
+RRBP1	broad.mit.edu	P07-144		
+CDC45	broad.mit.edu	P07-144	deleterious(0)	probably_damaging(0.994)
+GNB1L	broad.mit.edu	P07-144		
+SPECC1L	broad.mit.edu	P07-144	tolerated(1)	benign(0.002)
+BTD	broad.mit.edu	P07-144	tolerated(0.09)	possibly_damaging(0.751)
+SGOL1	broad.mit.edu	P07-144	tolerated(1)	benign(0)
+SCN11A	broad.mit.edu	P07-144		
+SPSB4	broad.mit.edu	P07-144		
+AMTN	broad.mit.edu	P07-144		
+LRBA	broad.mit.edu	P07-144	deleterious(0)	probably_damaging(0.996)
+DCHS2	broad.mit.edu	P07-144		
+SLCO4C1	broad.mit.edu	P07-144	tolerated(0.21)	benign(0.003)
+SPINK5	broad.mit.edu	P07-144	deleterious(0.03)	possibly_damaging(0.449)
+RNF44	broad.mit.edu	P07-144		
+ZNF454	broad.mit.edu	P07-144	tolerated(0.15)	benign(0)
+WTAP	broad.mit.edu	P07-144	deleterious(0.03)	possibly_damaging(0.873)
+ZNF395	broad.mit.edu	P07-144	tolerated(0.21)	benign(0.253)
+ZFHX4	broad.mit.edu	P07-144		probably_damaging(0.974)
+HHLA1	broad.mit.edu	P07-144	tolerated(0.54)	possibly_damaging(0.682)
+FAM135B	broad.mit.edu	P07-144	tolerated(0.23)	benign(0)
+TTC39B	broad.mit.edu	P07-144	tolerated(0.16)	probably_damaging(0.993)
+NTRK2	broad.mit.edu	P07-144		
+NUTM2F	broad.mit.edu	P07-144		
+OLFML2A	broad.mit.edu	P07-144		
+CIZ1	broad.mit.edu	P07-144	deleterious_low_confidence(0)	possibly_damaging(0.649)
+SLITRK2	broad.mit.edu	P07-144		
+GPATCH4	broad.mit.edu	P07-144		
+CNTN2	broad.mit.edu	P07-144		
+OR2T2	broad.mit.edu	P07-144		
+RP11-407N17.3	broad.mit.edu	P07-144		
+SLC25A5	broad.mit.edu	P07-144		
+PLCB3	broad.mit.edu	P07-4941	tolerated(0.36)	benign(0)
+CCKBR	broad.mit.edu	P07-4941	deleterious(0)	benign(0.077)
+OR10A6	broad.mit.edu	P07-4941	tolerated(0.35)	benign(0.109)
+E2F8	broad.mit.edu	P07-4941	tolerated(0.07)	possibly_damaging(0.664)
+LRFN4	broad.mit.edu	P07-4941	tolerated(1)	benign(0.116)
+CNTN5	broad.mit.edu	P07-4941	deleterious(0)	probably_damaging(1)
+ATM	broad.mit.edu	P07-4941	tolerated(0.17)	benign(0)
+PRB3	broad.mit.edu	P07-4941	tolerated(0.1)	unknown(0)
+CUL4A	broad.mit.edu	P07-4941	deleterious(0)	probably_damaging(0.995)
+CDH8	broad.mit.edu	P07-4941	tolerated_low_confidence(0.09)	probably_damaging(0.973)
+4-Sep	broad.mit.edu	P07-4941	tolerated(0.1)	benign(0.168)
+USP32	broad.mit.edu	P07-4941	tolerated(0.14)	benign(0.13)
+APLP1	broad.mit.edu	P07-4941	tolerated(0.06)	probably_damaging(0.993)
+CLPTM1	broad.mit.edu	P07-4941	deleterious(0.01)	probably_damaging(0.992)
+CLASRP	broad.mit.edu	P07-4941	deleterious(0.01)	unknown(0)
+VASP	broad.mit.edu	P07-4941		
+GIPR	broad.mit.edu	P07-4941		
+CCDC104	broad.mit.edu	P07-4941	deleterious(0.02)	benign(0.443)
+LOXL3	broad.mit.edu	P07-4941		
+CLIC6	broad.mit.edu	P07-4941	deleterious_low_confidence(0.02)	benign(0.018)
+CNTN6	broad.mit.edu	P07-4941		
+HTT	broad.mit.edu	P07-4941		
+HTT	broad.mit.edu	P07-4941		
+MROH2B	broad.mit.edu	P07-4941		
+PCDHB7	broad.mit.edu	P07-4941	tolerated_low_confidence(0.13)	benign(0.091)
+MYO6	broad.mit.edu	P07-4941	deleterious(0)	probably_damaging(1)
+SARDH	broad.mit.edu	P07-4941	tolerated(0.17)	possibly_damaging(0.57)
+MED14	broad.mit.edu	P07-4941	deleterious(0.02)	benign(0.016)
+SLC6A8	broad.mit.edu	P07-4941	tolerated(0.08)	possibly_damaging(0.755)
+FLG	broad.mit.edu	P07-4941		
+OR8A1	broad.mit.edu	P07-4941		
+HS6ST1	broad.mit.edu	P07-4941		
+NUP205	broad.mit.edu	P07-4941		
+GPR161	broad.mit.edu	P07-5021		
+RGS16	broad.mit.edu	P07-5021	deleterious(0.01)	probably_damaging(0.959)
+SYT15	broad.mit.edu	P07-5021	tolerated(0.23)	benign(0.045)
+ZNF488	broad.mit.edu	P07-5021		
+DDX11	broad.mit.edu	P07-5021		
+ADAMTS20	broad.mit.edu	P07-5021		
+P2RX1	broad.mit.edu	P07-5021	deleterious(0.01)	probably_damaging(0.947)
+NLRP1	broad.mit.edu	P07-5021	tolerated(0.54)	benign(0.17)
+NEURL4	broad.mit.edu	P07-5021		
+DNAI2	broad.mit.edu	P07-5021	tolerated(0.63)	benign(0)
+SLC4A10	broad.mit.edu	P07-5021	tolerated(0.44)	benign(0.002)
+SCN3A	broad.mit.edu	P07-5021	deleterious(0.03)	probably_damaging(0.979)
+SCN7A	broad.mit.edu	P07-5021	deleterious(0.03)	possibly_damaging(0.821)
+SF3B1	broad.mit.edu	P07-5021	tolerated(0.68)	benign(0.005)
+KRTAP13-4	broad.mit.edu	P07-5021	deleterious(0.03)	benign(0.424)
+PRODH	broad.mit.edu	P07-5021	tolerated(0.11)	possibly_damaging(0.462)
+ROBO2	broad.mit.edu	P07-5021		
+CBLB	broad.mit.edu	P07-5021	deleterious(0)	probably_damaging(0.999)
+FGFRL1	broad.mit.edu	P07-5021	tolerated(0.16)	benign(0.002)
+ATP10B	broad.mit.edu	P07-5021	tolerated(0.14)	benign(0.009)
+PPP1R17	broad.mit.edu	P07-5021	tolerated_low_confidence(0.15)	benign(0.046)
+ABCA13	broad.mit.edu	P07-5021		possibly_damaging(0.847)
+DMRT3	broad.mit.edu	P07-5021		
+IFNA7	broad.mit.edu	P07-5021	deleterious(0.02)	benign(0.049)
+TTLL11	broad.mit.edu	P07-5021		
+MXRA5	broad.mit.edu	P07-5021		
+RBM10	broad.mit.edu	P07-5021	tolerated(0.21)	possibly_damaging(0.608)
+DIS3L	broad.mit.edu	P07-5021		
+CC2D2A	broad.mit.edu	P07-5021		
+TAS1R2	broad.mit.edu	P07-5037	tolerated(0.07)	benign(0.006)
+NRD1	broad.mit.edu	P07-5037		
+GPR158	broad.mit.edu	P07-5037	deleterious(0.05)	benign(0.003)
+GDF10	broad.mit.edu	P07-5037	tolerated(0.11)	benign(0.04)
+OGDHL	broad.mit.edu	P07-5037	deleterious(0)	probably_damaging(0.999)
+SCD	broad.mit.edu	P07-5037	deleterious(0.04)	benign(0.273)
+TALDO1	broad.mit.edu	P07-5037		
+DBX1	broad.mit.edu	P07-5037	deleterious(0)	probably_damaging(1)
+NAB2	broad.mit.edu	P07-5037		
+ANKRD13A	broad.mit.edu	P07-5037	tolerated(0.27)	benign(0.332)
+OAS1	broad.mit.edu	P07-5037		
+TPTE2	broad.mit.edu	P07-5037		
+CHD8	broad.mit.edu	P07-5037	tolerated(0.21)	benign(0.084)
+GPR65	broad.mit.edu	P07-5037	tolerated(0.13)	benign(0.243)
+FANCA	broad.mit.edu	P07-5037	tolerated(0.53)	benign(0.217)
+SLFN11	broad.mit.edu	P07-5037	tolerated(1)	benign(0.001)
+CEP95	broad.mit.edu	P07-5037	deleterious(0.04)	benign(0.134)
+RBFOX3	broad.mit.edu	P07-5037	deleterious_low_confidence(0)	unknown(0)
+GRIN3B	broad.mit.edu	P07-5037		
+RHPN2	broad.mit.edu	P07-5037	deleterious(0)	probably_damaging(0.988)
+ZNF530	broad.mit.edu	P07-5037		
+HOXD12	broad.mit.edu	P07-5037		
+TAF4	broad.mit.edu	P07-5037		benign(0.003)
+TFF2	broad.mit.edu	P07-5037		
+KIF15	broad.mit.edu	P07-5037		
+SEMA5B	broad.mit.edu	P07-5037		
+WDR49	broad.mit.edu	P07-5037	tolerated(0.29)	benign(0.006)
+FAM184B	broad.mit.edu	P07-5037	tolerated(0.06)	benign(0.033)
+BMP2K	broad.mit.edu	P07-5037	tolerated_low_confidence(0.27)	unknown(0)
+WDFY3	broad.mit.edu	P07-5037	deleterious(0)	probably_damaging(0.969)
+MEPE	broad.mit.edu	P07-5037	deleterious(0.03)	possibly_damaging(0.666)
+SYNPO2	broad.mit.edu	P07-5037	deleterious(0)	probably_damaging(1)
+C7	broad.mit.edu	P07-5037		
+UTP15	broad.mit.edu	P07-5037		
+PRELID2	broad.mit.edu	P07-5037		
+EEF1E1	broad.mit.edu	P07-5037		
+HSP90AB1	broad.mit.edu	P07-5037	deleterious(0.01)	probably_damaging(1)
+AC018720.10	broad.mit.edu	P07-5037		
+ZAN	broad.mit.edu	P07-5037		benign(0.022)
+ATP6V0A4	broad.mit.edu	P07-5037		
+OLFML2A	broad.mit.edu	P07-5037	tolerated(0.24)	unknown(0)
+MURC	broad.mit.edu	P07-5037		
+WDR37	broad.mit.edu	P07-5318		
+CALHM1	broad.mit.edu	P07-5318	deleterious(0.01)	benign(0.03)
+OBFC1	broad.mit.edu	P07-5318		
+LSP1	broad.mit.edu	P07-5318	tolerated_low_confidence(0.17)	benign(0.004)
+FAT3	broad.mit.edu	P07-5318		possibly_damaging(0.884)
+FAT3	broad.mit.edu	P07-5318		
+FEZ1	broad.mit.edu	P07-5318	deleterious(0)	possibly_damaging(0.828)
+VWF	broad.mit.edu	P07-5318	tolerated(0.22)	benign(0.207)
+KRT72	broad.mit.edu	P07-5318		
+ZNF219	broad.mit.edu	P07-5318	deleterious(0.01)	probably_damaging(0.988)
+FOXA1	broad.mit.edu	P07-5318	deleterious(0)	probably_damaging(1)
+CHD2	broad.mit.edu	P07-5318	deleterious(0.02)	benign(0.011)
+RABEP2	broad.mit.edu	P07-5318	deleterious(0)	benign(0.026)
+CTCF	broad.mit.edu	P07-5318	deleterious(0.02)	possibly_damaging(0.454)
+MYH10	broad.mit.edu	P07-5318		benign(0.092)
+SUZ12	broad.mit.edu	P07-5318		
+PIEZO2	broad.mit.edu	P07-5318	deleterious(0.02)	probably_damaging(0.998)
+CDH2	broad.mit.edu	P07-5318		
+MYO1F	broad.mit.edu	P07-5318	tolerated(0.11)	possibly_damaging(0.573)
+ADAMTS10	broad.mit.edu	P07-5318	deleterious(0.02)	probably_damaging(0.999)
+ZNF653	broad.mit.edu	P07-5318	deleterious(0)	probably_damaging(1)
+ARHGAP25	broad.mit.edu	P07-5318		
+MARCO	broad.mit.edu	P07-5318	deleterious(0.02)	benign(0.2)
+CLASP1	broad.mit.edu	P07-5318		
+COL6A3	broad.mit.edu	P07-5318		
+TTC28	broad.mit.edu	P07-5318	tolerated(0.06)	benign(0.17)
+COL7A1	broad.mit.edu	P07-5318		unknown(0)
+BSN	broad.mit.edu	P07-5318		
+FOXP1	broad.mit.edu	P07-5318	deleterious(0)	probably_damaging(0.977)
+SLC12A8	broad.mit.edu	P07-5318	tolerated(0.86)	benign(0.002)
+COX18	broad.mit.edu	P07-5318	tolerated(0.76)	benign(0.09)
+MAML3	broad.mit.edu	P07-5318		
+PRDM9	broad.mit.edu	P07-5318	deleterious(0.01)	possibly_damaging(0.564)
+CDH10	broad.mit.edu	P07-5318	tolerated(0.5)	probably_damaging(0.983)
+XRCC4	broad.mit.edu	P07-5318	tolerated(0.58)	benign(0.033)
+ERAP2	broad.mit.edu	P07-5318	deleterious(0.01)	possibly_damaging(0.773)
+PCDHA12	broad.mit.edu	P07-5318		
+KIF13A	broad.mit.edu	P07-5318	tolerated(0.27)	benign(0.013)
+THBS2	broad.mit.edu	P07-5318	deleterious(0.01)	probably_damaging(0.959)
+SAMD9	broad.mit.edu	P07-5318	tolerated(0.35)	benign(0.322)
+BRAF	broad.mit.edu	P07-5318	deleterious(0)	benign(0.411)
+HTR5A	broad.mit.edu	P07-5318	deleterious(0)	probably_damaging(0.969)
+CHRNB3	broad.mit.edu	P07-5318	tolerated(0.23)	possibly_damaging(0.776)
+CHRNB3	broad.mit.edu	P07-5318	tolerated(0.68)	benign(0.278)
+CHRNB3	broad.mit.edu	P07-5318	tolerated(0.05)	probably_damaging(0.968)
+GLRA2	broad.mit.edu	P07-5318		
+CT47B1	broad.mit.edu	P07-5318	tolerated(1)	benign(0.014)
+SRPK3	broad.mit.edu	P07-5318	deleterious(0)	probably_damaging(0.979)
+VAMP7	broad.mit.edu	P07-5318	tolerated(0.23)	benign(0.026)
+CCNK	broad.mit.edu	P07-5318		
+C16orf46	broad.mit.edu	P07-5318		
+CDK5RAP3	broad.mit.edu	P07-837		
+FLG	broad.mit.edu	P07-837		
+PHC2	broad.mit.edu	P07-837	deleterious(0.01)	benign(0.007)
+RPL5	broad.mit.edu	P07-837	deleterious(0.01)	possibly_damaging(0.631)
+DNTTIP2	broad.mit.edu	P07-837	tolerated(0.42)	possibly_damaging(0.501)
+NHLH1	broad.mit.edu	P07-837	deleterious_low_confidence(0.04)	benign(0.007)
+CPN1	broad.mit.edu	P07-837	tolerated(0.09)	benign(0.103)
+AHNAK	broad.mit.edu	P07-837		
+VWF	broad.mit.edu	P07-837	tolerated(0.24)	probably_damaging(0.951)
+ASUN	broad.mit.edu	P07-837		
+DPY19L2	broad.mit.edu	P07-837		
+HECTD1	broad.mit.edu	P07-837		
+GNG2	broad.mit.edu	P07-837		
+PRSS33	broad.mit.edu	P07-837	deleterious(0.03)	benign(0.341)
+HS3ST4	broad.mit.edu	P07-837		
+HS3ST4	broad.mit.edu	P07-837	tolerated_low_confidence(1)	benign(0)
+MPP2	broad.mit.edu	P07-837		
+SPOP	broad.mit.edu	P07-837	tolerated(0.07)	probably_damaging(0.992)
+ODF3L2	broad.mit.edu	P07-837		
+PTPRS	broad.mit.edu	P07-837		
+ZNF414	broad.mit.edu	P07-837		
+ZNF208	broad.mit.edu	P07-837		
+WDR62	broad.mit.edu	P07-837		
+MEGF8	broad.mit.edu	P07-837	tolerated(0.23)	probably_damaging(0.95)
+KIF5C	broad.mit.edu	P07-837	deleterious(0)	probably_damaging(0.99)
+SCN1A	broad.mit.edu	P07-837		
+SSFA2	broad.mit.edu	P07-837	deleterious(0)	probably_damaging(0.999)
+RALY	broad.mit.edu	P07-837		
+PPP1R3D	broad.mit.edu	P07-837	deleterious(0.01)	benign(0.04)
+COL6A1	broad.mit.edu	P07-837	deleterious(0.01)	possibly_damaging(0.813)
+POTEH	broad.mit.edu	P07-837		
+GSK3B	broad.mit.edu	P07-837	deleterious_low_confidence(0)	benign(0.197)
+TIGD6	broad.mit.edu	P07-837		
+HAVCR1	broad.mit.edu	P07-837		
+VARS	broad.mit.edu	P07-837	deleterious(0.03)	benign(0.069)
+RIMS1	broad.mit.edu	P07-837	deleterious(0)	probably_damaging(0.998)
+SHPRH	broad.mit.edu	P07-837	deleterious(0)	possibly_damaging(0.772)
+HIP1	broad.mit.edu	P07-837	tolerated(0.32)	benign(0.002)
+GIGYF1	broad.mit.edu	P07-837	deleterious(0)	unknown(0)
+CHRM2	broad.mit.edu	P07-837	deleterious(0)	probably_damaging(1)
+ZNF696	broad.mit.edu	P07-837	deleterious(0)	possibly_damaging(0.657)
+RALGDS	broad.mit.edu	P07-837		
+IQGAP1	broad.mit.edu	P07-837		
+FSHR	broad.mit.edu	P07-837		
+SERTAD2	broad.mit.edu	P07-837		
+NCF1	broad.mit.edu	P07-837		
+AR	broad.mit.edu	P07-837		
+ABCA4	broad.mit.edu	P08-1042		
+MROH9	broad.mit.edu	P08-1042		
+PRF1	broad.mit.edu	P08-1042	tolerated(0.28)	benign(0.01)
+SORCS3	broad.mit.edu	P08-1042		
+NLRP10	broad.mit.edu	P08-1042	tolerated(0.71)	benign(0)
+MUC15	broad.mit.edu	P08-1042	deleterious(0)	possibly_damaging(0.859)
+ARHGEF17	broad.mit.edu	P08-1042	tolerated_low_confidence(0.27)	probably_damaging(0.931)
+PRB3	broad.mit.edu	P08-1042		
+PRB2	broad.mit.edu	P08-1042	tolerated_low_confidence(1)	unknown(0)
+ZNF641	broad.mit.edu	P08-1042		
+KRT76	broad.mit.edu	P08-1042		
+MARS	broad.mit.edu	P08-1042	deleterious(0)	possibly_damaging(0.692)
+TSPAN19	broad.mit.edu	P08-1042		
+ADAM21	broad.mit.edu	P08-1042	tolerated(0.11)	benign(0.02)
+SETD1A	broad.mit.edu	P08-1042		unknown(0)
+C17orf97	broad.mit.edu	P08-1042		
+ZZEF1	broad.mit.edu	P08-1042		
+NR1D1	broad.mit.edu	P08-1042	deleterious(0.01)	probably_damaging(0.987)
+RNF152	broad.mit.edu	P08-1042	tolerated(0.27)	probably_damaging(0.992)
+CD70	broad.mit.edu	P08-1042		
+GMIP	broad.mit.edu	P08-1042		
+KCNA7	broad.mit.edu	P08-1042	deleterious(0)	probably_damaging(1)
+KLK9	broad.mit.edu	P08-1042	tolerated(0.07)	probably_damaging(0.914)
+CEACAM18	broad.mit.edu	P08-1042	tolerated(0.19)	benign(0.043)
+ZNF665	broad.mit.edu	P08-1042		
+RGPD4	broad.mit.edu	P08-1042		
+ANAPC1	broad.mit.edu	P08-1042	tolerated(0.33)	possibly_damaging(0.464)
+POTEF	broad.mit.edu	P08-1042	tolerated_low_confidence(1)	benign(0.001)
+IRS1	broad.mit.edu	P08-1042		
+NCOA3	broad.mit.edu	P08-1042	deleterious(0.02)	possibly_damaging(0.572)
+CLASP2	broad.mit.edu	P08-1042		
+KALRN	broad.mit.edu	P08-1042	tolerated(0.13)	benign(0.02)
+RP11-723O4.6	broad.mit.edu	P08-1042		
+PIK3CA	broad.mit.edu	P08-1042	deleterious(0.02)	probably_damaging(0.959)
+FAM157A	broad.mit.edu	P08-1042		
+CPEB2	broad.mit.edu	P08-1042		
+ARHGAP24	broad.mit.edu	P08-1042		
+KIAA0922	broad.mit.edu	P08-1042		
+TUBB7P	broad.mit.edu	P08-1042		
+SEMA5A	broad.mit.edu	P08-1042		
+GDF9	broad.mit.edu	P08-1042		
+PCDHGA9	broad.mit.edu	P08-1042	deleterious_low_confidence(0.03)	benign(0.287)
+BBS9	broad.mit.edu	P08-1042		
+GNG11	broad.mit.edu	P08-1042		
+ZAN	broad.mit.edu	P08-1042		unknown(0)
+KIAA1549	broad.mit.edu	P08-1042	deleterious(0.01)	probably_damaging(1)
+MTUS1	broad.mit.edu	P08-1042	tolerated(0.22)	benign(0.114)
+HGSNAT	broad.mit.edu	P08-1042	deleterious(0)	probably_damaging(0.979)
+RRS1	broad.mit.edu	P08-1042	deleterious(0)	probably_damaging(0.964)
+PRDM14	broad.mit.edu	P08-1042	tolerated(0.17)	benign(0.247)
+AZIN1	broad.mit.edu	P08-1042	deleterious(0.01)	probably_damaging(1)
+CCDC166	broad.mit.edu	P08-1042		
+ECM2	broad.mit.edu	P08-1042	tolerated(0.13)	benign(0.014)
+LCN1	broad.mit.edu	P08-1042	tolerated(1)	benign(0.018)
+TCEAL3	broad.mit.edu	P08-1042		
+VBP1	broad.mit.edu	P08-1042	tolerated(0.07)	possibly_damaging(0.902)
+SLC25A33	broad.mit.edu	P08-1042		
+KIAA0040	broad.mit.edu	P08-1042		
+PDS5B	broad.mit.edu	P08-1042		
+ISL2	broad.mit.edu	P08-1042		
+CCDC144B	broad.mit.edu	P08-1042		
+ELFN2	broad.mit.edu	P08-1042		
+TRIOBP	broad.mit.edu	P08-1042		
+CFTR	broad.mit.edu	P08-1042		
+SDR16C5	broad.mit.edu	P08-1042		
+CEL	broad.mit.edu	P08-1042		
+SUZ12	broad.mit.edu	P08-1541		
+PTCHD2	broad.mit.edu	P08-1541		
+PRAMEF17	broad.mit.edu	P08-1541	tolerated(1)	benign(0.003)
+CD53	broad.mit.edu	P08-1541		
+NBPF10	broad.mit.edu	P08-1541		benign(0.183)
+OR2M5	broad.mit.edu	P08-1541	tolerated(0.11)	benign(0.013)
+P2RY6	broad.mit.edu	P08-1541	tolerated_low_confidence(0.15)	benign(0.001)
+TRIM49	broad.mit.edu	P08-1541	deleterious(0.02)	probably_damaging(0.994)
+GRIN2B	broad.mit.edu	P08-1541		
+SUOX	broad.mit.edu	P08-1541		
+TGM5	broad.mit.edu	P08-1541	deleterious(0.01)	probably_damaging(0.934)
+IL16	broad.mit.edu	P08-1541	tolerated(0.57)	benign(0.007)
+SRRM2	broad.mit.edu	P08-1541		unknown(0)
+SEZ6L2	broad.mit.edu	P08-1541		
+CDH13	broad.mit.edu	P08-1541		
+SPOP	broad.mit.edu	P08-1541	tolerated(0.13)	probably_damaging(1)
+MFSD11	broad.mit.edu	P08-1541		
+CDC34	broad.mit.edu	P08-1541		
+HSD11B1L	broad.mit.edu	P08-1541	tolerated(0.63)	benign(0.194)
+ZNF266	broad.mit.edu	P08-1541	tolerated(0.69)	benign(0.003)
+MEMO1	broad.mit.edu	P08-1541	tolerated(0.68)	benign(0)
+CD8B	broad.mit.edu	P08-1541	deleterious(0.01)	possibly_damaging(0.694)
+TTN	broad.mit.edu	P08-1541		
+TPTE	broad.mit.edu	P08-1541	tolerated(0.43)	benign(0.013)
+TTC3	broad.mit.edu	P08-1541	tolerated(0.32)	benign(0.001)
+CECR6	broad.mit.edu	P08-1541	tolerated_low_confidence(0.27)	unknown(0)
+FGD5	broad.mit.edu	P08-1541		
+TMEM89	broad.mit.edu	P08-1541	deleterious_low_confidence(0.03)	possibly_damaging(0.78)
+ABCC5	broad.mit.edu	P08-1541	deleterious(0.02)	probably_damaging(0.994)
+HES1	broad.mit.edu	P08-1541	deleterious(0.03)	possibly_damaging(0.836)
+TLR3	broad.mit.edu	P08-1541	tolerated(0.15)	benign(0.005)
+TRIM41	broad.mit.edu	P08-1541		
+CRISP2	broad.mit.edu	P08-1541		
+ESR1	broad.mit.edu	P08-1541	tolerated(0.53)	benign(0)
+TAS2R3	broad.mit.edu	P08-1541		
+PURG	broad.mit.edu	P08-1541	deleterious(0)	probably_damaging(0.999)
+TP53INP1	broad.mit.edu	P08-1541		
+SETX	broad.mit.edu	P08-1541	deleterious(0.01)	possibly_damaging(0.513)
+FAM47C	broad.mit.edu	P08-1541	deleterious_low_confidence(0.02)	benign(0.343)
+MAGEA10	broad.mit.edu	P08-1541	tolerated(0.27)	benign(0.011)
+PRG4	broad.mit.edu	P08-1541		
+DNAH14	broad.mit.edu	P08-1541		
+OR5F1	broad.mit.edu	P08-1541		
+MYO7B	broad.mit.edu	P08-1541		
+ITCH	broad.mit.edu	P08-1541		
+C6orf222	broad.mit.edu	P08-1541		
+TP53INP1	broad.mit.edu	P08-1541		
+CREB3L4	broad.mit.edu	P08-217	deleterious(0.02)	probably_damaging(0.91)
+DDR2	broad.mit.edu	P08-217	deleterious(0.02)	possibly_damaging(0.759)
+CDNF	broad.mit.edu	P08-217		
+PCDH15	broad.mit.edu	P08-217	tolerated(0.06)	probably_damaging(0.998)
+ATM	broad.mit.edu	P08-217	deleterious(0)	possibly_damaging(0.806)
+DSCAML1	broad.mit.edu	P08-217	tolerated(0.09)	possibly_damaging(0.652)
+ETV6	broad.mit.edu	P08-217		
+NCKAP5L	broad.mit.edu	P08-217		
+ZFC3H1	broad.mit.edu	P08-217	deleterious(0)	probably_damaging(0.983)
+VWA9	broad.mit.edu	P08-217	deleterious(0.02)	probably_damaging(0.961)
+ACSM2A	broad.mit.edu	P08-217		
+CDH8	broad.mit.edu	P08-217	deleterious(0.01)	probably_damaging(0.998)
+DLG4	broad.mit.edu	P08-217	tolerated(0.07)	probably_damaging(0.976)
+FAM20A	broad.mit.edu	P08-217	deleterious(0)	probably_damaging(0.997)
+CNDP1	broad.mit.edu	P08-217	deleterious(0)	probably_damaging(0.982)
+COL5A2	broad.mit.edu	P08-217		
+IGSF10	broad.mit.edu	P08-217	tolerated(0.1)	benign(0.007)
+ADAM29	broad.mit.edu	P08-217	deleterious(0)	possibly_damaging(0.873)
+SLC35A4	broad.mit.edu	P08-217		
+PGK2	broad.mit.edu	P08-217		
+TTLL2	broad.mit.edu	P08-217	deleterious(0)	probably_damaging(0.999)
+DACT2	broad.mit.edu	P08-217	deleterious(0.02)	probably_damaging(1)
+DACT2	broad.mit.edu	P08-217	deleterious(0)	probably_damaging(0.999)
+CDK13	broad.mit.edu	P08-217		
+NACC2	broad.mit.edu	P08-217		
+ARAF	broad.mit.edu	P08-217	deleterious(0.02)	probably_damaging(0.999)
+ZFC3H1	broad.mit.edu	P08-217		
+STRADA	broad.mit.edu	P08-217		
+RYR2	broad.mit.edu	P08-492		
+FMN2	broad.mit.edu	P08-492		
+ACVRL1	broad.mit.edu	P08-492	tolerated(0.22)	possibly_damaging(0.682)
+CS	broad.mit.edu	P08-492	tolerated(0.26)	benign(0.003)
+CS	broad.mit.edu	P08-492	tolerated(0.18)	benign(0.003)
+NBEA	broad.mit.edu	P08-492	tolerated(0.06)	benign(0.001)
+PRKD1	broad.mit.edu	P08-492	tolerated(0.43)	benign(0.002)
+SIPA1L1	broad.mit.edu	P08-492	deleterious(0)	probably_damaging(1)
+RPP25	broad.mit.edu	P08-492		
+KIAA1199	broad.mit.edu	P08-492		
+ABCA3	broad.mit.edu	P08-492		
+GRIN2A	broad.mit.edu	P08-492	tolerated(0.27)	possibly_damaging(0.749)
+C17orf50	broad.mit.edu	P08-492	tolerated(0.12)	possibly_damaging(0.908)
+PLCD3	broad.mit.edu	P08-492	tolerated(0.23)	benign(0.311)
+FADS6	broad.mit.edu	P08-492	deleterious(0.01)	possibly_damaging(0.725)
+RFX2	broad.mit.edu	P08-492	tolerated(0.07)	benign(0.265)
+MUC16	broad.mit.edu	P08-492		
+MAN2B1	broad.mit.edu	P08-492	deleterious(0)	probably_damaging(0.993)
+HEATR5B	broad.mit.edu	P08-492	tolerated(0.26)	benign(0.002)
+THADA	broad.mit.edu	P08-492	deleterious(0)	probably_damaging(0.991)
+SH3RF3	broad.mit.edu	P08-492		
+CLIC6	broad.mit.edu	P08-492	tolerated_low_confidence(1)	benign(0)
+SGOL1	broad.mit.edu	P08-492	tolerated(0.07)	benign(0.245)
+TRIM42	broad.mit.edu	P08-492		
+MUC4	broad.mit.edu	P08-492		
+DCUN1D4	broad.mit.edu	P08-492	tolerated_low_confidence(0.28)	benign(0.007)
+UGT2B11	broad.mit.edu	P08-492	deleterious(0.03)	benign(0.015)
+NOTCH4	broad.mit.edu	P08-492	deleterious(0.01)	probably_damaging(0.98)
+GSTA2	broad.mit.edu	P08-492	deleterious(0)	probably_damaging(0.998)
+ORC5	broad.mit.edu	P08-492	tolerated(0.37)	benign(0.032)
+OR9A4	broad.mit.edu	P08-492	tolerated(0.12)	benign(0.004)
+OR2A25	broad.mit.edu	P08-492		
+KMT2C	broad.mit.edu	P08-492		
+PRSS3	broad.mit.edu	P08-492		
+PRSS3	broad.mit.edu	P08-492	tolerated(0.34)	benign(0.011)
+FRMPD1	broad.mit.edu	P08-492		
+FRMPD1	broad.mit.edu	P08-492	deleterious(0.01)	probably_damaging(0.982)
+KCNT1	broad.mit.edu	P08-492	tolerated(0.15)	benign(0.086)
+SHOX	broad.mit.edu	P08-492	deleterious(0)	probably_damaging(1)
+SLC25A5	broad.mit.edu	P08-492		
+CASZ1	broad.mit.edu	P08-492		
+ANKRD10	broad.mit.edu	P08-492		
+ANKRD44	broad.mit.edu	P08-492		
+AFF1	broad.mit.edu	P08-492		
+ABCF1	broad.mit.edu	P08-492		
+WTAP	broad.mit.edu	P08-492		
+MAP7D1	broad.mit.edu	P08-501		
+USP24	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.931)
+LRIG2	broad.mit.edu	P08-501		
+RABGAP1L	broad.mit.edu	P08-501	tolerated_low_confidence(0.84)	benign(0.003)
+TOR1AIP2	broad.mit.edu	P08-501		
+KIF21B	broad.mit.edu	P08-501	tolerated(0.2)	benign(0.043)
+CR1L	broad.mit.edu	P08-501	deleterious(0.01)	probably_damaging(0.981)
+ANKRD30A	broad.mit.edu	P08-501	tolerated(0.44)	benign(0.277)
+WDFY4	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.946)
+TET1	broad.mit.edu	P08-501	deleterious(0)	possibly_damaging(0.778)
+TLX1NB	broad.mit.edu	P08-501	tolerated_low_confidence(0.08)	possibly_damaging(0.828)
+C10orf90	broad.mit.edu	P08-501	tolerated(0.19)	benign(0.14)
+RNH1	broad.mit.edu	P08-501	tolerated(0.05)	benign(0)
+BRSK2	broad.mit.edu	P08-501	deleterious(0)	possibly_damaging(0.873)
+NLRP14	broad.mit.edu	P08-501	tolerated(0.15)	benign(0.01)
+LRRC10B	broad.mit.edu	P08-501	tolerated(0.61)	benign(0.093)
+MACROD1	broad.mit.edu	P08-501	deleterious_low_confidence(0)	benign(0.003)
+NPAT	broad.mit.edu	P08-501	tolerated(0.51)	benign(0.039)
+TBCEL	broad.mit.edu	P08-501		
+ACACB	broad.mit.edu	P08-501	tolerated(0.19)	benign(0.025)
+NCOR2	broad.mit.edu	P08-501		
+DLGAP5	broad.mit.edu	P08-501	deleterious(0)	benign(0.311)
+SIPA1L1	broad.mit.edu	P08-501	tolerated(0.14)	probably_damaging(0.996)
+PATL2	broad.mit.edu	P08-501		
+SHF	broad.mit.edu	P08-501	tolerated(0.09)	benign(0)
+FBN1	broad.mit.edu	P08-501		
+CSPG4	broad.mit.edu	P08-501	deleterious(0)	possibly_damaging(0.677)
+GLIS2	broad.mit.edu	P08-501	tolerated(0.08)	unknown(0)
+IL21R	broad.mit.edu	P08-501	tolerated(0.26)	benign(0.001)
+LONP2	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(1)
+ENKD1	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.988)
+MON1B	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.997)
+CDH15	broad.mit.edu	P08-501		
+KRTAP4-11	broad.mit.edu	P08-501	tolerated(0.11)	unknown(0)
+ZNF407	broad.mit.edu	P08-501	deleterious(0.01)	probably_damaging(0.998)
+CAMSAP3	broad.mit.edu	P08-501	tolerated(0.17)	benign(0.041)
+LRRC8E	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.981)
+ADAMTS10	broad.mit.edu	P08-501	tolerated(0.11)	benign(0.05)
+ADAMTS10	broad.mit.edu	P08-501		
+ZNF442	broad.mit.edu	P08-501		
+CCDC8	broad.mit.edu	P08-501		probably_damaging(1)
+PLA2G4C	broad.mit.edu	P08-501	tolerated(0.08)	possibly_damaging(0.477)
+LILRB4	broad.mit.edu	P08-501		
+ZNF784	broad.mit.edu	P08-501		
+CNTNAP5	broad.mit.edu	P08-501	deleterious(0.05)	probably_damaging(0.927)
+TTN	broad.mit.edu	P08-501		
+MTMR3	broad.mit.edu	P08-501		
+MLC1	broad.mit.edu	P08-501		
+C4orf21	broad.mit.edu	P08-501	tolerated(0.29)	benign(0.001)
+CHD1	broad.mit.edu	P08-501	deleterious(0.04)	possibly_damaging(0.76)
+NDST1	broad.mit.edu	P08-501		
+FAT2	broad.mit.edu	P08-501		
+TNXB	broad.mit.edu	P08-501		
+UBR2	broad.mit.edu	P08-501	tolerated(0.44)	benign(0)
+COL9A1	broad.mit.edu	P08-501		possibly_damaging(0.462)
+SOGA3	broad.mit.edu	P08-501	deleterious_low_confidence(0)	benign(0.038)
+LMTK2	broad.mit.edu	P08-501	tolerated(0.17)	benign(0.012)
+ATXN7L1	broad.mit.edu	P08-501	tolerated(0.08)	benign(0.054)
+C7orf66	broad.mit.edu	P08-501	tolerated_low_confidence(0.1)	benign(0.019)
+GPR85	broad.mit.edu	P08-501	deleterious(0.04)	benign(0.21)
+ZNF398	broad.mit.edu	P08-501	deleterious(0)	probably_damaging(0.999)
+OPRK1	broad.mit.edu	P08-501		
+ZFHX4	broad.mit.edu	P08-501		benign(0)
+OR1L4	broad.mit.edu	P08-501	deleterious(0.02)	possibly_damaging(0.511)
+CRB2	broad.mit.edu	P08-501		
+DCAF8L2	broad.mit.edu	P08-501	tolerated(0.27)	benign(0.028)
+DMD	broad.mit.edu	P08-501		possibly_damaging(0.607)
+SELP	broad.mit.edu	P08-501		
+SLC16A5	broad.mit.edu	P08-501		
+LCE2A	broad.mit.edu	P08-5852	tolerated_low_confidence(0.5)	unknown(0)
+ETV3L	broad.mit.edu	P08-5852	deleterious_low_confidence(0.03)	benign(0.001)
+IPO9	broad.mit.edu	P08-5852	deleterious(0)	probably_damaging(0.99)
+OR6F1	broad.mit.edu	P08-5852		
+CELF2	broad.mit.edu	P08-5852	deleterious(0.04)	probably_damaging(0.939)
+FAM35A	broad.mit.edu	P08-5852		
+CHST15	broad.mit.edu	P08-5852	tolerated_low_confidence(0.64)	benign(0)
+TRIM51	broad.mit.edu	P08-5852	tolerated(0.57)	benign(0.001)
+BUD13	broad.mit.edu	P08-5852	tolerated(0.48)	benign(0.02)
+HERC1	broad.mit.edu	P08-5852		
+SCAMP5	broad.mit.edu	P08-5852		
+CCDC79	broad.mit.edu	P08-5852	tolerated(0.05)	possibly_damaging(0.898)
+MYH13	broad.mit.edu	P08-5852	deleterious(0.01)	probably_damaging(0.998)
+SLFN13	broad.mit.edu	P08-5852	tolerated(0.76)	benign(0.287)
+ADAM11	broad.mit.edu	P08-5852	tolerated(0.1)	benign(0.054)
+POTEC	broad.mit.edu	P08-5852	tolerated(1)	benign(0)
+HRH4	broad.mit.edu	P08-5852	tolerated(0.26)	benign(0.006)
+SIGLEC6	broad.mit.edu	P08-5852	tolerated(0.06)	probably_damaging(0.986)
+ZNF845	broad.mit.edu	P08-5852		
+CCDC74A	broad.mit.edu	P08-5852	deleterious(0)	possibly_damaging(0.731)
+ATP2B2	broad.mit.edu	P08-5852		
+MTRR	broad.mit.edu	P08-5852	tolerated(0.21)	benign(0.16)
+VCP	broad.mit.edu	P08-5852	deleterious(0.02)	probably_damaging(0.996)
+MUC13	broad.mit.edu	P08-5852		
+ZNF292	broad.mit.edu	P08-5852		
+CLIC6	broad.mit.edu	P08-688	deleterious_low_confidence(0.02)	benign(0.018)
+TMEM39B	broad.mit.edu	P08-688	tolerated(0.36)	possibly_damaging(0.504)
+GJB3	broad.mit.edu	P08-688		
+ZMYM6	broad.mit.edu	P08-688	tolerated_low_confidence(0.19)	possibly_damaging(0.583)
+NBPF14	broad.mit.edu	P08-688	tolerated(0.12)	possibly_damaging(0.486)
+IVL	broad.mit.edu	P08-688		
+ARID4B	broad.mit.edu	P08-688	deleterious_low_confidence(0.04)	possibly_damaging(0.583)
+PTEN	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.949)
+NAV2	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.999)
+SLC17A6	broad.mit.edu	P08-688	tolerated(0.24)	benign(0.003)
+RAB38	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(1)
+CD3E	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.935)
+NTF3	broad.mit.edu	P08-688		
+ABCB9	broad.mit.edu	P08-688	tolerated(0.08)	benign(0.012)
+POSTN	broad.mit.edu	P08-688		
+SYNE3	broad.mit.edu	P08-688		
+ATP10A	broad.mit.edu	P08-688	tolerated(0.07)	possibly_damaging(0.836)
+MTMR10	broad.mit.edu	P08-688	tolerated(0.14)	benign(0.065)
+CYP1A1	broad.mit.edu	P08-688		
+POLR2A	broad.mit.edu	P08-688		probably_damaging(0.998)
+MYH13	broad.mit.edu	P08-688		
+HS3ST3B1	broad.mit.edu	P08-688	deleterious_low_confidence(0.01)	benign(0.174)
+KRT24	broad.mit.edu	P08-688	deleterious(0.01)	unknown(0)
+GFAP	broad.mit.edu	P08-688	deleterious(0)	possibly_damaging(0.626)
+SP2	broad.mit.edu	P08-688		
+SKAP1	broad.mit.edu	P08-688	tolerated(0.33)	benign(0.04)
+DCXR	broad.mit.edu	P08-688	deleterious(0.03)	benign(0.155)
+ATP8B1	broad.mit.edu	P08-688		
+PHLPP1	broad.mit.edu	P08-688	deleterious(0.01)	probably_damaging(0.991)
+ABCA7	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(1)
+FIGLA	broad.mit.edu	P08-688	deleterious(0.04)	benign(0.048)
+ANAPC1	broad.mit.edu	P08-688		
+POTEE	broad.mit.edu	P08-688	deleterious_low_confidence(0.03)	benign(0.032)
+MYL1	broad.mit.edu	P08-688	deleterious(0.02)	probably_damaging(0.984)
+TRPC4AP	broad.mit.edu	P08-688	tolerated(0.27)	benign(0.194)
+SAMHD1	broad.mit.edu	P08-688	deleterious(0.02)	possibly_damaging(0.459)
+RIMS4	broad.mit.edu	P08-688	deleterious_low_confidence(0)	probably_damaging(0.997)
+PIWIL3	broad.mit.edu	P08-688		
+ACAA1	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.93)
+PLD1	broad.mit.edu	P08-688	deleterious(0.03)	possibly_damaging(0.459)
+FDCSP	broad.mit.edu	P08-688	tolerated_low_confidence(1)	possibly_damaging(0.728)
+SMARCAD1	broad.mit.edu	P08-688		
+KIAA0947	broad.mit.edu	P08-688	tolerated(0.12)	benign(0.045)
+ACOT12	broad.mit.edu	P08-688	tolerated(0.34)	benign(0.036)
+TRPC7	broad.mit.edu	P08-688	tolerated(0.13)	benign(0.045)
+PCDHB6	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.985)
+PCDHGA12	broad.mit.edu	P08-688		
+PKHD1	broad.mit.edu	P08-688	tolerated(1)	benign(0.005)
+RIPPLY2	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.999)
+FBXL4	broad.mit.edu	P08-688	deleterious(0.01)	benign(0.341)
+SYNE1	broad.mit.edu	P08-688		benign(0.224)
+ABCA13	broad.mit.edu	P08-688		benign(0.115)
+LRRN3	broad.mit.edu	P08-688		
+FGD3	broad.mit.edu	P08-688	tolerated(0.33)	benign(0.003)
+ALDOB	broad.mit.edu	P08-688	tolerated(0.28)	benign(0)
+SEC16A	broad.mit.edu	P08-688	deleterious(0)	probably_damaging(0.98)
+TRO	broad.mit.edu	P08-688	tolerated(0.22)	unknown(0)
+PFN1P2	broad.mit.edu	P08-688		
+POLD3	broad.mit.edu	P08-688		
+FOXA1	broad.mit.edu	P08-688		
+FOXD4L1	broad.mit.edu	P08-688		
+SH3TC1	broad.mit.edu	P08-688		
+SLC9B1	broad.mit.edu	P08-688		
+LPPR1	broad.mit.edu	P08-688		
+OMA1	broad.mit.edu	P08-716	deleterious(0)	probably_damaging(1)
+PRG4	broad.mit.edu	P08-716		
+RGS21	broad.mit.edu	P08-716	deleterious(0.01)	probably_damaging(1)
+MAPKAPK2	broad.mit.edu	P08-716	tolerated_low_confidence(0.29)	unknown(0)
+BPNT1	broad.mit.edu	P08-716		
+CDH23	broad.mit.edu	P08-716	tolerated(0.22)	possibly_damaging(0.695)
+SEC24C	broad.mit.edu	P08-716	deleterious(0.01)	probably_damaging(1)
+FRG2B	broad.mit.edu	P08-716	tolerated(1)	benign(0)
+AHNAK	broad.mit.edu	P08-716		
+FAT3	broad.mit.edu	P08-716		
+PRB3	broad.mit.edu	P08-716		
+KCNJ8	broad.mit.edu	P08-716		
+SPATA13	broad.mit.edu	P08-716		
+RP11-29G8.3	broad.mit.edu	P08-716		
+PSMC6	broad.mit.edu	P08-716		
+PAPLN	broad.mit.edu	P08-716	deleterious(0)	probably_damaging(0.969)
+CCNK	broad.mit.edu	P08-716	deleterious_low_confidence(0.02)	unknown(0)
+DMXL2	broad.mit.edu	P08-716	tolerated(0.38)	benign(0)
+MVP	broad.mit.edu	P08-716	deleterious(0)	possibly_damaging(0.683)
+NFAT5	broad.mit.edu	P08-716		
+AARS	broad.mit.edu	P08-716	deleterious(0)	probably_damaging(0.999)
+SHISA6	broad.mit.edu	P08-716		
+FASN	broad.mit.edu	P08-716	deleterious(0.03)	benign(0.339)
+SPTBN4	broad.mit.edu	P08-716		
+NLRP12	broad.mit.edu	P08-716	deleterious(0)	probably_damaging(1)
+PTRHD1	broad.mit.edu	P08-716		
+HTRA2	broad.mit.edu	P08-716	deleterious_low_confidence(0)	benign(0.021)
+RIF1	broad.mit.edu	P08-716	tolerated_low_confidence(0.37)	benign(0.004)
+UGT1A8	broad.mit.edu	P08-716		
+PANK2	broad.mit.edu	P08-716	tolerated(0.33)	benign(0.032)
+GRIK1	broad.mit.edu	P08-716	tolerated(0.55)	benign(0.006)
+ANK2	broad.mit.edu	P08-716		probably_damaging(0.999)
+ZNF827	broad.mit.edu	P08-716		
+CHD1	broad.mit.edu	P08-716	tolerated_low_confidence(0.2)	benign(0)
+PCDHB4	broad.mit.edu	P08-716		
+PCDHB16	broad.mit.edu	P08-716	tolerated_low_confidence(0.26)	benign(0.002)
+GJA1	broad.mit.edu	P08-716		
+LATS1	broad.mit.edu	P08-716	deleterious(0.01)	probably_damaging(0.989)
+CTTNBP2	broad.mit.edu	P08-716		
+MMP16	broad.mit.edu	P08-716	deleterious(0.03)	benign(0.015)
+JAK2	broad.mit.edu	P08-716	tolerated(0.33)	benign(0.1)
+HAUS6	broad.mit.edu	P08-716	deleterious(0.04)	benign(0.128)
+GOLGA2	broad.mit.edu	P08-716	tolerated(0.16)	benign(0.281)
+CDCA5	broad.mit.edu	P08-716		
+GFPT2	broad.mit.edu	P08-716		
+DAXX	broad.mit.edu	P08-716		
+Unknown	broad.mit.edu	P08-716		
+CPSF3L	broad.mit.edu	P09-1042		
+MUC2	broad.mit.edu	P09-1042		unknown(0)
+C1QTNF9B	broad.mit.edu	P09-1042	deleterious(0)	probably_damaging(1)
+C1QTNF9	broad.mit.edu	P09-1042	deleterious(0)	probably_damaging(1)
+FLT3	broad.mit.edu	P09-1042		
+AK7	broad.mit.edu	P09-1042	deleterious(0.03)	probably_damaging(0.995)
+PMFBP1	broad.mit.edu	P09-1042		
+GSDMA	broad.mit.edu	P09-1042		
+PRR11	broad.mit.edu	P09-1042	deleterious(0)	probably_damaging(0.998)
+ARHGEF18	broad.mit.edu	P09-1042	tolerated(0.33)	benign(0.009)
+PRKCSH	broad.mit.edu	P09-1042	tolerated(0.34)	benign(0.017)
+CYP2A13	broad.mit.edu	P09-1042	tolerated(0.06)	unknown(0)
+FAM71E1	broad.mit.edu	P09-1042	deleterious_low_confidence(0)	benign(0.066)
+SLC4A3	broad.mit.edu	P09-1042	deleterious(0)	probably_damaging(1)
+HJURP	broad.mit.edu	P09-1042	deleterious(0)	benign(0.255)
+PAX1	broad.mit.edu	P09-1042	tolerated(0.06)	benign(0.074)
+RARB	broad.mit.edu	P09-1042	deleterious(0)	possibly_damaging(0.837)
+TMPRSS7	broad.mit.edu	P09-1042		
+FER	broad.mit.edu	P09-1042	deleterious(0.03)	probably_damaging(0.935)
+MUC21	broad.mit.edu	P09-1042	tolerated(0.06)	unknown(0)
+MUC21	broad.mit.edu	P09-1042	tolerated(0.5)	unknown(0)
+MICB	broad.mit.edu	P09-1042	deleterious(0.05)	benign(0.031)
+TNXB	broad.mit.edu	P09-1042		benign(0.265)
+MTFR2	broad.mit.edu	P09-1042		
+RADIL	broad.mit.edu	P09-1042	deleterious(0.04)	benign(0.009)
+MUC17	broad.mit.edu	P09-1042		benign(0.168)
+LRRC14	broad.mit.edu	P09-1042	deleterious(0.03)	benign(0.002)
+GNAQ	broad.mit.edu	P09-1042	tolerated(0.23)	benign(0.001)
+NOTCH1	broad.mit.edu	P09-1042		
+ARHGAP4	broad.mit.edu	P09-1042		
+FAM81A	broad.mit.edu	P09-1042		
+RPTN	broad.mit.edu	P09-37	tolerated(1)	benign(0)
+METTL11B	broad.mit.edu	P09-37	tolerated(0.11)	benign(0.036)
+REN	broad.mit.edu	P09-37		
+LIN9	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(1)
+LYST	broad.mit.edu	P09-37		
+CCKBR	broad.mit.edu	P09-37	tolerated(0.15)	benign(0.011)
+OR10A6	broad.mit.edu	P09-37	deleterious(0)	benign(0.119)
+USP5	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.985)
+ITGA7	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.988)
+GDF11	broad.mit.edu	P09-37	tolerated(0.07)	benign(0.092)
+NAV3	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.999)
+ABHD13	broad.mit.edu	P09-37	deleterious(0.01)	benign(0.104)
+RPAP1	broad.mit.edu	P09-37	tolerated(0.25)	benign(0.04)
+PLA2G4B	broad.mit.edu	P09-37		
+IQCH	broad.mit.edu	P09-37	deleterious(0.03)	benign(0.012)
+RBBP6	broad.mit.edu	P09-37	deleterious_low_confidence(0)	probably_damaging(0.998)
+C16orf78	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.992)
+CDH5	broad.mit.edu	P09-37		
+TP53	broad.mit.edu	P09-37		
+GPR179	broad.mit.edu	P09-37	tolerated(0.13)	benign(0.023)
+MPP3	broad.mit.edu	P09-37		
+DOT1L	broad.mit.edu	P09-37	deleterious_low_confidence(0)	benign(0.351)
+HOOK2	broad.mit.edu	P09-37		
+ZNF429	broad.mit.edu	P09-37		
+ZNF43	broad.mit.edu	P09-37		
+MAG	broad.mit.edu	P09-37		
+HKR1	broad.mit.edu	P09-37	deleterious(0.03)	benign(0.025)
+DYSF	broad.mit.edu	P09-37	deleterious(0.03)	benign(0.117)
+SATB2	broad.mit.edu	P09-37	tolerated(0.06)	probably_damaging(0.971)
+CARF	broad.mit.edu	P09-37	deleterious(0)	possibly_damaging(0.89)
+MDH1B	broad.mit.edu	P09-37		
+MAP2	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(1)
+ALPI	broad.mit.edu	P09-37	tolerated(0.26)	benign(0.004)
+PRR14L	broad.mit.edu	P09-37	tolerated(0.06)	possibly_damaging(0.689)
+SLCO2A1	broad.mit.edu	P09-37	tolerated(0.56)	benign(0.013)
+HRG	broad.mit.edu	P09-37		
+HRG	broad.mit.edu	P09-37	tolerated(0.11)	possibly_damaging(0.892)
+RTP1	broad.mit.edu	P09-37		
+MMRN1	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.946)
+MANBA	broad.mit.edu	P09-37		
+HHIP	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.951)
+DMXL1	broad.mit.edu	P09-37	tolerated(0.52)	benign(0.026)
+SLC6A7	broad.mit.edu	P09-37		
+LARP1	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.998)
+CPNE5	broad.mit.edu	P09-37		
+MDN1	broad.mit.edu	P09-37		possibly_damaging(0.78)
+QRSL1	broad.mit.edu	P09-37	deleterious(0.02)	probably_damaging(0.914)
+ARHGEF10	broad.mit.edu	P09-37		
+ADAM2	broad.mit.edu	P09-37		
+PREX2	broad.mit.edu	P09-37	deleterious(0.03)	probably_damaging(0.995)
+ZFPM2	broad.mit.edu	P09-37	deleterious(0)	probably_damaging(0.998)
+APBA1	broad.mit.edu	P09-37	deleterious_low_confidence(0.02)	probably_damaging(0.943)
+GPSM1	broad.mit.edu	P09-37		
+KRBOX4	broad.mit.edu	P09-37		
+CXorf57	broad.mit.edu	P09-37		
+ACTRT2	broad.mit.edu	P09-396	deleterious(0.03)	possibly_damaging(0.521)
+KIAA0754	broad.mit.edu	P09-396		possibly_damaging(0.702)
+ALDH3B2	broad.mit.edu	P09-396		
+RAP1B	broad.mit.edu	P09-396		
+IGFALS	broad.mit.edu	P09-396	deleterious(0)	benign(0.314)
+USP7	broad.mit.edu	P09-396		
+WWOX	broad.mit.edu	P09-396		
+TP53	broad.mit.edu	P09-396	deleterious(0)	probably_damaging(0.992)
+CEP89	broad.mit.edu	P09-396	tolerated(0.85)	benign(0.003)
+TYROBP	broad.mit.edu	P09-396		
+GMFG	broad.mit.edu	P09-396		
+ZNF285	broad.mit.edu	P09-396	tolerated_low_confidence(0.83)	benign(0)
+HS6ST1	broad.mit.edu	P09-396		
+TCEA2	broad.mit.edu	P09-396		
+BCR	broad.mit.edu	P09-396	deleterious(0.03)	possibly_damaging(0.694)
+SCN10A	broad.mit.edu	P09-396	deleterious(0.01)	probably_damaging(0.999)
+PPM1M	broad.mit.edu	P09-396		
+MYLK	broad.mit.edu	P09-396	tolerated(0.18)	possibly_damaging(0.798)
+MUC4	broad.mit.edu	P09-396		benign(0.044)
+CEP135	broad.mit.edu	P09-396		
+SEC24B	broad.mit.edu	P09-396	tolerated_low_confidence(0.06)	unknown(0)
+PCDHA8	broad.mit.edu	P09-396	tolerated_low_confidence(0.08)	benign(0.024)
+COL12A1	broad.mit.edu	P09-396		possibly_damaging(0.454)
+MUC17	broad.mit.edu	P09-396		unknown(0)
+RRS1	broad.mit.edu	P09-396	deleterious(0)	probably_damaging(0.942)
+TAF1L	broad.mit.edu	P09-396	deleterious(0)	possibly_damaging(0.67)
+PABPC1	broad.mit.edu	P09-396		
+HES4	broad.mit.edu	P09-628	deleterious(0.02)	possibly_damaging(0.534)
+JAK1	broad.mit.edu	P09-628	deleterious(0)	possibly_damaging(0.776)
+PYGO2	broad.mit.edu	P09-628		
+NAV1	broad.mit.edu	P09-628	deleterious(0)	probably_damaging(0.999)
+OR2T34	broad.mit.edu	P09-628		
+PTPLA	broad.mit.edu	P09-628	tolerated_low_confidence(0.82)	benign(0.001)
+C10orf90	broad.mit.edu	P09-628	deleterious(0)	probably_damaging(0.998)
+OR51A4	broad.mit.edu	P09-628	deleterious(0)	benign(0.119)
+FAT3	broad.mit.edu	P09-628		probably_damaging(0.981)
+ANO2	broad.mit.edu	P09-628	deleterious(0)	probably_damaging(0.999)
+IRX6	broad.mit.edu	P09-628	tolerated(0.38)	benign(0.004)
+TBX2	broad.mit.edu	P09-628		
+DUS1L	broad.mit.edu	P09-628	tolerated(1)	benign(0.139)
+LOXHD1	broad.mit.edu	P09-628		
+GNA11	broad.mit.edu	P09-628	deleterious(0)	probably_damaging(1)
+PLIN4	broad.mit.edu	P09-628	tolerated(0.21)	benign(0.038)
+ZNF699	broad.mit.edu	P09-628	deleterious(0)	possibly_damaging(0.735)
+MVB12A	broad.mit.edu	P09-628		
+SCN3A	broad.mit.edu	P09-628	deleterious(0.01)	probably_damaging(1)
+FN1	broad.mit.edu	P09-628		
+SP100	broad.mit.edu	P09-628		
+UGT1A10	broad.mit.edu	P09-628	tolerated(0.42)	benign(0.014)
+FOXRED2	broad.mit.edu	P09-628	deleterious(0)	probably_damaging(0.996)
+PACSIN2	broad.mit.edu	P09-628	deleterious(0)	possibly_damaging(0.898)
+SETD2	broad.mit.edu	P09-628	deleterious_low_confidence(0)	probably_damaging(0.999)
+ACAD11	broad.mit.edu	P09-628		
+TSC22D2	broad.mit.edu	P09-628	deleterious(0.02)	benign(0.07)
+RNF4	broad.mit.edu	P09-628	tolerated(0.67)	benign(0.002)
+ALB	broad.mit.edu	P09-628	tolerated(0.41)	benign(0.013)
+ARFIP1	broad.mit.edu	P09-628	deleterious(0.05)	possibly_damaging(0.464)
+TMEM151B	broad.mit.edu	P09-628	tolerated(0.18)	probably_damaging(0.996)
+GHRHR	broad.mit.edu	P09-628	tolerated(0.08)	benign(0.384)
+UPP1	broad.mit.edu	P09-628	tolerated(1)	benign(0.005)
+TFR2	broad.mit.edu	P09-628	tolerated_low_confidence(0.37)	benign(0.005)
+ADCY8	broad.mit.edu	P09-628	tolerated_low_confidence(1)	benign(0.001)
+CCDC166	broad.mit.edu	P09-628		
+FBXL6	broad.mit.edu	P09-628	tolerated(0.46)	benign(0.012)
+CEL	broad.mit.edu	P09-628	deleterious_low_confidence(0)	probably_damaging(0.995)
+OR13H1	broad.mit.edu	P09-628		
+RBMX	broad.mit.edu	P09-628	deleterious(0.03)	possibly_damaging(0.721)
+SREBF2	broad.mit.edu	P09-628		
+MED7	broad.mit.edu	P09-628		
+IRAK1	broad.mit.edu	P09-628		
+SRSF11	broad.mit.edu	P09-730	tolerated_low_confidence(0.1)	probably_damaging(0.98)
+SNX7	broad.mit.edu	P09-730	tolerated(0.51)	benign(0.028)
+LEFTY1	broad.mit.edu	P09-730	tolerated(0.31)	benign(0.272)
+FRMD4A	broad.mit.edu	P09-730	deleterious_low_confidence(0)	benign(0.196)
+KRTAP5-3	broad.mit.edu	P09-730	tolerated(0.64)	unknown(0)
+AGBL2	broad.mit.edu	P09-730	deleterious(0.02)	possibly_damaging(0.724)
+MAP4K2	broad.mit.edu	P09-730		
+KCNA5	broad.mit.edu	P09-730	deleterious(0)	probably_damaging(1)
+LRRC16B	broad.mit.edu	P09-730		
+FOXA1	broad.mit.edu	P09-730	deleterious(0)	probably_damaging(0.983)
+CSPG4	broad.mit.edu	P09-730	tolerated(0.1)	benign(0)
+IRX6	broad.mit.edu	P09-730		
+COX10	broad.mit.edu	P09-730		
+ABCC3	broad.mit.edu	P09-730	deleterious(0)	probably_damaging(0.992)
+LOXHD1	broad.mit.edu	P09-730	deleterious(0)	probably_damaging(0.964)
+FBN3	broad.mit.edu	P09-730	deleterious(0.05)	benign(0.344)
+ZNF302	broad.mit.edu	P09-730		
+PRX	broad.mit.edu	P09-730	deleterious(0)	possibly_damaging(0.504)
+BBC3	broad.mit.edu	P09-730		
+TANC1	broad.mit.edu	P09-730		
+SLC16A14	broad.mit.edu	P09-730	deleterious(0.02)	probably_damaging(1)
+SALL4	broad.mit.edu	P09-730	tolerated(0.13)	benign(0.008)
+CASS4	broad.mit.edu	P09-730	deleterious(0.02)	benign(0.041)
+PRDM15	broad.mit.edu	P09-730		
+TBX1	broad.mit.edu	P09-730		
+BPIFC	broad.mit.edu	P09-730		
+SHROOM3	broad.mit.edu	P09-730		
+IBTK	broad.mit.edu	P09-730	deleterious(0.01)	benign(0.371)
+ST18	broad.mit.edu	P09-730		
+FAM83H	broad.mit.edu	P09-730	deleterious(0.01)	probably_damaging(0.955)
+TEK	broad.mit.edu	P09-730	deleterious(0.04)	benign(0.341)
+TAF1L	broad.mit.edu	P09-730		
+CERCAM	broad.mit.edu	P09-730	tolerated(0.15)	possibly_damaging(0.58)
+VCX3B	broad.mit.edu	P09-730		
+MED12	broad.mit.edu	P09-730		possibly_damaging(0.902)
+COL4A6	broad.mit.edu	P09-730		benign(0.121)
+GABRA3	broad.mit.edu	P09-730	deleterious(0)	probably_damaging(0.999)
+ARHGAP22	broad.mit.edu	P09-730		
+MON2	broad.mit.edu	P09-730		
+MYLK3	broad.mit.edu	P09-730		
+PRAMEF1	broad.mit.edu	PR-02-1431		
+AIM1L	broad.mit.edu	PR-02-1431	deleterious(0.03)	benign(0.012)
+FPGT-TNNI3K	broad.mit.edu	PR-02-1431	tolerated(0.06)	possibly_damaging(0.453)
+DENND2D	broad.mit.edu	PR-02-1431	tolerated(0.28)	benign(0.052)
+PDE4DIP	broad.mit.edu	PR-02-1431		probably_damaging(0.999)
+USH2A	broad.mit.edu	PR-02-1431		benign(0.41)
+GGPS1	broad.mit.edu	PR-02-1431		
+GRK5	broad.mit.edu	PR-02-1431	tolerated(0.08)	benign(0.29)
+ANO3	broad.mit.edu	PR-02-1431	tolerated(0.06)	benign(0.001)
+OR4X1	broad.mit.edu	PR-02-1431		
+ANO4	broad.mit.edu	PR-02-1431		
+TMEM132C	broad.mit.edu	PR-02-1431		
+NOVA1	broad.mit.edu	PR-02-1431	deleterious(0.02)	possibly_damaging(0.878)
+KIF7	broad.mit.edu	PR-02-1431	tolerated(0.32)	benign(0.174)
+FANCA	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.965)
+SPOP	broad.mit.edu	PR-02-1431	tolerated(0.09)	probably_damaging(1)
+RNFT1	broad.mit.edu	PR-02-1431		
+RBBP8	broad.mit.edu	PR-02-1431		
+MOCOS	broad.mit.edu	PR-02-1431		
+RTTN	broad.mit.edu	PR-02-1431	tolerated(0.71)	benign(0.004)
+SF3A2	broad.mit.edu	PR-02-1431		
+EML2	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.989)
+TMEM143	broad.mit.edu	PR-02-1431		
+ZAP70	broad.mit.edu	PR-02-1431	deleterious(0)	possibly_damaging(0.663)
+RANBP2	broad.mit.edu	PR-02-1431	tolerated(0.2)	benign(0.017)
+CPS1	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.998)
+FN1	broad.mit.edu	PR-02-1431	deleterious(0.01)	probably_damaging(0.936)
+CDH4	broad.mit.edu	PR-02-1431	tolerated(0.14)	benign(0.001)
+B3GALT5	broad.mit.edu	PR-02-1431	tolerated(0.42)	benign(0.014)
+SULT4A1	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(1)
+MST1	broad.mit.edu	PR-02-1431		
+ROBO2	broad.mit.edu	PR-02-1431	tolerated(0.27)	possibly_damaging(0.728)
+ZNF80	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.985)
+SLC6A3	broad.mit.edu	PR-02-1431	deleterious(0.01)	benign(0.314)
+PCDHB14	broad.mit.edu	PR-02-1431	deleterious_low_confidence(0)	probably_damaging(0.995)
+POM121L2	broad.mit.edu	PR-02-1431		
+EIF2AK1	broad.mit.edu	PR-02-1431	tolerated(0.53)	benign(0.008)
+IL6	broad.mit.edu	PR-02-1431		
+CBLL1	broad.mit.edu	PR-02-1431		
+KMT2C	broad.mit.edu	PR-02-1431		
+KCNU1	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.999)
+NBN	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.992)
+DENND3	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(0.988)
+ANGPTL2	broad.mit.edu	PR-02-1431		
+MAGEE2	broad.mit.edu	PR-02-1431	deleterious_low_confidence(0.02)	benign(0.073)
+AVPR2	broad.mit.edu	PR-02-1431	deleterious(0)	probably_damaging(1)
+TMEM132A	broad.mit.edu	PR-02-1431		
+PPARGC1B	broad.mit.edu	PR-02-1431		
+RBMX	broad.mit.edu	PR-02-1431		
+MUC4	broad.mit.edu	PR-03-3125		unknown(0)
+PRAMEF11	broad.mit.edu	PR-03-3125	tolerated(0.15)	benign(0.001)
+ORC1	broad.mit.edu	PR-03-3125		
+STX6	broad.mit.edu	PR-03-3125	tolerated(0.07)	benign(0.035)
+CR1	broad.mit.edu	PR-03-3125		
+CENPF	broad.mit.edu	PR-03-3125		possibly_damaging(0.73)
+ZNF503	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.936)
+C10orf12	broad.mit.edu	PR-03-3125	tolerated(0.13)	benign(0.024)
+PPFIA1	broad.mit.edu	PR-03-3125		
+NUMA1	broad.mit.edu	PR-03-3125		benign(0.011)
+ENDOD1	broad.mit.edu	PR-03-3125		
+GRIA4	broad.mit.edu	PR-03-3125		
+ATM	broad.mit.edu	PR-03-3125	deleterious(0)	benign(0.26)
+ACVRL1	broad.mit.edu	PR-03-3125	tolerated(0.57)	benign(0.003)
+RXFP2	broad.mit.edu	PR-03-3125	tolerated(0.28)	benign(0.172)
+FAM124A	broad.mit.edu	PR-03-3125	deleterious(0.02)	possibly_damaging(0.875)
+KLF12	broad.mit.edu	PR-03-3125		
+NALCN	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.985)
+CSNK2A2	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.976)
+CHRNB1	broad.mit.edu	PR-03-3125		
+ATP6V0A1	broad.mit.edu	PR-03-3125		
+ABCA10	broad.mit.edu	PR-03-3125		
+PGS1	broad.mit.edu	PR-03-3125		
+SAFB	broad.mit.edu	PR-03-3125		
+FBN3	broad.mit.edu	PR-03-3125	deleterious(0.04)	probably_damaging(0.931)
+MUC16	broad.mit.edu	PR-03-3125		unknown(0)
+EML2	broad.mit.edu	PR-03-3125	tolerated(0.11)	benign(0.006)
+GREB1	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.999)
+TTN	broad.mit.edu	PR-03-3125		
+IRS1	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.968)
+NCOA6	broad.mit.edu	PR-03-3125		
+FITM2	broad.mit.edu	PR-03-3125		
+ARVCF	broad.mit.edu	PR-03-3125	deleterious(0)	possibly_damaging(0.667)
+ACR	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.999)
+ANO10	broad.mit.edu	PR-03-3125		
+EEFSEC	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(1)
+ATP8A1	broad.mit.edu	PR-03-3125	tolerated(0.15)	probably_damaging(0.991)
+SLC9B2	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.974)
+CCDC109B	broad.mit.edu	PR-03-3125		
+LNPEP	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(1)
+PCDHB14	broad.mit.edu	PR-03-3125		
+ADAMTS2	broad.mit.edu	PR-03-3125		
+PNRC1	broad.mit.edu	PR-03-3125		
+PMS2	broad.mit.edu	PR-03-3125		
+COPS6	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(1)
+SLC26A5	broad.mit.edu	PR-03-3125	tolerated_low_confidence(0.08)	possibly_damaging(0.551)
+KMT2C	broad.mit.edu	PR-03-3125		benign(0.044)
+EIF3E	broad.mit.edu	PR-03-3125		
+POU5F1B	broad.mit.edu	PR-03-3125		
+LRRC6	broad.mit.edu	PR-03-3125	deleterious(0.01)	benign(0.241)
+PRKACG	broad.mit.edu	PR-03-3125	tolerated(0.07)	possibly_damaging(0.492)
+CRB2	broad.mit.edu	PR-03-3125	deleterious(0)	probably_damaging(0.931)
+FIBCD1	broad.mit.edu	PR-03-3125		
+KIAA1522	broad.mit.edu	PR-03-3125		
+CREB3L4	broad.mit.edu	PR-03-3125		
+FMN2	broad.mit.edu	PR-03-3125		
+PTEN	broad.mit.edu	PR-03-3125		
+GRAMD2	broad.mit.edu	PR-03-3125		
+CCDC135	broad.mit.edu	PR-03-3125		
+FASN	broad.mit.edu	PR-03-3125		
+NEFH	broad.mit.edu	PR-03-3125		
+PTCHD2	broad.mit.edu	PR-03-728	tolerated_low_confidence(0.6)	benign(0.006)
+CSF3R	broad.mit.edu	PR-03-728	deleterious(0.03)	probably_damaging(0.957)
+SLIT1	broad.mit.edu	PR-03-728	tolerated(0.46)	possibly_damaging(0.874)
+MUC5B	broad.mit.edu	PR-03-728		unknown(0)
+GAS2L1	broad.mit.edu	PR-03-728	deleterious(0)	probably_damaging(0.997)
+MDC1	broad.mit.edu	PR-03-728		
+PTCHD2	broad.mit.edu	PR-04-1243	deleterious(0.03)	possibly_damaging(0.884)
+FLG	broad.mit.edu	PR-04-1243		unknown(0)
+PRG4	broad.mit.edu	PR-04-1243		
+ZNF281	broad.mit.edu	PR-04-1243	deleterious(0.04)	benign(0.214)
+OR2W3	broad.mit.edu	PR-04-1243		
+C10orf54	broad.mit.edu	PR-04-1243	deleterious(0.01)	possibly_damaging(0.532)
+MUC5B	broad.mit.edu	PR-04-1243		
+PANX1	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.999)
+APLP2	broad.mit.edu	PR-04-1243	tolerated(0.08)	possibly_damaging(0.77)
+GRIN2B	broad.mit.edu	PR-04-1243		
+ABCC9	broad.mit.edu	PR-04-1243	deleterious_low_confidence(0.03)	benign(0.232)
+KCNC2	broad.mit.edu	PR-04-1243	tolerated(0.22)	benign(0.01)
+STOML3	broad.mit.edu	PR-04-1243		
+SLAIN1	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.998)
+GOLGA6L1	broad.mit.edu	PR-04-1243		unknown(0)
+SPSB3	broad.mit.edu	PR-04-1243		
+C17orf97	broad.mit.edu	PR-04-1243		
+TP53	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.998)
+PER1	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.968)
+CACNA1G	broad.mit.edu	PR-04-1243	deleterious(0)	possibly_damaging(0.745)
+AMH	broad.mit.edu	PR-04-1243		
+GDF15	broad.mit.edu	PR-04-1243	tolerated(0.12)	possibly_damaging(0.904)
+ZNF85	broad.mit.edu	PR-04-1243		
+PRODH2	broad.mit.edu	PR-04-1243		
+ZNF234	broad.mit.edu	PR-04-1243		
+SPAST	broad.mit.edu	PR-04-1243	deleterious(0.01)	benign(0.114)
+CTNNA2	broad.mit.edu	PR-04-1243	tolerated(0.1)	possibly_damaging(0.739)
+CD8A	broad.mit.edu	PR-04-1243	tolerated(0.3)	possibly_damaging(0.462)
+FOXD4L1	broad.mit.edu	PR-04-1243		
+NRP2	broad.mit.edu	PR-04-1243	deleterious(0.02)	probably_damaging(0.999)
+CCDC108	broad.mit.edu	PR-04-1243		
+OR6B3	broad.mit.edu	PR-04-1243	tolerated(1)	benign(0.034)
+KIF1A	broad.mit.edu	PR-04-1243		
+KCNQ2	broad.mit.edu	PR-04-1243		
+OLIG1	broad.mit.edu	PR-04-1243	deleterious_low_confidence(0)	benign(0.238)
+SIM2	broad.mit.edu	PR-04-1243		
+GADL1	broad.mit.edu	PR-04-1243	tolerated(0.09)	benign(0.007)
+ROBO2	broad.mit.edu	PR-04-1243		
+TRIM42	broad.mit.edu	PR-04-1243		
+FBXL5	broad.mit.edu	PR-04-1243	tolerated(0.06)	benign(0.085)
+RBM47	broad.mit.edu	PR-04-1243	deleterious_low_confidence(0)	benign(0.103)
+KIT	broad.mit.edu	PR-04-1243	tolerated(0.1)	benign(0.077)
+LRRC16A	broad.mit.edu	PR-04-1243		
+KCNQ5	broad.mit.edu	PR-04-1243		
+ENPP3	broad.mit.edu	PR-04-1243	tolerated(0.54)	benign(0.075)
+PRPS1L1	broad.mit.edu	PR-04-1243	deleterious(0.01)	benign(0.048)
+PRPS1L1	broad.mit.edu	PR-04-1243		
+PCLO	broad.mit.edu	PR-04-1243		unknown(0)
+ZAN	broad.mit.edu	PR-04-1243		probably_damaging(0.999)
+ASZ1	broad.mit.edu	PR-04-1243	tolerated(0.34)	benign(0.189)
+IMPDH1	broad.mit.edu	PR-04-1243		
+DOK2	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(1)
+FGFR1	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.977)
+THAP1	broad.mit.edu	PR-04-1243	deleterious(0.02)	probably_damaging(0.961)
+ANGPT1	broad.mit.edu	PR-04-1243	deleterious(0)	probably_damaging(0.986)
+COL22A1	broad.mit.edu	PR-04-1243		unknown(0)
+KIAA0368	broad.mit.edu	PR-04-1243		
+SYN1	broad.mit.edu	PR-04-1243		
+NAP1L3	broad.mit.edu	PR-04-1243	tolerated(0.44)	benign(0.002)
+PIK3R3	broad.mit.edu	PR-04-1243		
+USP1	broad.mit.edu	PR-04-1243		
+GPSM2	broad.mit.edu	PR-0410	tolerated(0.19)	benign(0.101)
+HMGCS2	broad.mit.edu	PR-0410		
+ADAM30	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.999)
+NBPF10	broad.mit.edu	PR-0410		
+MKI67	broad.mit.edu	PR-0410	tolerated(0.52)	benign(0.002)
+OR5B2	broad.mit.edu	PR-0410	tolerated_low_confidence(0.2)	benign(0.034)
+TCIRG1	broad.mit.edu	PR-0410		
+FAT3	broad.mit.edu	PR-0410		
+CASP5	broad.mit.edu	PR-0410	tolerated(0.36)	benign(0)
+STAC3	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.981)
+TRPV4	broad.mit.edu	PR-0410	deleterious(0.03)	benign(0.12)
+OASL	broad.mit.edu	PR-0410	tolerated(0.09)	benign(0.126)
+SFSWAP	broad.mit.edu	PR-0410	deleterious(0.02)	benign(0.26)
+AKT1	broad.mit.edu	PR-0410		
+AHNAK2	broad.mit.edu	PR-0410		benign(0.013)
+TICRR	broad.mit.edu	PR-0410	tolerated(0.05)	benign(0.026)
+UNC45A	broad.mit.edu	PR-0410	tolerated(0.33)	benign(0.052)
+PRC1	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.99)
+SV2B	broad.mit.edu	PR-0410		
+EARS2	broad.mit.edu	PR-0410	tolerated(0.13)	benign(0.011)
+DNAH2	broad.mit.edu	PR-0410		benign(0.065)
+CEACAM20	broad.mit.edu	PR-0410		
+KLF11	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.935)
+PLEKHH2	broad.mit.edu	PR-0410		
+IL18R1	broad.mit.edu	PR-0410		
+OBSL1	broad.mit.edu	PR-0410	tolerated(0.08)	benign(0.017)
+MMP24	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.999)
+EIF4ENIF1	broad.mit.edu	PR-0410	deleterious(0.01)	probably_damaging(0.97)
+TSEN2	broad.mit.edu	PR-0410	tolerated(0.07)	benign(0.055)
+GNL3	broad.mit.edu	PR-0410	tolerated(0.61)	possibly_damaging(0.578)
+DZIP1L	broad.mit.edu	PR-0410		
+ARHGAP24	broad.mit.edu	PR-0410	deleterious(0.03)	possibly_damaging(0.696)
+TCF7	broad.mit.edu	PR-0410		
+SGCD	broad.mit.edu	PR-0410	tolerated(0.15)	benign(0.007)
+SKIV2L	broad.mit.edu	PR-0410	deleterious(0)	probably_damaging(0.99)
+TNXB	broad.mit.edu	PR-0410		
+TNXB	broad.mit.edu	PR-0410		benign(0.023)
+PPT2	broad.mit.edu	PR-0410		
+GPRC6A	broad.mit.edu	PR-0410		
+TAX1BP1	broad.mit.edu	PR-0410	tolerated(0.08)	benign(0.008)
+CEP41	broad.mit.edu	PR-0410	tolerated(0.51)	benign(0.006)
+PKHD1L1	broad.mit.edu	PR-0410		
+CSMD3	broad.mit.edu	PR-0410	tolerated(0.06)	probably_damaging(0.994)
+FAM214B	broad.mit.edu	PR-0410	tolerated(0.1)	benign(0.002)
+Unknown	broad.mit.edu	PR-05-3595		
+PADI3	broad.mit.edu	PR-05-3595	tolerated(0.06)	benign(0.396)
+SPOCD1	broad.mit.edu	PR-05-3595	deleterious(0.01)	possibly_damaging(0.456)
+DOCK7	broad.mit.edu	PR-05-3595	deleterious(0.01)	possibly_damaging(0.891)
+PNPLA2	broad.mit.edu	PR-05-3595	deleterious(0.01)	possibly_damaging(0.56)
+KRTAP5-1	broad.mit.edu	PR-05-3595		
+OSBPL5	broad.mit.edu	PR-05-3595		
+ZBED5	broad.mit.edu	PR-05-3595	deleterious(0.01)	possibly_damaging(0.732)
+CHRM4	broad.mit.edu	PR-05-3595	deleterious(0)	probably_damaging(1)
+FAT3	broad.mit.edu	PR-05-3595		
+KMT2A	broad.mit.edu	PR-05-3595		
+OR10G7	broad.mit.edu	PR-05-3595	tolerated(0.3)	benign(0.003)
+ASIC1	broad.mit.edu	PR-05-3595	deleterious(0.01)	probably_damaging(0.999)
+METTL3	broad.mit.edu	PR-05-3595		
+FAM161B	broad.mit.edu	PR-05-3595	deleterious(0.03)	benign(0.187)
+GOLGA6L1	broad.mit.edu	PR-05-3595		
+LOXL1	broad.mit.edu	PR-05-3595		
+C1QTNF8	broad.mit.edu	PR-05-3595	deleterious(0.01)	benign(0.013)
+RBFOX1	broad.mit.edu	PR-05-3595	deleterious(0.01)	possibly_damaging(0.595)
+ARMC5	broad.mit.edu	PR-05-3595	deleterious(0)	probably_damaging(0.972)
+MED1	broad.mit.edu	PR-05-3595		
+KRT27	broad.mit.edu	PR-05-3595		
+AZI1	broad.mit.edu	PR-05-3595	tolerated(0.33)	benign(0.001)
+LOXHD1	broad.mit.edu	PR-05-3595	deleterious(0.05)	benign(0.139)
+KCNG2	broad.mit.edu	PR-05-3595	deleterious(0.02)	probably_damaging(0.934)
+POLRMT	broad.mit.edu	PR-05-3595		
+PPFIA3	broad.mit.edu	PR-05-3595	deleterious(0)	probably_damaging(0.948)
+PRPF40A	broad.mit.edu	PR-05-3595	tolerated(0.18)	benign(0.227)
+IDH1	broad.mit.edu	PR-05-3595	deleterious_low_confidence(0.01)	possibly_damaging(0.813)
+CYP27A1	broad.mit.edu	PR-05-3595	tolerated(0.32)	benign(0.107)
+SLC5A1	broad.mit.edu	PR-05-3595	tolerated(0.58)	benign(0.001)
+LAMB2	broad.mit.edu	PR-05-3595	deleterious(0)	probably_damaging(0.991)
+HYAL1	broad.mit.edu	PR-05-3595	tolerated(1)	benign(0.013)
+TBC1D9	broad.mit.edu	PR-05-3595	tolerated(0.23)	benign(0.334)
+RNF175	broad.mit.edu	PR-05-3595	tolerated(0.13)	benign(0.029)
+PCDHB11	broad.mit.edu	PR-05-3595	deleterious_low_confidence(0)	probably_damaging(0.996)
+DPYSL3	broad.mit.edu	PR-05-3595		
+MLLT4	broad.mit.edu	PR-05-3595	deleterious(0)	probably_damaging(0.995)
+THBS2	broad.mit.edu	PR-05-3595	tolerated(0.78)	benign(0.001)
+HOXA7	broad.mit.edu	PR-05-3595	tolerated(1)	benign(0.007)
+CYP3A5	broad.mit.edu	PR-05-3595	tolerated(0.46)	benign(0.006)
+IMPA1	broad.mit.edu	PR-05-3595		
+RP3-470B24.5	broad.mit.edu	PR-06-1749		
+BRINP2	broad.mit.edu	PR-06-1749		
+PRAMEF1	broad.mit.edu	PR-06-1749	deleterious(0.03)	benign(0.003)
+GRID1	broad.mit.edu	PR-06-1749	deleterious(0.02)	probably_damaging(1)
+CEP55	broad.mit.edu	PR-06-1749	tolerated(0.12)	benign(0.188)
+MUC2	broad.mit.edu	PR-06-1749		
+MUC5B	broad.mit.edu	PR-06-1749		
+MYOD1	broad.mit.edu	PR-06-1749		
+CHST1	broad.mit.edu	PR-06-1749		
+EHD1	broad.mit.edu	PR-06-1749	deleterious(0.04)	possibly_damaging(0.721)
+NEUROD4	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.946)
+PCDH20	broad.mit.edu	PR-06-1749	deleterious(0)	possibly_damaging(0.513)
+AKAP6	broad.mit.edu	PR-06-1749	tolerated(0.21)	benign(0.242)
+FSCB	broad.mit.edu	PR-06-1749		
+ZFYVE1	broad.mit.edu	PR-06-1749	tolerated(0.11)	benign(0.047)
+PTGR2	broad.mit.edu	PR-06-1749	tolerated(0.52)	benign(0.002)
+NOX5	broad.mit.edu	PR-06-1749	tolerated(0.65)	benign(0.026)
+MESP2	broad.mit.edu	PR-06-1749	tolerated_low_confidence(0.98)	benign(0.002)
+VAC14	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.939)
+MYOCD	broad.mit.edu	PR-06-1749	deleterious(0.05)	possibly_damaging(0.498)
+TOM1L2	broad.mit.edu	PR-06-1749	tolerated(1)	benign(0)
+NF1	broad.mit.edu	PR-06-1749	deleterious(0.01)	probably_damaging(0.988)
+ODF3L2	broad.mit.edu	PR-06-1749	tolerated(0.22)	probably_damaging(0.952)
+EMR2	broad.mit.edu	PR-06-1749	tolerated(1)	benign(0)
+MYO9B	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.927)
+DHX34	broad.mit.edu	PR-06-1749		
+MAP4K3	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.994)
+ANAPC1	broad.mit.edu	PR-06-1749	deleterious(0)	possibly_damaging(0.473)
+TMEM37	broad.mit.edu	PR-06-1749	tolerated(0.15)	probably_damaging(0.921)
+POTEF	broad.mit.edu	PR-06-1749		
+UNC80	broad.mit.edu	PR-06-1749		
+GRIK1	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.999)
+EDEM1	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(1)
+EDEM1	broad.mit.edu	PR-06-1749		
+STT3B	broad.mit.edu	PR-06-1749	tolerated(0.49)	probably_damaging(0.972)
+TMPPE	broad.mit.edu	PR-06-1749	deleterious(0.01)	probably_damaging(0.984)
+RP11-93K22.13	broad.mit.edu	PR-06-1749		
+IGSF10	broad.mit.edu	PR-06-1749	deleterious(0.04)	benign(0.009)
+MUC4	broad.mit.edu	PR-06-1749		benign(0.02)
+JAKMIP1	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.971)
+DRD5	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.998)
+PDLIM5	broad.mit.edu	PR-06-1749	tolerated(0.39)	benign(0.092)
+TUBB7P	broad.mit.edu	PR-06-1749		
+PCDHA3	broad.mit.edu	PR-06-1749	deleterious_low_confidence(0)	probably_damaging(0.968)
+PRRT1	broad.mit.edu	PR-06-1749	tolerated_low_confidence(0.48)	benign(0.012)
+MAPK14	broad.mit.edu	PR-06-1749	deleterious(0)	possibly_damaging(0.853)
+TMEM151B	broad.mit.edu	PR-06-1749	tolerated(0.16)	benign(0.056)
+SLC22A1	broad.mit.edu	PR-06-1749	deleterious(0.01)	possibly_damaging(0.868)
+TNRC18	broad.mit.edu	PR-06-1749		probably_damaging(0.997)
+PDLIM2	broad.mit.edu	PR-06-1749	tolerated(0.1)	benign(0.027)
+FAM83H	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.996)
+TONSL	broad.mit.edu	PR-06-1749	deleterious(0)	probably_damaging(0.998)
+NTRK2	broad.mit.edu	PR-06-1749	deleterious(0.02)	possibly_damaging(0.765)
+BICD2	broad.mit.edu	PR-06-1749	tolerated(0.29)	benign(0.076)
+SNAPC4	broad.mit.edu	PR-06-1749	deleterious(0.02)	possibly_damaging(0.556)
+PABPC3	broad.mit.edu	PR-06-1749		
+MEF2A	broad.mit.edu	PR-06-1749		
+CECR1	broad.mit.edu	PR-06-1749		
+PI4KA	broad.mit.edu	PR-06-1749		
+KIAA0754	broad.mit.edu	PR-06-3199		benign(0.018)
+MUC4	broad.mit.edu	PR-06-3199		
+CD8B	broad.mit.edu	PR-06-3199	deleterious(0.01)	possibly_damaging(0.694)
+LCE1C	broad.mit.edu	PR-06-3199	tolerated_low_confidence(0.28)	unknown(0)
+CD5L	broad.mit.edu	PR-06-3199	tolerated(0.16)	benign(0.208)
+HMCN1	broad.mit.edu	PR-06-3199		probably_damaging(0.998)
+RGS7	broad.mit.edu	PR-06-3199	tolerated(0.23)	benign(0.001)
+TMEM180	broad.mit.edu	PR-06-3199	tolerated(0.89)	benign(0.05)
+NLRP14	broad.mit.edu	PR-06-3199	tolerated(1)	benign(0.001)
+NAV2	broad.mit.edu	PR-06-3199	tolerated(0.38)	benign(0.002)
+CTSC	broad.mit.edu	PR-06-3199		
+DDX11	broad.mit.edu	PR-06-3199	tolerated(0.27)	benign(0.006)
+GXYLT1	broad.mit.edu	PR-06-3199		
+KBTBD6	broad.mit.edu	PR-06-3199	tolerated(1)	benign(0)
+MYH6	broad.mit.edu	PR-06-3199	tolerated(0.14)	probably_damaging(0.93)
+DTD2	broad.mit.edu	PR-06-3199	deleterious(0.02)	possibly_damaging(0.513)
+MYO15A	broad.mit.edu	PR-06-3199		unknown(0)
+AATF	broad.mit.edu	PR-06-3199	deleterious(0)	probably_damaging(0.981)
+AATF	broad.mit.edu	PR-06-3199	tolerated(0.12)	benign(0.084)
+AATF	broad.mit.edu	PR-06-3199		
+AATF	broad.mit.edu	PR-06-3199	deleterious(0)	probably_damaging(0.988)
+MLLT6	broad.mit.edu	PR-06-3199	tolerated(0.13)	unknown(0)
+CNTNAP1	broad.mit.edu	PR-06-3199	tolerated(0.83)	benign(0.003)
+GPAT2	broad.mit.edu	PR-06-3199	deleterious(0)	possibly_damaging(0.695)
+AOX1	broad.mit.edu	PR-06-3199	deleterious(0.01)	possibly_damaging(0.841)
+TRPM8	broad.mit.edu	PR-06-3199		
+GDAP1L1	broad.mit.edu	PR-06-3199	deleterious(0.01)	possibly_damaging(0.889)
+PATZ1	broad.mit.edu	PR-06-3199		
+CHRD	broad.mit.edu	PR-06-3199	tolerated(0.23)	benign(0.029)
+EIF4E	broad.mit.edu	PR-06-3199		
+TERT	broad.mit.edu	PR-06-3199	deleterious(0)	probably_damaging(0.93)
+ITGA1	broad.mit.edu	PR-06-3199	deleterious(0)	probably_damaging(0.984)
+NFYA	broad.mit.edu	PR-06-3199	deleterious(0)	possibly_damaging(0.536)
+FIG4	broad.mit.edu	PR-06-3199	deleterious(0)	probably_damaging(0.956)
+CARD11	broad.mit.edu	PR-06-3199	tolerated(1)	benign(0)
+MLLT3	broad.mit.edu	PR-06-3199		
+CCDC147	broad.mit.edu	PR-07-3258		
+DCLK1	broad.mit.edu	PR-07-3258	deleterious(0)	probably_damaging(0.998)
+ANKRD30B	broad.mit.edu	PR-07-3258		
+PTCD3	broad.mit.edu	PR-07-3258	deleterious(0)	possibly_damaging(0.844)
+RNF103	broad.mit.edu	PR-07-3258	deleterious(0)	benign(0.42)
+NXT1	broad.mit.edu	PR-07-3258	deleterious(0.01)	probably_damaging(0.998)
+PCNT	broad.mit.edu	PR-07-3258		benign(0)
+DGKQ	broad.mit.edu	PR-07-3258	deleterious(0.02)	probably_damaging(0.995)
+SLC18B1	broad.mit.edu	PR-07-3258		
+MLLT4	broad.mit.edu	PR-07-3258	deleterious_low_confidence(0.02)	probably_damaging(0.996)
+GOT1L1	broad.mit.edu	PR-07-3258		
+SH3KBP1	broad.mit.edu	PR-07-3258	tolerated(0.41)	benign(0)
+UVRAG	broad.mit.edu	PR-07-3258		
+VEZF1	broad.mit.edu	PR-07-3258		
+KLK2	broad.mit.edu	PR-07-3258		
+KLHL18	broad.mit.edu	PR-07-3258		
+NBPF1	broad.mit.edu	PR-07-360	tolerated(0.08)	benign(0.017)
+GIPC2	broad.mit.edu	PR-07-360		
+TNR	broad.mit.edu	PR-07-360		
+SLC45A3	broad.mit.edu	PR-07-360		
+SRGAP2	broad.mit.edu	PR-07-360	deleterious(0)	probably_damaging(0.953)
+PYGM	broad.mit.edu	PR-07-360		
+CSAD	broad.mit.edu	PR-07-360	deleterious(0)	probably_damaging(0.997)
+MYL2	broad.mit.edu	PR-07-360	deleterious(0)	possibly_damaging(0.453)
+MYCBP2	broad.mit.edu	PR-07-360		probably_damaging(0.986)
+RASGRF1	broad.mit.edu	PR-07-360	tolerated(0.17)	benign(0.03)
+AKAP13	broad.mit.edu	PR-07-360		
+NEURL4	broad.mit.edu	PR-07-360	deleterious(0.01)	benign(0.016)
+KIAA0100	broad.mit.edu	PR-07-360		
+UNK	broad.mit.edu	PR-07-360	tolerated_low_confidence(0.39)	unknown(0)
+ZNF439	broad.mit.edu	PR-07-360	deleterious(0)	probably_damaging(0.998)
+USP29	broad.mit.edu	PR-07-360		
+MYO7B	broad.mit.edu	PR-07-360	deleterious(0.02)	benign(0.026)
+PTPRN	broad.mit.edu	PR-07-360		
+ABCG1	broad.mit.edu	PR-07-360	deleterious(0.03)	benign(0.434)
+CCDC116	broad.mit.edu	PR-07-360	tolerated(0.17)	benign(0.085)
+RBM5	broad.mit.edu	PR-07-360	tolerated(0.18)	benign(0.005)
+MUC4	broad.mit.edu	PR-07-360		
+USP46	broad.mit.edu	PR-07-360		
+TMEM192	broad.mit.edu	PR-07-360		
+OSMR	broad.mit.edu	PR-07-360	tolerated(1)	benign(0.001)
+PCDHB4	broad.mit.edu	PR-07-360	tolerated_low_confidence(0.12)	benign(0.397)
+PCDHB4	broad.mit.edu	PR-07-360		
+ATP10B	broad.mit.edu	PR-07-360	tolerated(0.27)	benign(0.002)
+DAAM2	broad.mit.edu	PR-07-360		
+MTHFD1L	broad.mit.edu	PR-07-360		
+CDK13	broad.mit.edu	PR-07-360	deleterious(0.02)	unknown(0)
+CNTNAP2	broad.mit.edu	PR-07-360	tolerated(0.09)	benign(0.309)
+VCPIP1	broad.mit.edu	PR-07-360	deleterious_low_confidence(0.04)	possibly_damaging(0.641)
+LINGO2	broad.mit.edu	PR-07-360	tolerated(0.22)	probably_damaging(0.91)
+PSPC1	broad.mit.edu	PR-07-360		
+CREBBP	broad.mit.edu	PR-07-360		
+NCOA6	broad.mit.edu	PR-07-360		
+DEPDC5	broad.mit.edu	PR-07-360		
+ANK2	broad.mit.edu	PR-07-360		
+KDM6A	broad.mit.edu	PR-07-360		
+CASZ1	broad.mit.edu	PR-07-4610	deleterious(0.01)	probably_damaging(0.999)
+ST3GAL3	broad.mit.edu	PR-07-4610		
+IGSF3	broad.mit.edu	PR-07-4610	deleterious_low_confidence(0.04)	benign(0.044)
+MNDA	broad.mit.edu	PR-07-4610	deleterious(0.04)	probably_damaging(0.953)
+PAPPA2	broad.mit.edu	PR-07-4610		
+HMCN1	broad.mit.edu	PR-07-4610		probably_damaging(0.999)
+PLA2G4A	broad.mit.edu	PR-07-4610	deleterious(0)	probably_damaging(0.962)
+NRXN2	broad.mit.edu	PR-07-4610	deleterious(0)	probably_damaging(0.941)
+GUCY1A2	broad.mit.edu	PR-07-4610	deleterious(0)	benign(0.254)
+ARNTL2	broad.mit.edu	PR-07-4610	deleterious(0.01)	benign(0.396)
+KRT74	broad.mit.edu	PR-07-4610		
+MON2	broad.mit.edu	PR-07-4610	deleterious(0.02)	probably_damaging(0.993)
+NUAK1	broad.mit.edu	PR-07-4610	deleterious(0)	benign(0.002)
+GOLGA3	broad.mit.edu	PR-07-4610	tolerated_low_confidence(0.17)	benign(0.01)
+UNC13C	broad.mit.edu	PR-07-4610		
+CCPG1	broad.mit.edu	PR-07-4610	tolerated(0.1)	benign(0.111)
+STAT3	broad.mit.edu	PR-07-4610		
+EVPL	broad.mit.edu	PR-07-4610	deleterious(0.02)	probably_damaging(0.997)
+MUC16	broad.mit.edu	PR-07-4610		unknown(0)
+ZNF233	broad.mit.edu	PR-07-4610	tolerated(0.12)	benign(0.166)
+BRSK1	broad.mit.edu	PR-07-4610	tolerated(0.05)	benign(0.291)
+UGDH	broad.mit.edu	PR-07-4610		
+LPHN3	broad.mit.edu	PR-07-4610	tolerated_low_confidence(0.44)	benign(0.005)
+TECRL	broad.mit.edu	PR-07-4610		
+CSN3	broad.mit.edu	PR-07-4610		
+PRDM9	broad.mit.edu	PR-07-4610		
+ITGA1	broad.mit.edu	PR-07-4610	tolerated(0.9)	benign(0.064)
+C5orf20	broad.mit.edu	PR-07-4610		
+ZUFSP	broad.mit.edu	PR-07-4610	tolerated(0.34)	benign(0.007)
+KAT6A	broad.mit.edu	PR-07-4610		
+RP11-56A10.1	broad.mit.edu	PR-07-4610		
+SPAG1	broad.mit.edu	PR-07-4610	deleterious(0)	probably_damaging(0.986)
+ZNF658	broad.mit.edu	PR-07-4610	tolerated(0.16)	benign(0.002)
+TOR2A	broad.mit.edu	PR-07-4610	deleterious(0)	probably_damaging(0.986)
+HNRNPCL1	broad.mit.edu	PR-07-4610		
+UBXN6	broad.mit.edu	PR-07-4610		
+SELV	broad.mit.edu	PR-07-4610		
+TBCCD1	broad.mit.edu	PR-07-4610		
+CSMD2	broad.mit.edu	PR-07-4814	deleterious(0)	possibly_damaging(0.521)
+PKN2	broad.mit.edu	PR-07-4814		
+CD1A	broad.mit.edu	PR-07-4814		
+ZNF33B	broad.mit.edu	PR-07-4814		
+WDFY4	broad.mit.edu	PR-07-4814	deleterious(0)	probably_damaging(0.988)
+WDFY4	broad.mit.edu	PR-07-4814	deleterious(0)	probably_damaging(0.999)
+OR4C15	broad.mit.edu	PR-07-4814	deleterious_low_confidence(0.04)	benign(0.123)
+OR8I2	broad.mit.edu	PR-07-4814	deleterious(0)	possibly_damaging(0.908)
+MRPL51	broad.mit.edu	PR-07-4814		
+ADCY4	broad.mit.edu	PR-07-4814	tolerated(0.57)	benign(0.243)
+TICRR	broad.mit.edu	PR-07-4814	deleterious(0)	probably_damaging(0.977)
+NTAN1	broad.mit.edu	PR-07-4814	tolerated(0.06)	benign(0.069)
+CNGB1	broad.mit.edu	PR-07-4814		
+ENO3	broad.mit.edu	PR-07-4814	deleterious_low_confidence(0)	probably_damaging(0.995)
+CD320	broad.mit.edu	PR-07-4814	deleterious(0.01)	possibly_damaging(0.858)
+ZNF99	broad.mit.edu	PR-07-4814		
+ZNF543	broad.mit.edu	PR-07-4814	deleterious(0)	probably_damaging(1)
+NDUFAF7	broad.mit.edu	PR-07-4814	tolerated(0.2)	possibly_damaging(0.877)
+ZBED4	broad.mit.edu	PR-07-4814	tolerated(0.17)	benign(0.002)
+TNIK	broad.mit.edu	PR-07-4814	deleterious(0.01)	unknown(0)
+MAP3K13	broad.mit.edu	PR-07-4814	deleterious(0)	probably_damaging(0.998)
+IL17F	broad.mit.edu	PR-07-4814	tolerated(0.06)	probably_damaging(0.918)
+MID2	broad.mit.edu	PR-07-4814	tolerated_low_confidence(0.13)	possibly_damaging(0.636)
+RP3-470B24.5	broad.mit.edu	PR-07-4814		
+SUZ12	broad.mit.edu	PR-08-2153		
+EPHA8	broad.mit.edu	PR-08-2153	deleterious(0.03)	possibly_damaging(0.611)
+AMY2A	broad.mit.edu	PR-08-2153	deleterious(0.01)	benign(0.117)
+SELP	broad.mit.edu	PR-08-2153	deleterious(0.01)	benign(0.239)
+HMCN1	broad.mit.edu	PR-08-2153		
+CD163L1	broad.mit.edu	PR-08-2153	tolerated(0.2)	benign(0.001)
+FAM186A	broad.mit.edu	PR-08-2153	tolerated(1)	benign(0)
+ATXN2	broad.mit.edu	PR-08-2153		probably_damaging(0.998)
+KRT12	broad.mit.edu	PR-08-2153	tolerated(0.08)	benign(0.061)
+SLC25A19	broad.mit.edu	PR-08-2153	tolerated(0.08)	possibly_damaging(0.652)
+THADA	broad.mit.edu	PR-08-2153		
+GGT1	broad.mit.edu	PR-08-2153	deleterious(0.01)	benign(0.305)
+LRRN1	broad.mit.edu	PR-08-2153	deleterious(0.01)	possibly_damaging(0.786)
+ITIH3	broad.mit.edu	PR-08-2153	deleterious(0.04)	benign(0.326)
+GSTCD	broad.mit.edu	PR-08-2153	deleterious(0)	probably_damaging(0.995)
+COL25A1	broad.mit.edu	PR-08-2153		
+GIN1	broad.mit.edu	PR-08-2153		
+EYS	broad.mit.edu	PR-08-2153		
+KLHL38	broad.mit.edu	PR-08-2153	deleterious(0.01)	benign(0.37)
+MUC6	broad.mit.edu	PR-08-2153		
+SMC1B	broad.mit.edu	PR-08-2153		
+STXBP1	broad.mit.edu	PR-08-2153		
+CS	broad.mit.edu	PR-08-2455	tolerated(0.26)	benign(0.003)
+FGR	broad.mit.edu	PR-08-2455	deleterious(0)	probably_damaging(1)
+OR6N2	broad.mit.edu	PR-08-2455		
+OR6N2	broad.mit.edu	PR-08-2455	deleterious(0)	probably_damaging(0.999)
+NRBF2	broad.mit.edu	PR-08-2455	deleterious(0.01)	probably_damaging(0.934)
+GRID1	broad.mit.edu	PR-08-2455	deleterious(0)	possibly_damaging(0.724)
+PC	broad.mit.edu	PR-08-2455		
+KLRC3	broad.mit.edu	PR-08-2455		
+VIPAS39	broad.mit.edu	PR-08-2455	deleterious(0.01)	probably_damaging(0.952)
+APBA2	broad.mit.edu	PR-08-2455	deleterious_low_confidence(0.04)	benign(0.368)
+TRAP1	broad.mit.edu	PR-08-2455	tolerated(0.06)	probably_damaging(1)
+DNAH2	broad.mit.edu	PR-08-2455		probably_damaging(0.98)
+MYH13	broad.mit.edu	PR-08-2455	tolerated(0.36)	benign(0.002)
+MUC16	broad.mit.edu	PR-08-2455		unknown(0)
+DYRK1B	broad.mit.edu	PR-08-2455	deleterious(0)	probably_damaging(0.999)
+WDR92	broad.mit.edu	PR-08-2455	deleterious(0)	probably_damaging(0.984)
+SF3B1	broad.mit.edu	PR-08-2455	deleterious(0.02)	probably_damaging(0.999)
+CST4	broad.mit.edu	PR-08-2455		
+ZNF831	broad.mit.edu	PR-08-2455	tolerated(0.05)	benign(0)
+PARL	broad.mit.edu	PR-08-2455		
+RP11-813N20.1	broad.mit.edu	PR-08-2455		
+GUCY1B3	broad.mit.edu	PR-08-2455	deleterious(0.01)	possibly_damaging(0.61)
+ZSCAN31	broad.mit.edu	PR-08-2455	tolerated(0.8)	benign(0.003)
+TCP11	broad.mit.edu	PR-08-2455		
+UTRN	broad.mit.edu	PR-08-2455	deleterious(0)	probably_damaging(0.943)
+LPA	broad.mit.edu	PR-08-2455	tolerated(0.49)	benign(0.009)
+TNPO3	broad.mit.edu	PR-08-2455	tolerated(0.24)	benign(0.001)
+ARHGEF5	broad.mit.edu	PR-08-2455		
+CD99	broad.mit.edu	PR-08-2455		
+PHKA1	broad.mit.edu	PR-08-2455		
+ZNF770	broad.mit.edu	PR-08-2455		
+KMT2C	broad.mit.edu	PR-08-2455		
+BCL10	broad.mit.edu	PR-08-4154		
+TXNIP	broad.mit.edu	PR-08-4154	tolerated(0.07)	possibly_damaging(0.526)
+BRINP3	broad.mit.edu	PR-08-4154	tolerated(0.19)	possibly_damaging(0.475)
+SYT15	broad.mit.edu	PR-08-4154	deleterious(0)	probably_damaging(0.992)
+CD6	broad.mit.edu	PR-08-4154	tolerated(0.62)	benign(0.002)
+RDX	broad.mit.edu	PR-08-4154		
+FREM2	broad.mit.edu	PR-08-4154	deleterious(0.04)	benign(0.053)
+FAM179B	broad.mit.edu	PR-08-4154	tolerated(0.22)	benign(0.016)
+SORD	broad.mit.edu	PR-08-4154		
+SMAD3	broad.mit.edu	PR-08-4154	deleterious(0.01)	probably_damaging(0.939)
+KIFC3	broad.mit.edu	PR-08-4154	deleterious(0.01)	probably_damaging(0.985)
+FBXL20	broad.mit.edu	PR-08-4154	deleterious(0)	possibly_damaging(0.556)
+SAE1	broad.mit.edu	PR-08-4154		
+SFXN5	broad.mit.edu	PR-08-4154	deleterious(0)	probably_damaging(0.999)
+MGAT5	broad.mit.edu	PR-08-4154		
+BBS5	broad.mit.edu	PR-08-4154		
+GPR55	broad.mit.edu	PR-08-4154	tolerated(0.6)	benign(0.013)
+CD93	broad.mit.edu	PR-08-4154		
+SLC4A7	broad.mit.edu	PR-08-4154	tolerated(1)	benign(0.007)
+DTX3L	broad.mit.edu	PR-08-4154	deleterious(0.01)	benign(0.19)
+PLXNA1	broad.mit.edu	PR-08-4154		
+RANBP3L	broad.mit.edu	PR-08-4154	deleterious(0)	probably_damaging(0.963)
+AP3B1	broad.mit.edu	PR-08-4154		
+PRELID1	broad.mit.edu	PR-08-4154	tolerated(0.1)	probably_damaging(0.991)
+PRELID1	broad.mit.edu	PR-08-4154	tolerated(0.2)	probably_damaging(0.991)
+SOBP	broad.mit.edu	PR-08-4154	deleterious(0)	probably_damaging(0.99)
+CCDC132	broad.mit.edu	PR-08-4154		
+ZFHX4	broad.mit.edu	PR-08-4154		
+IARS	broad.mit.edu	PR-08-4154	tolerated(0.14)	benign(0)
+FRG2B	broad.mit.edu	PR-08-4154		
+SLFN12	broad.mit.edu	PR-08-4154		
+MPHOSPH10	broad.mit.edu	PR-08-4154		
+ACVR2A	broad.mit.edu	PR-08-4154		
+PABPC1	broad.mit.edu	PR-08-4154		
+CD8B	broad.mit.edu	PR-08-556	deleterious(0.01)	possibly_damaging(0.694)
+VEZF1	broad.mit.edu	PR-08-556		
+FAM73A	broad.mit.edu	PR-08-556	deleterious_low_confidence(0)	benign(0.001)
+DCLRE1B	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(1)
+OR10Z1	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(0.996)
+OR10Z1	broad.mit.edu	PR-08-556		
+ZMYND11	broad.mit.edu	PR-08-556	tolerated(0.16)	benign(0.354)
+RASSF4	broad.mit.edu	PR-08-556		
+ANXA11	broad.mit.edu	PR-08-556	tolerated(0.07)	unknown(0)
+PGM2L1	broad.mit.edu	PR-08-556		
+MED17	broad.mit.edu	PR-08-556	tolerated(0.06)	benign(0.031)
+CPNE8	broad.mit.edu	PR-08-556	deleterious(0)	possibly_damaging(0.878)
+ITGB7	broad.mit.edu	PR-08-556		
+AGAP2	broad.mit.edu	PR-08-556	tolerated(0.15)	benign(0.106)
+FOXA1	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(1)
+EDC3	broad.mit.edu	PR-08-556		
+MEF2A	broad.mit.edu	PR-08-556	tolerated(1)	probably_damaging(0.971)
+GLP2R	broad.mit.edu	PR-08-556	tolerated(0.72)	benign(0.003)
+GGNBP2	broad.mit.edu	PR-08-556	tolerated(0.33)	benign(0.007)
+CCDC40	broad.mit.edu	PR-08-556		
+DSEL	broad.mit.edu	PR-08-556		
+CATSPERD	broad.mit.edu	PR-08-556	tolerated(0.12)	benign(0.178)
+GRIN2D	broad.mit.edu	PR-08-556	tolerated(0.14)	benign(0.032)
+LILRA4	broad.mit.edu	PR-08-556		
+TPRKB	broad.mit.edu	PR-08-556	tolerated(0.15)	benign(0.014)
+CIAO1	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(1)
+XIRP2	broad.mit.edu	PR-08-556		benign(0)
+TRAF3IP1	broad.mit.edu	PR-08-556	deleterious(0)	possibly_damaging(0.854)
+GNRH2	broad.mit.edu	PR-08-556		
+CLEC3B	broad.mit.edu	PR-08-556		
+C3orf62	broad.mit.edu	PR-08-556	tolerated(0.15)	benign(0.009)
+PIK3CB	broad.mit.edu	PR-08-556		
+PLCH1	broad.mit.edu	PR-08-556		
+TNIK	broad.mit.edu	PR-08-556	tolerated(0.27)	benign(0.191)
+VPS8	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(0.972)
+MUC4	broad.mit.edu	PR-08-556		benign(0.003)
+SEMA5A	broad.mit.edu	PR-08-556	deleterious(0)	possibly_damaging(0.893)
+DMXL1	broad.mit.edu	PR-08-556		
+HARS	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(0.948)
+TAGAP	broad.mit.edu	PR-08-556		
+HOXA4	broad.mit.edu	PR-08-556	deleterious(0)	possibly_damaging(0.833)
+GTPBP10	broad.mit.edu	PR-08-556	deleterious(0)	probably_damaging(1)
+NUCB2	broad.mit.edu	PR-08-556		
+SLC43A1	broad.mit.edu	PR-08-556		
+ZFHX3	broad.mit.edu	PR-08-556		
+GUF1	broad.mit.edu	PR-08-556		
+VCP	broad.mit.edu	PR-08-556		
+FAM157B	broad.mit.edu	PR-08-556		
+SLC25A5	broad.mit.edu	PR-08-784		
+GABRD	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.999)
+PANK4	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.992)
+NBPF1	broad.mit.edu	PR-08-784	tolerated(1)	benign(0.002)
+NASP	broad.mit.edu	PR-08-784	tolerated_low_confidence(0.08)	benign(0.006)
+LRRC7	broad.mit.edu	PR-08-784		
+AGL	broad.mit.edu	PR-08-784		
+ADORA3	broad.mit.edu	PR-08-784	tolerated(1)	benign(0.245)
+CTSS	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.986)
+MAP3K8	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.998)
+EXOC6	broad.mit.edu	PR-08-784	deleterious(0.01)	possibly_damaging(0.574)
+CAPN5	broad.mit.edu	PR-08-784		
+ATM	broad.mit.edu	PR-08-784		
+ERP27	broad.mit.edu	PR-08-784	deleterious(0.02)	probably_damaging(0.975)
+TRHDE	broad.mit.edu	PR-08-784	tolerated(0.09)	benign(0.02)
+SBNO1	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.998)
+SETD8	broad.mit.edu	PR-08-784		
+CARKD	broad.mit.edu	PR-08-784	deleterious(0.01)	possibly_damaging(0.887)
+UNC13C	broad.mit.edu	PR-08-784	deleterious_low_confidence(0.01)	probably_damaging(0.97)
+FAM154B	broad.mit.edu	PR-08-784	tolerated(0.09)	benign(0.183)
+ZSCAN2	broad.mit.edu	PR-08-784		
+ADCY9	broad.mit.edu	PR-08-784	tolerated_low_confidence(0.42)	benign(0)
+SCNN1G	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.968)
+CDH2	broad.mit.edu	PR-08-784		
+NCAN	broad.mit.edu	PR-08-784		
+ZNF99	broad.mit.edu	PR-08-784		
+SLC17A7	broad.mit.edu	PR-08-784		
+IL18R1	broad.mit.edu	PR-08-784	tolerated(0.14)	benign(0.179)
+LRP1B	broad.mit.edu	PR-08-784		
+NBEAL1	broad.mit.edu	PR-08-784	tolerated(0.79)	benign(0.027)
+TGM3	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.916)
+SALL4	broad.mit.edu	PR-08-784		
+DOPEY2	broad.mit.edu	PR-08-784	deleterious(0.02)	benign(0.025)
+LRRC66	broad.mit.edu	PR-08-784	tolerated(0.08)	benign(0.317)
+PRSS48	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(1)
+DDX60L	broad.mit.edu	PR-08-784		
+STOX2	broad.mit.edu	PR-08-784		
+HCN1	broad.mit.edu	PR-08-784		
+DCTN4	broad.mit.edu	PR-08-784	tolerated(0.21)	benign(0.006)
+SCUBE3	broad.mit.edu	PR-08-784	tolerated(0.25)	benign(0.258)
+ZNF292	broad.mit.edu	PR-08-784		
+CCDC170	broad.mit.edu	PR-08-784	deleterious(0)	benign(0.016)
+PAPOLB	broad.mit.edu	PR-08-784	tolerated(0.06)	benign(0.053)
+SAMD9	broad.mit.edu	PR-08-784	tolerated(0.54)	benign(0.086)
+ERMP1	broad.mit.edu	PR-08-784		
+CNTLN	broad.mit.edu	PR-08-784	deleterious(0)	probably_damaging(0.996)
+MAN1B1	broad.mit.edu	PR-08-784	tolerated(0.14)	benign(0.052)
+SLC25A5	broad.mit.edu	PR-08-784		
+OR5H14	broad.mit.edu	PR-08-784		
+RP3-470B24.5	broad.mit.edu	PR-08-784		
+OR2L8	broad.mit.edu	PR-09-146	tolerated(0.57)	benign(0.024)
+VIM	broad.mit.edu	PR-09-146		
+LDB3	broad.mit.edu	PR-09-146		
+LRP4	broad.mit.edu	PR-09-146	deleterious(0.03)	probably_damaging(0.932)
+OR4D10	broad.mit.edu	PR-09-146	deleterious(0)	probably_damaging(1)
+SPATA19	broad.mit.edu	PR-09-146		
+ANO2	broad.mit.edu	PR-09-146		
+ACAD10	broad.mit.edu	PR-09-146		
+SEL1L	broad.mit.edu	PR-09-146		
+GLDN	broad.mit.edu	PR-09-146		
+KDM6B	broad.mit.edu	PR-09-146		probably_damaging(0.996)
+SHANK1	broad.mit.edu	PR-09-146		
+CPSF3	broad.mit.edu	PR-09-146	deleterious(0.01)	benign(0.391)
+GLI2	broad.mit.edu	PR-09-146		
+ESPNL	broad.mit.edu	PR-09-146	deleterious(0)	probably_damaging(0.991)
+TOMM34	broad.mit.edu	PR-09-146	deleterious(0)	probably_damaging(0.998)
+DIDO1	broad.mit.edu	PR-09-146		benign(0.015)
+ATP2B2	broad.mit.edu	PR-09-146		
+SPINK8	broad.mit.edu	PR-09-146	tolerated(0.21)	benign(0.037)
+IGSF10	broad.mit.edu	PR-09-146	tolerated(0.4)	benign(0.028)
+LSG1	broad.mit.edu	PR-09-146		
+ADAM29	broad.mit.edu	PR-09-146		
+MTMR12	broad.mit.edu	PR-09-146	tolerated(0.54)	probably_damaging(0.979)
+REEP5	broad.mit.edu	PR-09-146		
+ABCC10	broad.mit.edu	PR-09-146	tolerated(0.2)	probably_damaging(1)
+CHD7	broad.mit.edu	PR-09-146		probably_damaging(0.997)
+CHD7	broad.mit.edu	PR-09-146		probably_damaging(0.996)
+IFNA4	broad.mit.edu	PR-09-146		
+GRIPAP1	broad.mit.edu	PR-09-146		
+TTBK2	broad.mit.edu	PR-09-146		
+SP2	broad.mit.edu	PR-09-146		
+PIK3CA	broad.mit.edu	PR-09-3983	deleterious(0.02)	probably_damaging(0.959)
+KANK4	broad.mit.edu	PR-09-3983	deleterious(0)	benign(0.394)
+GBP2	broad.mit.edu	PR-09-3983	deleterious(0)	probably_damaging(0.996)
+WNT9A	broad.mit.edu	PR-09-3983	deleterious(0.03)	possibly_damaging(0.881)
+MLLT10	broad.mit.edu	PR-09-3983	tolerated(0.07)	possibly_damaging(0.83)
+CHUK	broad.mit.edu	PR-09-3983	deleterious(0)	possibly_damaging(0.824)
+OR1S1	broad.mit.edu	PR-09-3983	deleterious(0)	probably_damaging(1)
+CARNS1	broad.mit.edu	PR-09-3983	deleterious(0.01)	probably_damaging(0.997)
+NUDT8	broad.mit.edu	PR-09-3983		
+PDE3A	broad.mit.edu	PR-09-3983	deleterious(0)	benign(0.269)
+GNPTAB	broad.mit.edu	PR-09-3983		
+ZMYM2	broad.mit.edu	PR-09-3983	deleterious(0.03)	probably_damaging(0.994)
+XPO4	broad.mit.edu	PR-09-3983	tolerated(0.29)	benign(0.001)
+TRPC4	broad.mit.edu	PR-09-3983	deleterious(0)	probably_damaging(0.998)
+PROSER1	broad.mit.edu	PR-09-3983	deleterious(0.02)	possibly_damaging(0.585)
+KBTBD6	broad.mit.edu	PR-09-3983	tolerated(0.44)	benign(0.029)
+LGMN	broad.mit.edu	PR-09-3983		
+HERC1	broad.mit.edu	PR-09-3983		
+TRAF4	broad.mit.edu	PR-09-3983		
+BLMH	broad.mit.edu	PR-09-3983		
+KPNB1	broad.mit.edu	PR-09-3983	tolerated(0.17)	benign(0.237)
+ITGA3	broad.mit.edu	PR-09-3983	tolerated(0.29)	benign(0.005)
+MYOM1	broad.mit.edu	PR-09-3983	tolerated(0.14)	probably_damaging(0.992)
+SMAD2	broad.mit.edu	PR-09-3983	deleterious(0.01)	probably_damaging(0.999)
+SMAD4	broad.mit.edu	PR-09-3983	deleterious(0)	probably_damaging(1)
+ZNF559-ZNF177	broad.mit.edu	PR-09-3983		
+ZNF559-ZNF177	broad.mit.edu	PR-09-3983	deleterious(0.01)	probably_damaging(0.994)
+GPI	broad.mit.edu	PR-09-3983		
+SIGLEC7	broad.mit.edu	PR-09-3983		
+SIGLEC8	broad.mit.edu	PR-09-3983	deleterious(0)	possibly_damaging(0.876)
+ALS2	broad.mit.edu	PR-09-3983	deleterious(0)	probably_damaging(0.999)
+SLX4IP	broad.mit.edu	PR-09-3983	tolerated(0.59)	benign(0.008)
+PCNT	broad.mit.edu	PR-09-3983		benign(0.003)
+ABHD5	broad.mit.edu	PR-09-3983		
+IMPG2	broad.mit.edu	PR-09-3983	tolerated(0.3)	benign(0.345)
+HGD	broad.mit.edu	PR-09-3983	tolerated(0.26)	benign(0.003)
+ARMC8	broad.mit.edu	PR-09-3983	tolerated(0.25)	benign(0.216)
+CEP135	broad.mit.edu	PR-09-3983	deleterious(0)	benign(0.423)
+BBS12	broad.mit.edu	PR-09-3983	tolerated(0.09)	benign(0.026)
+MAB21L2	broad.mit.edu	PR-09-3983		
+ZDHHC11	broad.mit.edu	PR-09-3983		
+CCDC125	broad.mit.edu	PR-09-3983		
+MAT2B	broad.mit.edu	PR-09-3983		
+TRIM39	broad.mit.edu	PR-09-3983		
+ELFN1	broad.mit.edu	PR-09-3983	deleterious(0)	benign(0.44)
+KRIT1	broad.mit.edu	PR-09-3983		
+SSMEM1	broad.mit.edu	PR-09-3983	deleterious(0)	possibly_damaging(0.878)
+CSMD1	broad.mit.edu	PR-09-3983		probably_damaging(0.967)
+CSMD1	broad.mit.edu	PR-09-3983		possibly_damaging(0.861)
+ZNF704	broad.mit.edu	PR-09-3983		
+CDH17	broad.mit.edu	PR-09-3983		
+ABCA1	broad.mit.edu	PR-09-3983		
+CNKSR2	broad.mit.edu	PR-09-3983	tolerated(0.57)	benign(0.179)
+DMD	broad.mit.edu	PR-09-3983		benign(0.198)
+USP26	broad.mit.edu	PR-09-3983		
+KRTAP25-1	broad.mit.edu	PR-09-3983		
+APC	broad.mit.edu	PR-09-3983		
+CS	broad.mit.edu	PR-09-601	tolerated(0.18)	benign(0.003)
+BCL10	broad.mit.edu	PR-09-601	tolerated(0.12)	probably_damaging(0.978)
+KCND3	broad.mit.edu	PR-09-601	tolerated_low_confidence(0.59)	possibly_damaging(0.522)
+NBPF10	broad.mit.edu	PR-09-601		
+C1orf112	broad.mit.edu	PR-09-601	deleterious(0)	probably_damaging(0.985)
+PYCR2	broad.mit.edu	PR-09-601	deleterious(0)	probably_damaging(0.98)
+SMYD3	broad.mit.edu	PR-09-601		
+OR2M5	broad.mit.edu	PR-09-601	tolerated(0.05)	benign(0.168)
+AGAP6	broad.mit.edu	PR-09-601	tolerated_low_confidence(1)	benign(0)
+CDH23	broad.mit.edu	PR-09-601	tolerated(0.12)	benign(0.005)
+AHNAK	broad.mit.edu	PR-09-601		
+TCP11L2	broad.mit.edu	PR-09-601		
+UBC	broad.mit.edu	PR-09-601		
+ACTC1	broad.mit.edu	PR-09-601	tolerated_low_confidence(0.63)	benign(0.001)
+ADAM10	broad.mit.edu	PR-09-601	tolerated(0.23)	possibly_damaging(0.557)
+OR4F15	broad.mit.edu	PR-09-601	tolerated_low_confidence(0.51)	benign(0.003)
+ITGA3	broad.mit.edu	PR-09-601		
+COL1A1	broad.mit.edu	PR-09-601		unknown(0)
+AMZ2	broad.mit.edu	PR-09-601	deleterious(0.02)	possibly_damaging(0.747)
+SLC26A11	broad.mit.edu	PR-09-601	deleterious(0)	possibly_damaging(0.662)
+FHOD3	broad.mit.edu	PR-09-601		
+WDR62	broad.mit.edu	PR-09-601	deleterious_low_confidence(0.02)	benign(0.055)
+ELMOD3	broad.mit.edu	PR-09-601		
+TEX37	broad.mit.edu	PR-09-601	tolerated_low_confidence(0.21)	benign(0.013)
+MFSD9	broad.mit.edu	PR-09-601		
+ABCA12	broad.mit.edu	PR-09-601	tolerated(0.57)	benign(0.003)
+C2orf57	broad.mit.edu	PR-09-601	tolerated(0.1)	benign(0.023)
+ITGB2	broad.mit.edu	PR-09-601		
+LZTR1	broad.mit.edu	PR-09-601		
+HMCES	broad.mit.edu	PR-09-601		
+SH3TC1	broad.mit.edu	PR-09-601		
+PCDHB7	broad.mit.edu	PR-09-601		
+PTTG1	broad.mit.edu	PR-09-601		
+GABRA6	broad.mit.edu	PR-09-601	tolerated(0.15)	benign(0.422)
+GPR126	broad.mit.edu	PR-09-601	deleterious(0)	possibly_damaging(0.555)
+TRIM50	broad.mit.edu	PR-09-601	tolerated(0.18)	benign(0.013)
+SAMD9	broad.mit.edu	PR-09-601		
+PTPRN2	broad.mit.edu	PR-09-601	deleterious(0)	probably_damaging(0.983)
+CTNNAL1	broad.mit.edu	PR-09-601	deleterious(0)	probably_damaging(0.974)
+KCND1	broad.mit.edu	PR-09-601	deleterious(0.04)	possibly_damaging(0.493)
+USP26	broad.mit.edu	PR-09-601	deleterious(0.01)	possibly_damaging(0.654)
+MIR205HG	broad.mit.edu	PR-09-601		
+FASTK	broad.mit.edu	PR-09-601		
+BRWD3	broad.mit.edu	PR-09-601		
+CFTR	broad.mit.edu	PR-2525		
+PRAMEF1	broad.mit.edu	PR-2525	tolerated(0.09)	benign(0.175)
+FNBP1L	broad.mit.edu	PR-2525	tolerated(0.06)	possibly_damaging(0.473)
+SF3B4	broad.mit.edu	PR-2525	deleterious_low_confidence(0)	unknown(0)
+ADAM8	broad.mit.edu	PR-2525	deleterious(0.02)	benign(0.376)
+KRTAP5-10	broad.mit.edu	PR-2525		
+OR10G4	broad.mit.edu	PR-2525		
+ARPC3	broad.mit.edu	PR-2525	deleterious(0)	probably_damaging(0.936)
+ACOT2	broad.mit.edu	PR-2525		
+EXD1	broad.mit.edu	PR-2525	tolerated(0.16)	benign(0.008)
+ARHGAP23	broad.mit.edu	PR-2525	deleterious(0.02)	possibly_damaging(0.831)
+SPOP	broad.mit.edu	PR-2525	tolerated(0.1)	probably_damaging(1)
+ABCA8	broad.mit.edu	PR-2525		
+CTIF	broad.mit.edu	PR-2525		
+MUC16	broad.mit.edu	PR-2525		unknown(0)
+ZNF799	broad.mit.edu	PR-2525		
+ZNF98	broad.mit.edu	PR-2525	tolerated(1)	probably_damaging(1)
+ZNF98	broad.mit.edu	PR-2525	tolerated(1)	benign(0.002)
+CTNNA2	broad.mit.edu	PR-2525		
+VWA3B	broad.mit.edu	PR-2525		
+WNT6	broad.mit.edu	PR-2525	deleterious(0)	probably_damaging(0.983)
+KRTAP10-12	broad.mit.edu	PR-2525		
+ITGA9	broad.mit.edu	PR-2525	tolerated(0.16)	possibly_damaging(0.585)
+MUC4	broad.mit.edu	PR-2525		benign(0.001)
+ENAM	broad.mit.edu	PR-2525		
+DSPP	broad.mit.edu	PR-2525		
+MDC1	broad.mit.edu	PR-2525	deleterious(0)	benign(0.166)
+C7orf72	broad.mit.edu	PR-2525	deleterious(0.03)	benign(0.05)
+SLC35G5	broad.mit.edu	PR-2525		
+NSMAF	broad.mit.edu	PR-2525	tolerated(0.08)	benign(0.205)
+MTSS1	broad.mit.edu	PR-2525		
+XPA	broad.mit.edu	PR-2525	tolerated(0.11)	benign(0.077)
+HUWE1	broad.mit.edu	PR-2525		unknown(0)
+ITIH6	broad.mit.edu	PR-2525	tolerated(0.4)	benign(0.021)
+GBP5	broad.mit.edu	PR-2525		
+AHCYL1	broad.mit.edu	PR-2525		
+KLK14	broad.mit.edu	PR-2525		
+HTT	broad.mit.edu	PR-2525		
+TTC22	broad.mit.edu	PR-2621	deleterious(0.01)	possibly_damaging(0.682)
+SYPL2	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(1)
+FLG	broad.mit.edu	PR-2621		unknown(0)
+LAMC2	broad.mit.edu	PR-2621	tolerated(0.32)	benign(0)
+PLXNA2	broad.mit.edu	PR-2621		
+PTDSS2	broad.mit.edu	PR-2621		
+SLC22A9	broad.mit.edu	PR-2621	deleterious(0.01)	probably_damaging(0.958)
+RAB38	broad.mit.edu	PR-2621	deleterious_low_confidence(0.02)	benign(0.01)
+GLT8D2	broad.mit.edu	PR-2621		
+ACIN1	broad.mit.edu	PR-2621		possibly_damaging(0.72)
+ACAN	broad.mit.edu	PR-2621	deleterious(0.03)	unknown(0)
+NOD2	broad.mit.edu	PR-2621	deleterious(0.04)	benign(0.262)
+SEMA6B	broad.mit.edu	PR-2621	deleterious(0)	possibly_damaging(0.882)
+C19orf60	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(1)
+NCAN	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(0.999)
+RAD51AP2	broad.mit.edu	PR-2621	tolerated(0.18)	benign(0.202)
+HS6ST1	broad.mit.edu	PR-2621		
+CCDC108	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(0.996)
+UGT1A10	broad.mit.edu	PR-2621		
+TGM6	broad.mit.edu	PR-2621	tolerated(0.31)	benign(0.009)
+ATP9A	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(0.973)
+SDF2L1	broad.mit.edu	PR-2621	tolerated_low_confidence(0.17)	benign(0)
+PCDHGA8	broad.mit.edu	PR-2621	deleterious_low_confidence(0.01)	probably_damaging(0.948)
+ARSI	broad.mit.edu	PR-2621	deleterious(0)	probably_damaging(0.979)
+PRPF4B	broad.mit.edu	PR-2621	tolerated(0.65)	unknown(0)
+IMPAD1	broad.mit.edu	PR-2621	tolerated(0.05)	possibly_damaging(0.571)
+GAS1	broad.mit.edu	PR-2621	tolerated(0.21)	probably_damaging(0.999)
+LHX3	broad.mit.edu	PR-2621		
+CACNA1B	broad.mit.edu	PR-2621	deleterious(0)	benign(0.228)
+CIB1	broad.mit.edu	PR-2621		
+ZNF799	broad.mit.edu	PR-2741		
+CSMD2	broad.mit.edu	PR-2741	tolerated(0.09)	benign(0.153)
+SLC1A7	broad.mit.edu	PR-2741		
+GBP7	broad.mit.edu	PR-2741	deleterious(0.03)	possibly_damaging(0.579)
+S100A8	broad.mit.edu	PR-2741	tolerated(0.32)	benign(0.001)
+CD55	broad.mit.edu	PR-2741		
+FMN2	broad.mit.edu	PR-2741		
+FMN2	broad.mit.edu	PR-2741		
+MUC2	broad.mit.edu	PR-2741		
+TRIM49	broad.mit.edu	PR-2741	deleterious(0)	benign(0.03)
+HELB	broad.mit.edu	PR-2741	deleterious(0.03)	benign(0.052)
+SIX1	broad.mit.edu	PR-2741	tolerated(0.3)	benign(0.002)
+RYR3	broad.mit.edu	PR-2741		benign(0.003)
+DET1	broad.mit.edu	PR-2741	deleterious(0)	probably_damaging(0.995)
+HDAC5	broad.mit.edu	PR-2741	deleterious_low_confidence(0.03)	probably_damaging(0.995)
+TTYH2	broad.mit.edu	PR-2741		
+ZNF799	broad.mit.edu	PR-2741	deleterious(0.03)	benign(0.227)
+TTC32	broad.mit.edu	PR-2741	tolerated(0.06)	possibly_damaging(0.764)
+EFEMP1	broad.mit.edu	PR-2741	deleterious(0.01)	probably_damaging(0.975)
+LRRTM4	broad.mit.edu	PR-2741		
+ESPNL	broad.mit.edu	PR-2741	deleterious(0.01)	possibly_damaging(0.542)
+HCK	broad.mit.edu	PR-2741		
+DIDO1	broad.mit.edu	PR-2741		probably_damaging(0.998)
+TFF3	broad.mit.edu	PR-2741		
+CHCHD10	broad.mit.edu	PR-2741	tolerated(0.5)	benign(0.003)
+GGT5	broad.mit.edu	PR-2741	deleterious(0.01)	probably_damaging(0.957)
+BAIAP2L2	broad.mit.edu	PR-2741	deleterious(0.02)	benign(0.132)
+IFT122	broad.mit.edu	PR-2741	tolerated(0.15)	benign(0.036)
+KCTD8	broad.mit.edu	PR-2741	tolerated(0.51)	benign(0.002)
+G3BP2	broad.mit.edu	PR-2741	deleterious_low_confidence(0)	probably_damaging(0.993)
+RXRB	broad.mit.edu	PR-2741	deleterious(0)	probably_damaging(1)
+DST	broad.mit.edu	PR-2741		probably_damaging(1)
+SYNE1	broad.mit.edu	PR-2741		benign(0.077)
+NFE2L3	broad.mit.edu	PR-2741	tolerated(0.11)	benign(0.01)
+PDIA4	broad.mit.edu	PR-2741	deleterious(0)	probably_damaging(1)
+PDIA4	broad.mit.edu	PR-2741	deleterious_low_confidence(0.02)	probably_damaging(0.973)
+PXDNL	broad.mit.edu	PR-2741	deleterious(0)	probably_damaging(0.998)
+ASPH	broad.mit.edu	PR-2741	tolerated(0.51)	benign(0.016)
+CSMD3	broad.mit.edu	PR-2741	deleterious(0)	possibly_damaging(0.771)
+ZNF782	broad.mit.edu	PR-2741	deleterious(0.01)	possibly_damaging(0.543)
+CASP5	broad.mit.edu	PR-2741		
+TNRC6B	broad.mit.edu	PR-2741		
+PARP14	broad.mit.edu	PR-2741		
+FAM72B	broad.mit.edu	PR-3042	tolerated(0.32)	benign(0)
+FAM72B	broad.mit.edu	PR-3042	deleterious(0.01)	benign(0.34)
+EPRS	broad.mit.edu	PR-3042	deleterious(0.01)	possibly_damaging(0.545)
+NUDT5	broad.mit.edu	PR-3042	tolerated_low_confidence(0.61)	benign(0)
+VWCE	broad.mit.edu	PR-3042	tolerated_low_confidence(0.13)	benign(0.111)
+CACNA1C	broad.mit.edu	PR-3042	deleterious(0)	probably_damaging(0.999)
+PZP	broad.mit.edu	PR-3042	tolerated(0.16)	benign(0.004)
+TENC1	broad.mit.edu	PR-3042		
+PRDM4	broad.mit.edu	PR-3042	tolerated(0.06)	possibly_damaging(0.789)
+RIMBP2	broad.mit.edu	PR-3042	deleterious(0.01)	probably_damaging(0.915)
+ARL11	broad.mit.edu	PR-3042	tolerated(0.25)	benign(0.026)
+PRKCH	broad.mit.edu	PR-3042		
+MAP1A	broad.mit.edu	PR-3042		
+STRC	broad.mit.edu	PR-3042		
+RHBDF1	broad.mit.edu	PR-3042	tolerated(0.32)	benign(0.004)
+LONP2	broad.mit.edu	PR-3042	tolerated(0.23)	benign(0.433)
+SLFN12L	broad.mit.edu	PR-3042	tolerated(0.73)	benign(0.003)
+PTRF	broad.mit.edu	PR-3042	deleterious(0.03)	benign(0.309)
+LAMA3	broad.mit.edu	PR-3042		benign(0.005)
+CPAMD8	broad.mit.edu	PR-3042		
+B9D2	broad.mit.edu	PR-3042	deleterious(0.02)	possibly_damaging(0.67)
+FAM49A	broad.mit.edu	PR-3042		
+ARMC9	broad.mit.edu	PR-3042	deleterious(0.05)	probably_damaging(0.921)
+PROKR2	broad.mit.edu	PR-3042	deleterious(0)	probably_damaging(0.999)
+CABIN1	broad.mit.edu	PR-3042	deleterious(0)	probably_damaging(0.99)
+SGSM1	broad.mit.edu	PR-3042		
+PAQR9	broad.mit.edu	PR-3042	deleterious(0.01)	probably_damaging(0.973)
+MUC4	broad.mit.edu	PR-3042		possibly_damaging(0.882)
+SMIM20	broad.mit.edu	PR-3042	deleterious(0.02)	probably_damaging(0.996)
+PARP8	broad.mit.edu	PR-3042	deleterious(0.04)	benign(0.005)
+PRDM6	broad.mit.edu	PR-3042	deleterious(0.03)	benign(0.039)
+RMND5B	broad.mit.edu	PR-3042		
+KIF13A	broad.mit.edu	PR-3042	deleterious(0.01)	benign(0.424)
+SLC17A2	broad.mit.edu	PR-3042	tolerated(0.06)	benign(0.313)
+TRIM31	broad.mit.edu	PR-3042		
+TNXB	broad.mit.edu	PR-3042		benign(0.207)
+COL10A1	broad.mit.edu	PR-3042		
+EIF2AK1	broad.mit.edu	PR-3042		
+KLHL7	broad.mit.edu	PR-3042		
+PAX4	broad.mit.edu	PR-3042	tolerated(0.13)	benign(0.081)
+WDR60	broad.mit.edu	PR-3042	tolerated(0.1)	probably_damaging(0.979)
+AZIN1	broad.mit.edu	PR-3042		
+COL22A1	broad.mit.edu	PR-3042		unknown(0)
+GABBR2	broad.mit.edu	PR-3042	deleterious_low_confidence(0)	probably_damaging(0.999)
+TNC	broad.mit.edu	PR-3042	deleterious(0)	probably_damaging(1)
+CASK	broad.mit.edu	PR-3042	deleterious(0)	probably_damaging(0.988)
+CAPN6	broad.mit.edu	PR-3042	deleterious(0.01)	possibly_damaging(0.787)
+LPAR6	broad.mit.edu	PR-3042		
+NRG1	broad.mit.edu	PR-3042		
+ZFPM2	broad.mit.edu	PR-3042		
+PLCB3	broad.mit.edu	PR-4240	tolerated(0.36)	benign(0)
+TMEM240	broad.mit.edu	PR-4240		
+PLCH2	broad.mit.edu	PR-4240		
+KIAA2013	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.549)
+CLCNKB	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(1)
+DNAJC8	broad.mit.edu	PR-4240	tolerated(0.15)	probably_damaging(0.952)
+COL16A1	broad.mit.edu	PR-4240		
+LRRC7	broad.mit.edu	PR-4240	deleterious(0.01)	probably_damaging(0.953)
+MOV10	broad.mit.edu	PR-4240	tolerated(0.54)	benign(0.048)
+AMPD1	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(1)
+ATP1A1	broad.mit.edu	PR-4240	tolerated(0.11)	benign(0)
+LCE1B	broad.mit.edu	PR-4240	tolerated_low_confidence(0.06)	unknown(0)
+AQP10	broad.mit.edu	PR-4240	deleterious(0.02)	benign(0.347)
+SPTA1	broad.mit.edu	PR-4240	deleterious(0.01)	probably_damaging(0.972)
+SLC9C2	broad.mit.edu	PR-4240	tolerated(0.39)	benign(0.101)
+BRINP2	broad.mit.edu	PR-4240	tolerated(0.89)	benign(0.016)
+CEP350	broad.mit.edu	PR-4240		benign(0.016)
+FAM129A	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.976)
+PTGS2	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.63)
+B3GALT2	broad.mit.edu	PR-4240		
+LRRN2	broad.mit.edu	PR-4240	tolerated(0.49)	benign(0.02)
+ITPKB	broad.mit.edu	PR-4240	deleterious_low_confidence(0.02)	benign(0.387)
+ACTN2	broad.mit.edu	PR-4240		
+RYR2	broad.mit.edu	PR-4240		probably_damaging(0.978)
+ADO	broad.mit.edu	PR-4240		
+SUFU	broad.mit.edu	PR-4240		
+CUZD1	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.995)
+MUC5B	broad.mit.edu	PR-4240		unknown(0)
+OR51M1	broad.mit.edu	PR-4240		
+RAG1	broad.mit.edu	PR-4240	deleterious_low_confidence(0)	probably_damaging(0.997)
+C11orf48	broad.mit.edu	PR-4240	deleterious_low_confidence(0.01)	probably_damaging(0.988)
+CCDC88B	broad.mit.edu	PR-4240	deleterious(0.02)	possibly_damaging(0.723)
+LTBP3	broad.mit.edu	PR-4240	tolerated(0.15)	benign(0.439)
+DPP3	broad.mit.edu	PR-4240	deleterious(0.01)	benign(0.382)
+ARAP1	broad.mit.edu	PR-4240	deleterious(0)	benign(0.052)
+VPS11	broad.mit.edu	PR-4240		
+OR8D2	broad.mit.edu	PR-4240	deleterious(0.04)	probably_damaging(0.996)
+ESAM	broad.mit.edu	PR-4240	tolerated(0.18)	possibly_damaging(0.901)
+ABCC9	broad.mit.edu	PR-4240	tolerated(0.75)	benign(0.003)
+PDZRN4	broad.mit.edu	PR-4240		
+RAPGEF3	broad.mit.edu	PR-4240		
+ITGA5	broad.mit.edu	PR-4240	tolerated(0.26)	benign(0.007)
+POC1B	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(1)
+OAS3	broad.mit.edu	PR-4240		
+FLT3	broad.mit.edu	PR-4240	tolerated(0.35)	benign(0.201)
+TSC22D1	broad.mit.edu	PR-4240	deleterious(0.02)	unknown(0)
+GPC6	broad.mit.edu	PR-4240	deleterious(0.02)	benign(0.034)
+NALCN	broad.mit.edu	PR-4240	deleterious(0.01)	probably_damaging(0.97)
+MDGA2	broad.mit.edu	PR-4240		
+SIPA1L1	broad.mit.edu	PR-4240		
+LTBP2	broad.mit.edu	PR-4240	tolerated(0.88)	benign(0.001)
+YY1	broad.mit.edu	PR-4240		
+TRPM1	broad.mit.edu	PR-4240	tolerated(0.07)	benign(0.091)
+MGA	broad.mit.edu	PR-4240		
+PLA2G4E	broad.mit.edu	PR-4240	deleterious(0)	benign(0.284)
+GALK2	broad.mit.edu	PR-4240	tolerated(0.11)	benign(0.001)
+FOXB1	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.995)
+FBXL22	broad.mit.edu	PR-4240	tolerated_low_confidence(0.78)	benign(0.018)
+TLE3	broad.mit.edu	PR-4240		
+LRRK1	broad.mit.edu	PR-4240	deleterious_low_confidence(0.01)	possibly_damaging(0.738)
+RRN3	broad.mit.edu	PR-4240	deleterious(0)	benign(0.218)
+PYDC1	broad.mit.edu	PR-4240		
+PKD1L2	broad.mit.edu	PR-4240	deleterious(0.04)	possibly_damaging(0.6)
+MBTPS1	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.827)
+IL17C	broad.mit.edu	PR-4240	tolerated(0.51)	benign(0.022)
+CHD3	broad.mit.edu	PR-4240		
+ULK2	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.996)
+GPR179	broad.mit.edu	PR-4240		
+GPR179	broad.mit.edu	PR-4240	tolerated(0.27)	benign(0.037)
+KRT33A	broad.mit.edu	PR-4240	tolerated(0.12)	benign(0.032)
+PHOSPHO1	broad.mit.edu	PR-4240	tolerated(0.7)	possibly_damaging(0.776)
+SGCA	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.996)
+CUEDC1	broad.mit.edu	PR-4240		
+CEP95	broad.mit.edu	PR-4240	tolerated(0.3)	benign(0.029)
+PRKCA	broad.mit.edu	PR-4240	tolerated(0.34)	benign(0.008)
+AZI1	broad.mit.edu	PR-4240	deleterious(0.04)	benign(0.005)
+CABLES1	broad.mit.edu	PR-4240	deleterious_low_confidence(0.02)	benign(0.441)
+PIK3C3	broad.mit.edu	PR-4240	tolerated(0.6)	benign(0.287)
+MISP	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.985)
+MYO1F	broad.mit.edu	PR-4240		
+MUC16	broad.mit.edu	PR-4240		unknown(0)
+ATG4D	broad.mit.edu	PR-4240	tolerated(0.71)	benign(0.044)
+IL27RA	broad.mit.edu	PR-4240		
+RASAL3	broad.mit.edu	PR-4240		
+ZNF98	broad.mit.edu	PR-4240		
+ANKRD27	broad.mit.edu	PR-4240		
+LTBP4	broad.mit.edu	PR-4240		
+ARHGEF1	broad.mit.edu	PR-4240	tolerated(1)	benign(0)
+KCNJ14	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.999)
+NTSR2	broad.mit.edu	PR-4240	tolerated(0.12)	benign(0.128)
+EML4	broad.mit.edu	PR-4240		
+USP34	broad.mit.edu	PR-4240		
+SPRED2	broad.mit.edu	PR-4240	tolerated(0.12)	probably_damaging(0.951)
+ACOXL	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.975)
+SCTR	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(1)
+GPR148	broad.mit.edu	PR-4240	tolerated(0.34)	benign(0.174)
+AMER3	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.992)
+PLA2R1	broad.mit.edu	PR-4240		
+CERS6	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.996)
+TTN	broad.mit.edu	PR-4240		
+COL5A2	broad.mit.edu	PR-4240		unknown(0)
+SPEG	broad.mit.edu	PR-4240		
+NGEF	broad.mit.edu	PR-4240		
+HDLBP	broad.mit.edu	PR-4240		
+R3HDML	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.984)
+HELZ2	broad.mit.edu	PR-4240	tolerated(0.43)	benign(0.046)
+PSMG1	broad.mit.edu	PR-4240	tolerated(0.12)	probably_damaging(1)
+MYO18B	broad.mit.edu	PR-4240		
+GTSE1	broad.mit.edu	PR-4240		
+SLC22A13	broad.mit.edu	PR-4240	tolerated(0.09)	benign(0.18)
+SCN10A	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.983)
+ZKSCAN7	broad.mit.edu	PR-4240		
+PLXNB1	broad.mit.edu	PR-4240	tolerated(0.97)	probably_damaging(0.997)
+ILDR1	broad.mit.edu	PR-4240		
+KPNA1	broad.mit.edu	PR-4240	tolerated(0.18)	possibly_damaging(0.592)
+MGLL	broad.mit.edu	PR-4240	deleterious(0.01)	benign(0.001)
+PRR23C	broad.mit.edu	PR-4240		
+C3orf58	broad.mit.edu	PR-4240	tolerated(0.05)	possibly_damaging(0.517)
+TSC22D2	broad.mit.edu	PR-4240	tolerated(0.46)	benign(0)
+GNB4	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.997)
+TBC1D1	broad.mit.edu	PR-4240		
+SHISA3	broad.mit.edu	PR-4240		
+NDST4	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.993)
+LRAT	broad.mit.edu	PR-4240		
+TUBB7P	broad.mit.edu	PR-4240		
+PRDM9	broad.mit.edu	PR-4240	tolerated(0.33)	benign(0.004)
+CARD6	broad.mit.edu	PR-4240	tolerated(0.29)	benign(0.006)
+FBXL21	broad.mit.edu	PR-4240		
+ADRA1B	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(0.997)
+CCNG1	broad.mit.edu	PR-4240		
+KIF6	broad.mit.edu	PR-4240		
+GTPBP2	broad.mit.edu	PR-4240		
+DEFB113	broad.mit.edu	PR-4240	tolerated_low_confidence(0.33)	benign(0.047)
+COL12A1	broad.mit.edu	PR-4240		probably_damaging(0.999)
+HIVEP2	broad.mit.edu	PR-4240	deleterious(0.04)	probably_damaging(0.998)
+STXBP5	broad.mit.edu	PR-4240	tolerated(0.75)	benign(0)
+DNAH11	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.867)
+KBTBD2	broad.mit.edu	PR-4240	tolerated(0.33)	possibly_damaging(0.571)
+EPDR1	broad.mit.edu	PR-4240	tolerated(0.07)	benign(0.005)
+ZMIZ2	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.789)
+VSTM2A	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.762)
+ZNF727	broad.mit.edu	PR-4240		
+NCF1	broad.mit.edu	PR-4240		
+STEAP2	broad.mit.edu	PR-4240		
+PEX1	broad.mit.edu	PR-4240		
+SAMD9	broad.mit.edu	PR-4240		
+AGFG2	broad.mit.edu	PR-4240	tolerated(0.16)	benign(0.1)
+MUC17	broad.mit.edu	PR-4240		
+LAMB1	broad.mit.edu	PR-4240	tolerated(0.69)	benign(0.005)
+GRM8	broad.mit.edu	PR-4240	tolerated(0.18)	probably_damaging(0.939)
+ZNF800	broad.mit.edu	PR-4240		
+WDR60	broad.mit.edu	PR-4240		
+WDR60	broad.mit.edu	PR-4240		
+ARHGEF10	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.588)
+IMPA1	broad.mit.edu	PR-4240	deleterious(0.04)	probably_damaging(0.948)
+PKHD1L1	broad.mit.edu	PR-4240	deleterious(0)	possibly_damaging(0.888)
+SYBU	broad.mit.edu	PR-4240		
+TBC1D31	broad.mit.edu	PR-4240		
+CCIN	broad.mit.edu	PR-4240		
+GCNT1	broad.mit.edu	PR-4240	deleterious(0)	probably_damaging(1)
+MURC	broad.mit.edu	PR-4240	tolerated_low_confidence(0.11)	benign(0.164)
+COL5A1	broad.mit.edu	PR-4240		possibly_damaging(0.812)
+COL5A1	broad.mit.edu	PR-4240		unknown(0)
+ABCA2	broad.mit.edu	PR-4240	tolerated(0.29)	benign(0.382)
+NPDC1	broad.mit.edu	PR-4240		
+SLC34A3	broad.mit.edu	PR-4240		
+FGF13	broad.mit.edu	PR-4240		
+WNT2B	broad.mit.edu	PR-4240		
+FRMPD2	broad.mit.edu	PR-4240		
+C16orf91	broad.mit.edu	PR-4240		
+BIN1	broad.mit.edu	PR-4240		
+METAP1D	broad.mit.edu	PR-4240		
+PRRC2A	broad.mit.edu	PR-4240		
+C9orf24	broad.mit.edu	PR-4240		
+ZNF799	broad.mit.edu	PR-7520		
+TP53	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.998)
+ZNF799	broad.mit.edu	PR-7520		
+ZNF799	broad.mit.edu	PR-7520	deleterious(0.03)	benign(0.227)
+ARHGEF16	broad.mit.edu	PR-7520	deleterious(0.02)	probably_damaging(0.968)
+LRRC47	broad.mit.edu	PR-7520		
+CHD5	broad.mit.edu	PR-7520		
+CAMTA1	broad.mit.edu	PR-7520	tolerated(0.11)	possibly_damaging(0.541)
+CASZ1	broad.mit.edu	PR-7520		
+MTOR	broad.mit.edu	PR-7520	tolerated(0.26)	benign(0.068)
+MIIP	broad.mit.edu	PR-7520	tolerated(0.08)	benign(0.073)
+PRAMEF1	broad.mit.edu	PR-7520		
+CELA2A	broad.mit.edu	PR-7520	tolerated(0.37)	benign(0.005)
+TMEM82	broad.mit.edu	PR-7520		
+MACF1	broad.mit.edu	PR-7520		probably_damaging(0.998)
+MACF1	broad.mit.edu	PR-7520		benign(0.007)
+PARS2	broad.mit.edu	PR-7520		
+OVGP1	broad.mit.edu	PR-7520		
+SPAG17	broad.mit.edu	PR-7520		
+HRNR	broad.mit.edu	PR-7520		
+CRNN	broad.mit.edu	PR-7520	tolerated(0.07)	benign(0.019)
+IL6R	broad.mit.edu	PR-7520	deleterious(0)	benign(0.38)
+PEAR1	broad.mit.edu	PR-7520	deleterious(0.01)	possibly_damaging(0.776)
+CFHR4	broad.mit.edu	PR-7520		
+GJC2	broad.mit.edu	PR-7520		
+CHRM3	broad.mit.edu	PR-7520		
+FMN2	broad.mit.edu	PR-7520		
+USP54	broad.mit.edu	PR-7520	tolerated(0.16)	probably_damaging(0.999)
+PSD	broad.mit.edu	PR-7520		
+CTBP2	broad.mit.edu	PR-7520		
+JAKMIP3	broad.mit.edu	PR-7520	deleterious(0.04)	benign(0.012)
+TRIM66	broad.mit.edu	PR-7520		
+MRVI1	broad.mit.edu	PR-7520	tolerated(0.58)	benign(0.059)
+TCP11L1	broad.mit.edu	PR-7520	tolerated(0.15)	benign(0.002)
+SMTNL1	broad.mit.edu	PR-7520		
+SYT7	broad.mit.edu	PR-7520	tolerated(0.11)	benign(0.006)
+ROM1	broad.mit.edu	PR-7520		
+KLC2	broad.mit.edu	PR-7520	deleterious(0.05)	possibly_damaging(0.774)
+DDI1	broad.mit.edu	PR-7520	deleterious(0.01)	benign(0.122)
+KIRREL3	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.981)
+ABCC9	broad.mit.edu	PR-7520	deleterious(0.04)	possibly_damaging(0.889)
+LRRK2	broad.mit.edu	PR-7520		
+CNTN1	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.922)
+NCKAP5L	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.994)
+AVIL	broad.mit.edu	PR-7520		
+CTDSP2	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.988)
+GPR133	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(1)
+ZIC2	broad.mit.edu	PR-7520	deleterious(0.01)	probably_damaging(0.911)
+IPO4	broad.mit.edu	PR-7520	tolerated(0.08)	benign(0.002)
+PCNX	broad.mit.edu	PR-7520	tolerated_low_confidence(0.47)	benign(0.009)
+SIPA1L1	broad.mit.edu	PR-7520	tolerated(0.41)	possibly_damaging(0.843)
+AK7	broad.mit.edu	PR-7520		
+CDC42BPB	broad.mit.edu	PR-7520	deleterious(0)	possibly_damaging(0.88)
+OCA2	broad.mit.edu	PR-7520		
+DUOXA1	broad.mit.edu	PR-7520	deleterious_low_confidence(0)	benign(0.229)
+CHRNA3	broad.mit.edu	PR-7520		
+CORO7	broad.mit.edu	PR-7520	tolerated(0.08)	possibly_damaging(0.882)
+COG7	broad.mit.edu	PR-7520		
+RBBP6	broad.mit.edu	PR-7520	deleterious_low_confidence(0)	unknown(0)
+HYDIN	broad.mit.edu	PR-7520		benign(0.014)
+SYCE1L	broad.mit.edu	PR-7520	tolerated(0.41)	benign(0.002)
+CLEC10A	broad.mit.edu	PR-7520	deleterious(0)	possibly_damaging(0.656)
+NEURL4	broad.mit.edu	PR-7520		
+SLC5A10	broad.mit.edu	PR-7520		
+KRTAP1-5	broad.mit.edu	PR-7520		
+KRTAP4-12	broad.mit.edu	PR-7520	tolerated(0.05)	unknown(0)
+GIP	broad.mit.edu	PR-7520	tolerated(0.09)	benign(0.008)
+BZRAP1	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.999)
+C17orf47	broad.mit.edu	PR-7520	tolerated(0.08)	possibly_damaging(0.682)
+SEC14L1	broad.mit.edu	PR-7520	deleterious(0.02)	benign(0.046)
+TBC1D16	broad.mit.edu	PR-7520	tolerated(0.05)	probably_damaging(0.967)
+TUBB6	broad.mit.edu	PR-7520		
+ZNF24	broad.mit.edu	PR-7520	deleterious(0)	possibly_damaging(0.803)
+LOXHD1	broad.mit.edu	PR-7520		
+ZNF516	broad.mit.edu	PR-7520		
+ATP8B3	broad.mit.edu	PR-7520		
+DOT1L	broad.mit.edu	PR-7520	tolerated(0.26)	probably_damaging(0.991)
+BRD4	broad.mit.edu	PR-7520		benign(0.153)
+UNC13A	broad.mit.edu	PR-7520		
+C19orf12	broad.mit.edu	PR-7520	tolerated(0.09)	possibly_damaging(0.495)
+WDR87	broad.mit.edu	PR-7520		
+RYR1	broad.mit.edu	PR-7520		possibly_damaging(0.707)
+SMG9	broad.mit.edu	PR-7520	deleterious(0.03)	probably_damaging(0.998)
+LRRC4B	broad.mit.edu	PR-7520		
+ZNF805	broad.mit.edu	PR-7520	tolerated(0.06)	possibly_damaging(0.833)
+ZNF497	broad.mit.edu	PR-7520	tolerated(0.07)	benign(0.016)
+ZNF513	broad.mit.edu	PR-7520		
+ERLEC1	broad.mit.edu	PR-7520		
+MPHOSPH10	broad.mit.edu	PR-7520		
+PSD4	broad.mit.edu	PR-7520		
+ARHGAP15	broad.mit.edu	PR-7520		
+LY75	broad.mit.edu	PR-7520	tolerated(0.05)	benign(0.11)
+C2orf69	broad.mit.edu	PR-7520		
+C2orf47	broad.mit.edu	PR-7520	deleterious_low_confidence(0.05)	benign(0.261)
+ALS2	broad.mit.edu	PR-7520	deleterious(0.01)	benign(0.119)
+UNC80	broad.mit.edu	PR-7520		probably_damaging(0.99)
+COL4A4	broad.mit.edu	PR-7520		probably_damaging(0.997)
+SP140L	broad.mit.edu	PR-7520		
+GBX2	broad.mit.edu	PR-7520		
+OR6B2	broad.mit.edu	PR-7520	deleterious(0.01)	benign(0.008)
+PRR21	broad.mit.edu	PR-7520		
+SCRT2	broad.mit.edu	PR-7520	tolerated(0.05)	benign(0.03)
+CRNKL1	broad.mit.edu	PR-7520		
+C20orf26	broad.mit.edu	PR-7520	deleterious(0.03)	benign(0.274)
+TTLL9	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.953)
+PTPRT	broad.mit.edu	PR-7520		
+PCK1	broad.mit.edu	PR-7520	tolerated(0.27)	benign(0.001)
+LAMA5	broad.mit.edu	PR-7520		benign(0)
+HELZ2	broad.mit.edu	PR-7520	tolerated(0.19)	benign(0.04)
+ZDHHC8	broad.mit.edu	PR-7520	deleterious(0)	benign(0.415)
+APOL3	broad.mit.edu	PR-7520	deleterious(0.03)	benign(0.004)
+CNTN6	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(1)
+ATG7	broad.mit.edu	PR-7520	tolerated(0.69)	benign(0.007)
+ARPP21	broad.mit.edu	PR-7520	deleterious(0.03)	benign(0.094)
+NBEAL2	broad.mit.edu	PR-7520	tolerated(0.12)	benign(0.17)
+GPX1	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.995)
+RNF123	broad.mit.edu	PR-7520		
+RAD54L2	broad.mit.edu	PR-7520	tolerated(0.08)	benign(0.057)
+DENND6A	broad.mit.edu	PR-7520		
+FLNB	broad.mit.edu	PR-7520	tolerated(0.81)	benign(0.217)
+NFKBIZ	broad.mit.edu	PR-7520		
+USP13	broad.mit.edu	PR-7520	tolerated(0.18)	probably_damaging(0.961)
+ABCC5	broad.mit.edu	PR-7520	tolerated(0.06)	possibly_damaging(0.817)
+DOK7	broad.mit.edu	PR-7520	tolerated(0.14)	benign(0.443)
+KIAA1239	broad.mit.edu	PR-7520		
+COMMD8	broad.mit.edu	PR-7520	deleterious(0)	possibly_damaging(0.559)
+FIP1L1	broad.mit.edu	PR-7520	tolerated(0.18)	benign(0.011)
+EPHA5	broad.mit.edu	PR-7520		
+COQ2	broad.mit.edu	PR-7520	tolerated(0.29)	benign(0.01)
+CENPE	broad.mit.edu	PR-7520		benign(0.041)
+ANK2	broad.mit.edu	PR-7520		probably_damaging(0.999)
+FAT4	broad.mit.edu	PR-7520		
+INTU	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.982)
+SMAD1	broad.mit.edu	PR-7520	deleterious(0.01)	possibly_damaging(0.703)
+TLL1	broad.mit.edu	PR-7520	tolerated(0.3)	benign(0)
+IRX1	broad.mit.edu	PR-7520		
+EGFLAM	broad.mit.edu	PR-7520		
+ARHGEF28	broad.mit.edu	PR-7520	tolerated(0.11)	benign(0)
+MCTP1	broad.mit.edu	PR-7520		
+GABRA1	broad.mit.edu	PR-7520		
+NOL7	broad.mit.edu	PR-7520		
+ZNF311	broad.mit.edu	PR-7520	deleterious(0.02)	probably_damaging(0.926)
+HSPA1L	broad.mit.edu	PR-7520	deleterious_low_confidence(0)	possibly_damaging(0.902)
+TRERF1	broad.mit.edu	PR-7520		
+CD2AP	broad.mit.edu	PR-7520	tolerated(0.11)	benign(0.129)
+PKHD1	broad.mit.edu	PR-7520		
+EYS	broad.mit.edu	PR-7520	tolerated(0.71)	benign(0.002)
+SNAP91	broad.mit.edu	PR-7520		
+LAMA2	broad.mit.edu	PR-7520		
+OSBPL3	broad.mit.edu	PR-7520	deleterious(0)	benign(0.074)
+POU6F2	broad.mit.edu	PR-7520		
+TYW1B	broad.mit.edu	PR-7520		
+ABCB4	broad.mit.edu	PR-7520	deleterious(0.01)	possibly_damaging(0.654)
+PPP1R9A	broad.mit.edu	PR-7520	tolerated(0.17)	benign(0.196)
+ZAN	broad.mit.edu	PR-7520		benign(0)
+MUC17	broad.mit.edu	PR-7520		
+KLHDC10	broad.mit.edu	PR-7520	deleterious(0.01)	probably_damaging(0.956)
+CALD1	broad.mit.edu	PR-7520	deleterious(0)	unknown(0)
+CLCN1	broad.mit.edu	PR-7520	deleterious(0.01)	probably_damaging(0.979)
+CHPF2	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.97)
+KMT2C	broad.mit.edu	PR-7520		
+EFCAB1	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.995)
+TRPA1	broad.mit.edu	PR-7520		
+GRHL2	broad.mit.edu	PR-7520		
+EXT1	broad.mit.edu	PR-7520		
+ATAD2	broad.mit.edu	PR-7520	tolerated(0.06)	benign(0.002)
+SH3GL2	broad.mit.edu	PR-7520	tolerated(0.49)	benign(0.254)
+RORB	broad.mit.edu	PR-7520		
+TRIM14	broad.mit.edu	PR-7520	deleterious(0.05)	benign(0.028)
+ZNF462	broad.mit.edu	PR-7520		
+ST6GALNAC6	broad.mit.edu	PR-7520		possibly_damaging(0.906)
+NUP214	broad.mit.edu	PR-7520		benign(0.424)
+NTNG2	broad.mit.edu	PR-7520	tolerated(0.17)	benign(0.005)
+TSC1	broad.mit.edu	PR-7520	deleterious(0.05)	possibly_damaging(0.772)
+ADAMTSL2	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.993)
+GPSM1	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.928)
+AGPAT2	broad.mit.edu	PR-7520		
+ABCA2	broad.mit.edu	PR-7520	deleterious_low_confidence(0)	unknown(0)
+DMD	broad.mit.edu	PR-7520		possibly_damaging(0.81)
+TEX11	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(0.999)
+ZNF185	broad.mit.edu	PR-7520	deleterious(0)	probably_damaging(1)
+PRPF38A	broad.mit.edu	PR-7520		
+MUC2	broad.mit.edu	PR-7520		
+EEA1	broad.mit.edu	PR-7520		
+ANKLE2	broad.mit.edu	PR-7520		
+AKAP6	broad.mit.edu	PR-7520		
+PDPK1	broad.mit.edu	PR-7520		
+APOBR	broad.mit.edu	PR-7520		
+CNNM4	broad.mit.edu	PR-7520		
+BHLHE23	broad.mit.edu	PR-7520		
+PRR14L	broad.mit.edu	PR-7520		
+C1QTNF7	broad.mit.edu	PR-7520		
+GABRA1	broad.mit.edu	PR-7520		
+PRDM13	broad.mit.edu	PR-7520		
+HDAC9	broad.mit.edu	PR-7520		
+CA2	broad.mit.edu	PR-7520		
+FAM157A	broad.mit.edu	PR-STID0000000415		
+GPR61	broad.mit.edu	PR-STID0000000415		
+CELF3	broad.mit.edu	PR-STID0000000415	tolerated(0.15)	probably_damaging(0.981)
+SLC9C2	broad.mit.edu	PR-STID0000000415	tolerated(0.65)	benign(0)
+NVL	broad.mit.edu	PR-STID0000000415	deleterious(0)	probably_damaging(0.999)
+GFRA1	broad.mit.edu	PR-STID0000000415		
+DEAF1	broad.mit.edu	PR-STID0000000415	tolerated_low_confidence(0.63)	benign(0.001)
+NLRP10	broad.mit.edu	PR-STID0000000415	tolerated(0.18)	benign(0.006)
+OR5T3	broad.mit.edu	PR-STID0000000415		
+TMEM225	broad.mit.edu	PR-STID0000000415	deleterious(0)	possibly_damaging(0.713)
+ZBTB44	broad.mit.edu	PR-STID0000000415	deleterious(0.03)	probably_damaging(0.933)
+POLE	broad.mit.edu	PR-STID0000000415		
+TUBA3C	broad.mit.edu	PR-STID0000000415	deleterious_low_confidence(0.03)	probably_damaging(1)
+DLGAP5	broad.mit.edu	PR-STID0000000415		
+AQR	broad.mit.edu	PR-STID0000000415		
+TGM7	broad.mit.edu	PR-STID0000000415	tolerated(0.2)	benign(0.004)
+GOLGA6A	broad.mit.edu	PR-STID0000000415		
+TMC5	broad.mit.edu	PR-STID0000000415		
+PLLP	broad.mit.edu	PR-STID0000000415	tolerated(0.62)	benign(0.002)
+HYDIN	broad.mit.edu	PR-STID0000000415		probably_damaging(0.958)
+C17orf74	broad.mit.edu	PR-STID0000000415	tolerated(0.24)	benign(0)
+TP53	broad.mit.edu	PR-STID0000000415	deleterious(0.03)	possibly_damaging(0.851)
+DNAH17	broad.mit.edu	PR-STID0000000415		benign(0.148)
+CD22	broad.mit.edu	PR-STID0000000415	tolerated(0.63)	benign(0.001)
+PSENEN	broad.mit.edu	PR-STID0000000415	deleterious(0.04)	possibly_damaging(0.872)
+WDR62	broad.mit.edu	PR-STID0000000415		
+PSG7	broad.mit.edu	PR-STID0000000415		
+TRPM4	broad.mit.edu	PR-STID0000000415	tolerated(0.11)	benign(0.041)
+ZNF880	broad.mit.edu	PR-STID0000000415	tolerated(0.12)	benign(0.013)
+LILRB2	broad.mit.edu	PR-STID0000000415	tolerated(1)	benign(0)
+TRIM28	broad.mit.edu	PR-STID0000000415	deleterious(0.01)	unknown(0)
+MYCN	broad.mit.edu	PR-STID0000000415	tolerated(0.26)	benign(0.01)
+FAM179A	broad.mit.edu	PR-STID0000000415	tolerated(0.11)	benign(0.367)
+CACNB4	broad.mit.edu	PR-STID0000000415	tolerated(1)	benign(0.002)
+CERS6	broad.mit.edu	PR-STID0000000415		
+TTN	broad.mit.edu	PR-STID0000000415		
+DNAH7	broad.mit.edu	PR-STID0000000415		
+PLCL1	broad.mit.edu	PR-STID0000000415	deleterious(0)	probably_damaging(0.997)
+NEU4	broad.mit.edu	PR-STID0000000415	deleterious(0.01)	possibly_damaging(0.877)
+RIPK4	broad.mit.edu	PR-STID0000000415		
+SCARF2	broad.mit.edu	PR-STID0000000415	deleterious(0.02)	probably_damaging(0.999)
+ITPR1	broad.mit.edu	PR-STID0000000415		
+RBM6	broad.mit.edu	PR-STID0000000415		
+GPR128	broad.mit.edu	PR-STID0000000415		
+GOLPH3	broad.mit.edu	PR-STID0000000415	tolerated(0.63)	benign(0.412)
+DND1	broad.mit.edu	PR-STID0000000415		
+PCDHA8	broad.mit.edu	PR-STID0000000415		
+PCDHA8	broad.mit.edu	PR-STID0000000415		
+PCDHB11	broad.mit.edu	PR-STID0000000415		
+TCERG1	broad.mit.edu	PR-STID0000000415	deleterious(0)	unknown(0)
+CDHR2	broad.mit.edu	PR-STID0000000415	deleterious(0)	probably_damaging(0.993)
+GABBR1	broad.mit.edu	PR-STID0000000415	tolerated_low_confidence(0.12)	benign(0.003)
+MYO6	broad.mit.edu	PR-STID0000000415	tolerated(0.22)	unknown(0)
+TBX18	broad.mit.edu	PR-STID0000000415	tolerated(0.22)	probably_damaging(0.994)
+KIAA2026	broad.mit.edu	PR-STID0000000415	tolerated(0.64)	benign(0.167)
+RALGDS	broad.mit.edu	PR-STID0000000415		
+STARD8	broad.mit.edu	PR-STID0000000415		
+CACNA2D4	broad.mit.edu	PR-STID0000000415		
+KDELR3	broad.mit.edu	PR-STID0000000415		
+YTHDC1	broad.mit.edu	PR-STID0000000415		
+APC	broad.mit.edu	PR-STID0000000415		
+FAM221B	broad.mit.edu	PR-STID0000000415		
+C1orf127	broad.mit.edu	PR-STID0000002682	deleterious_low_confidence(0)	probably_damaging(0.942)
+PTPRU	broad.mit.edu	PR-STID0000002682	deleterious(0)	probably_damaging(0.984)
+ASH1L	broad.mit.edu	PR-STID0000002682	tolerated_low_confidence(0.06)	probably_damaging(0.979)
+MPZL1	broad.mit.edu	PR-STID0000002682	deleterious(0)	probably_damaging(0.999)
+CEP350	broad.mit.edu	PR-STID0000002682		
+SOX13	broad.mit.edu	PR-STID0000002682	deleterious(0.01)	benign(0.005)
+PARG	broad.mit.edu	PR-STID0000002682	tolerated(0.54)	benign(0.03)
+KNDC1	broad.mit.edu	PR-STID0000002682	deleterious(0.04)	benign(0.028)
+SYCE1	broad.mit.edu	PR-STID0000002682		
+MRGPRX4	broad.mit.edu	PR-STID0000002682		
+UNC93B1	broad.mit.edu	PR-STID0000002682	tolerated(1)	benign(0.003)
+KIAA1377	broad.mit.edu	PR-STID0000002682		
+BIRC2	broad.mit.edu	PR-STID0000002682		
+KMT2A	broad.mit.edu	PR-STID0000002682		
+DDX11	broad.mit.edu	PR-STID0000002682		
+ANKDD1A	broad.mit.edu	PR-STID0000002682		
+NOMO2	broad.mit.edu	PR-STID0000002682		
+NOMO2	broad.mit.edu	PR-STID0000002682	tolerated(1)	benign(0)
+POLR3E	broad.mit.edu	PR-STID0000002682		
+PGS1	broad.mit.edu	PR-STID0000002682		
+RAD23A	broad.mit.edu	PR-STID0000002682		
+SBSN	broad.mit.edu	PR-STID0000002682	tolerated(0.07)	possibly_damaging(0.908)
+FOSL2	broad.mit.edu	PR-STID0000002682	deleterious(0)	probably_damaging(0.999)
+CCDC141	broad.mit.edu	PR-STID0000002682		
+MKKS	broad.mit.edu	PR-STID0000002682	tolerated(0.59)	benign(0.035)
+MAP3K7CL	broad.mit.edu	PR-STID0000002682		
+ERG	broad.mit.edu	PR-STID0000002682		
+MN1	broad.mit.edu	PR-STID0000002682		benign(0.446)
+RASD2	broad.mit.edu	PR-STID0000002682		
+TUBGCP6	broad.mit.edu	PR-STID0000002682	tolerated(0.05)	probably_damaging(0.995)
+SELK	broad.mit.edu	PR-STID0000002682		
+C3orf17	broad.mit.edu	PR-STID0000002682		
+HHIP	broad.mit.edu	PR-STID0000002682	deleterious(0.02)	benign(0.056)
+KIF2A	broad.mit.edu	PR-STID0000002682	tolerated(0.08)	benign(0.007)
+MUC21	broad.mit.edu	PR-STID0000002682	tolerated(0.37)	unknown(0)
+FABP7	broad.mit.edu	PR-STID0000002682		
+POM121L12	broad.mit.edu	PR-STID0000002682	tolerated(0.13)	probably_damaging(0.958)
+TYW1	broad.mit.edu	PR-STID0000002682	tolerated_low_confidence(0.4)	benign(0)
+GCC1	broad.mit.edu	PR-STID0000002682	tolerated(1)	benign(0.003)
+KIAA0196	broad.mit.edu	PR-STID0000002682	deleterious(0.03)	benign(0.075)
+DCAF12	broad.mit.edu	PR-STID0000002682		
+RPL12	broad.mit.edu	PR-STID0000002682		
+MPP1	broad.mit.edu	PR-STID0000002682	tolerated(1)	benign(0)
+ARID1A	broad.mit.edu	PR-STID0000002682		
+PLCB3	broad.mit.edu	PR-STID0000002682		
+ATM	broad.mit.edu	PR-STID0000002682		
+POTEF	broad.mit.edu	PR-STID0000002872	tolerated_low_confidence(1)	benign(0.001)
+SKI	broad.mit.edu	PR-STID0000002872	tolerated(0.08)	possibly_damaging(0.656)
+VWA5B1	broad.mit.edu	PR-STID0000002872	deleterious(0)	probably_damaging(0.978)
+GRHL3	broad.mit.edu	PR-STID0000002872	deleterious(0)	possibly_damaging(0.676)
+TUBB8	broad.mit.edu	PR-STID0000002872	tolerated_low_confidence(0.05)	probably_damaging(0.937)
+SCYL1	broad.mit.edu	PR-STID0000002872	tolerated(0.11)	possibly_damaging(0.836)
+PRB2	broad.mit.edu	PR-STID0000002872	tolerated_low_confidence(0.75)	unknown(0)
+KRT80	broad.mit.edu	PR-STID0000002872	deleterious(0.04)	benign(0.126)
+CLIP1	broad.mit.edu	PR-STID0000002872		
+MLNR	broad.mit.edu	PR-STID0000002872		
+ATP7B	broad.mit.edu	PR-STID0000002872	deleterious(0)	probably_damaging(0.999)
+R3HDM4	broad.mit.edu	PR-STID0000002872	tolerated(0.44)	possibly_damaging(0.765)
+ASPRV1	broad.mit.edu	PR-STID0000002872	deleterious(0.01)	probably_damaging(0.965)
+INO80B	broad.mit.edu	PR-STID0000002872	tolerated(0.39)	probably_damaging(0.997)
+THSD7B	broad.mit.edu	PR-STID0000002872	deleterious(0.01)	probably_damaging(0.942)
+XRCC5	broad.mit.edu	PR-STID0000002872	deleterious(0)	probably_damaging(0.933)
+NCOA6	broad.mit.edu	PR-STID0000002872		benign(0.046)
+C22orf42	broad.mit.edu	PR-STID0000002872	deleterious_low_confidence(0)	benign(0.092)
+MST1	broad.mit.edu	PR-STID0000002872	tolerated(0.07)	benign(0.028)
+KCNIP1	broad.mit.edu	PR-STID0000002872		
+MYL7	broad.mit.edu	PR-STID0000002872		
+GRM3	broad.mit.edu	PR-STID0000002872		
+EPB41L4B	broad.mit.edu	PR-STID0000002872	deleterious_low_confidence(0)	probably_damaging(0.994)
+XKRX	broad.mit.edu	PR-STID0000002872	tolerated(0.37)	probably_damaging(0.998)
+MBNL3	broad.mit.edu	PR-STID0000002872	deleterious(0.01)	probably_damaging(0.946)
+ZBTB37	broad.mit.edu	PR-STID0000002872		
+CCDC63	broad.mit.edu	PR-STID0000002872		
+COL25A1	broad.mit.edu	PR-STID0000002872		
+POTEF	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(1)	benign(0.001)
+FAM35A	broad.mit.edu	PR-STID0000003127		
+NBPF1	broad.mit.edu	PR-STID0000003127	tolerated(0.08)	benign(0.017)
+PRAMEF4	broad.mit.edu	PR-STID0000003127	tolerated(0.09)	benign(0.276)
+IGSF21	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.43)	benign(0.001)
+EPHB2	broad.mit.edu	PR-STID0000003127	deleterious(0.01)	probably_damaging(0.909)
+NBPF10	broad.mit.edu	PR-STID0000003127		
+CA14	broad.mit.edu	PR-STID0000003127	deleterious(0)	benign(0.185)
+MUC1	broad.mit.edu	PR-STID0000003127	tolerated(0.16)	benign(0.002)
+MUC1	broad.mit.edu	PR-STID0000003127		
+OBSCN	broad.mit.edu	PR-STID0000003127		benign(0.032)
+OR2L3	broad.mit.edu	PR-STID0000003127		
+CUBN	broad.mit.edu	PR-STID0000003127		
+AGAP5	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.21)	benign(0)
+C10orf90	broad.mit.edu	PR-STID0000003127	tolerated(0.12)	benign(0.077)
+BRSK2	broad.mit.edu	PR-STID0000003127	deleterious(0)	possibly_damaging(0.849)
+OR8K1	broad.mit.edu	PR-STID0000003127	deleterious_low_confidence(0)	probably_damaging(0.999)
+MFRP	broad.mit.edu	PR-STID0000003127		
+DDX11	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.88)	benign(0)
+KMT2D	broad.mit.edu	PR-STID0000003127		
+HECTD4	broad.mit.edu	PR-STID0000003127		probably_damaging(0.943)
+ERCC5	broad.mit.edu	PR-STID0000003127	deleterious(0.01)	benign(0.226)
+FAM86A	broad.mit.edu	PR-STID0000003127	tolerated(0.5)	benign(0.006)
+SMG1	broad.mit.edu	PR-STID0000003127		
+SLC12A4	broad.mit.edu	PR-STID0000003127	tolerated(0.31)	benign(0.002)
+SOCS6	broad.mit.edu	PR-STID0000003127	deleterious_low_confidence(0)	probably_damaging(0.999)
+KANK3	broad.mit.edu	PR-STID0000003127	deleterious(0.04)	possibly_damaging(0.453)
+LGI4	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(1)
+YPEL5	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.45)	benign(0.001)
+FAM124B	broad.mit.edu	PR-STID0000003127		
+NYAP2	broad.mit.edu	PR-STID0000003127		
+CAPN10	broad.mit.edu	PR-STID0000003127	tolerated(0.74)	benign(0.063)
+KCNJ15	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(1)
+RRP7A	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(0.998)
+PKDREJ	broad.mit.edu	PR-STID0000003127		
+ARHGAP31	broad.mit.edu	PR-STID0000003127		
+RP11-723O4.6	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(1)
+ADH1B	broad.mit.edu	PR-STID0000003127		
+SDHA	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.34)	benign(0.01)
+RUNX2	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(0.997)
+CACNA2D1	broad.mit.edu	PR-STID0000003127	deleterious(0.04)	benign(0.002)
+ADCY8	broad.mit.edu	PR-STID0000003127	deleterious(0)	probably_damaging(0.915)
+INVS	broad.mit.edu	PR-STID0000003127		
+C9orf9	broad.mit.edu	PR-STID0000003127		
+USP27X	broad.mit.edu	PR-STID0000003127	tolerated_low_confidence(0.11)	benign(0)
+MAGEA10	broad.mit.edu	PR-STID0000003127	tolerated(0.12)	benign(0.052)
+FASN	broad.mit.edu	PR-STID0000003127		
+FOXC1	broad.mit.edu	PR-STID0000003127		
