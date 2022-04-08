@@ -5,9 +5,8 @@ library(ggpubr)
 library(gridExtra)
 library(survival)
 library(survminer)
-# Note: Run this after running all on "shiny app V3 - MAP3K7 loss.Rmd"
+# Note: Run this after running all on "shiny app V4 - MAP3K7 loss.Rmd"
 #---------------------------------------LOAD WORKSPACE--------------------------
-load("~/Github/Projects/shiny app MAP3K7 loss/shiny app V3 MAP3K7 loss.RData")
 #---------------------------------------RANKED LIST-----------------------------
 gene.rank.dotplot <- function(input){
   pdf("Gene Rank.pdf")
@@ -15,7 +14,7 @@ gene.rank.dotplot <- function(input){
   for (i in 1:nrow(input)){
     gene <- input$`Hugo Symbol`[i]
     gene.layer <- subset(input,  `Hugo Symbol` == gene)
-    print((ggplot(input, aes(`Gene Rank`, `-log10(Molecular FDR)`, label = `Hugo Symbol`))
+    print((ggplot(input, aes(`Gene Rank`, `Subtype Survival Log-Rank p-val`, label = `Hugo Symbol`))
       + geom_point() 
       + geom_point(data = gene.layer, colour="red")
       + geom_text_repel(data = subset(input, `Hugo Symbol` == gene), color = "red", nudge_x = 0, nudge_y = .3)
@@ -57,15 +56,15 @@ genomic.plots <- function(summary.full){
     gene <- summary.full$`Hugo Symbol`[i]
     if (summary.full$Alteration[i] == "LOF"){
       primary.WT <- primary.WT.LOF.frequency$`LOF alteration rate: Primary WT patients`[which(primary.WT.LOF.frequency$Hugo_Symbol == gene)]
-      primary.coloss <- primary.coloss.LOF.frequency$`LOF alteration rate: Primary coloss patients`[which(primary.coloss.LOF.frequency$Hugo_Symbol == gene)]
-      met.WT <- met.WT.LOF.frequency$`LOF alteration rate: Metastatic WT patients`[which(met.coloss.LOF.frequency$Hugo_Symbol == gene)]
-      met.coloss <- met.coloss.LOF.frequency$`LOF alteration rate: Metastatic coloss patients`[which(met.coloss.LOF.frequency$Hugo_Symbol == gene)]
+      primary.ST <- primary.ST.LOF.frequency$`LOF alteration rate: Primary ST patients`[which(primary.ST.LOF.frequency$Hugo_Symbol == gene)]
+      met.WT <- met.WT.LOF.frequency$`LOF alteration rate: Metastatic WT patients`[which(met.ST.LOF.frequency$Hugo_Symbol == gene)]
+      met.ST <- met.ST.LOF.frequency$`LOF alteration rate: Metastatic ST patients`[which(met.ST.LOF.frequency$Hugo_Symbol == gene)]
       x <- c("Primary WT", "Primary Subtype", "Metastatic WT", "Metastatic Subtype")
-      y <- c(primary.WT, primary.coloss, met.WT, met.coloss)
+      y <- c(primary.WT, primary.ST, met.WT, met.ST)
       genomic.plot.data <- data.frame(x, y)
       genomic.plot.data$x <- factor(genomic.plot.data$x, levels = genomic.plot.data$x)
       stats <- t(c("Freq", "Primary Subtype", "Metastatic Subtype",
-                   paste("p=", formatC(summary.full$`Alteration Frequency p-val`[i], format = "e", digits = 2), sep = "")))
+                   paste("FDR=", formatC(summary.full$`Enrichment FDR`[i], format = "e", digits = 2), sep = "")))
       stats <- as.data.frame(stats)
       colnames(stats) <- c(".y.", "group1", "group2", "p")
       print((ggplot(genomic.plot.data, aes(x, y)) + geom_bar(stat='identity') + ggtitle(paste(gene, "LOF Alterations", sep = " ")) 
@@ -75,15 +74,15 @@ genomic.plots <- function(summary.full){
       }
     if (summary.full$Alteration[i] == "GOF"){
       primary.WT <- primary.WT.GOF.frequency$`GOF alteration rate: Primary WT patients`[which(primary.WT.GOF.frequency$Hugo_Symbol == gene)]
-      primary.coloss <- primary.coloss.GOF.frequency$`GOF alteration rate: Primary coloss patients`[which(primary.coloss.GOF.frequency$Hugo_Symbol == gene)]
-      met.WT <- met.WT.GOF.frequency$`GOF alteration rate: Metastatic WT patients`[which(met.coloss.GOF.frequency$Hugo_Symbol == gene)]
-      met.coloss <- met.coloss.GOF.frequency$`GOF alteration rate: Metastatic coloss patients`[which(met.coloss.GOF.frequency$Hugo_Symbol == gene)]
+      primary.ST <- primary.ST.GOF.frequency$`GOF alteration rate: Primary ST patients`[which(primary.ST.GOF.frequency$Hugo_Symbol == gene)]
+      met.WT <- met.WT.GOF.frequency$`GOF alteration rate: Metastatic WT patients`[which(met.ST.GOF.frequency$Hugo_Symbol == gene)]
+      met.ST <- met.ST.GOF.frequency$`GOF alteration rate: Metastatic ST patients`[which(met.ST.GOF.frequency$Hugo_Symbol == gene)]
       x <- c("Primary WT", "Primary Subtype", "Metastatic WT", "Metastatic Subtype")
-      y <- c(primary.WT, primary.coloss, met.WT, met.coloss)
+      y <- c(primary.WT, primary.ST, met.WT, met.ST)
       genomic.plot.data <- data.frame(x, y)
       genomic.plot.data$x <- factor(genomic.plot.data$x, levels = genomic.plot.data$x)
       stats <- t(c("Freq", "Primary Subtype", "Metastatic Subtype",
-                   paste("p=", formatC(summary.full$`Alteration Frequency p-val`[i], format = "e", digits = 2), sep = "")))
+                   paste("FDR=", formatC(summary.full$`Enrichment FDR`[i], format = "e", digits = 2), sep = "")))
       stats <- as.data.frame(stats)
       colnames(stats) <- c(".y.", "group1", "group2", "p")
       print((ggplot(genomic.plot.data, aes(x, y)) + geom_bar(stat='identity') + ggtitle(paste(gene, "GOF Alterations", sep = " ")) 
@@ -104,23 +103,23 @@ concordant.DGE.boxplot <- function(summary.full){
     #---------------------------SUBSET PATIENTS-------------------------------------
     if (summary.full$Alteration[i] == "LOF"){
       DGE.boxplot[i,2] <- "LOF"
-      primary.altered <- subtype_subset(TCGA.coloss, c(summary.full$`Hugo Symbol`[i], "loss"))
-      primary.unaltered <- subtype_subset(TCGA.coloss, c(summary.full$`Hugo Symbol`[i], "WT"))
+      primary.altered <- subtype_subset(TCGA.ST, c(summary.full$`Hugo Symbol`[i], "loss"))
+      primary.unaltered <- subtype_subset(TCGA.ST, c(summary.full$`Hugo Symbol`[i], "WT"))
       primary.altered.name <- paste(summary.full$`Hugo Symbol`[i], "Altered", sep = " ")
       primary.unaltered.name <- paste(summary.full$`Hugo Symbol`[i], "WT", sep = " ")
-      met.altered <- subtype_subset(met.coloss, c(summary.full$`Hugo Symbol`[i], "loss"))
-      met.unaltered <- subtype_subset(met.coloss, c(summary.full$`Hugo Symbol`[i], "WT"))
+      met.altered <- subtype_subset(met.ST, c(summary.full$`Hugo Symbol`[i], "loss"))
+      met.unaltered <- subtype_subset(met.ST, c(summary.full$`Hugo Symbol`[i], "WT"))
       met.altered.name <- paste(summary.full$`Hugo Symbol`[i], "Altered", sep = " ")
       met.unaltered.name <- paste(summary.full$`Hugo Symbol`[i], "WT", sep = " ")
     }
     if (summary.full$Alteration[i] == "GOF"){
       DGE.boxplot[i,2] <- "GOF"
-      primary.altered <- subtype_subset(TCGA.coloss, c(summary.full$`Hugo Symbol`[i], "gain"))
-      primary.unaltered <- subtype_subset(TCGA.coloss, c(summary.full$`Hugo Symbol`[i], "WT"))
+      primary.altered <- subtype_subset(TCGA.ST, c(summary.full$`Hugo Symbol`[i], "gain"))
+      primary.unaltered <- subtype_subset(TCGA.ST, c(summary.full$`Hugo Symbol`[i], "WT"))
       primary.altered.name <- paste(summary.full$`Hugo Symbol`[i], "Altered", sep = " ")
       primary.unaltered.name <- paste(summary.full$`Hugo Symbol`[i], "WT", sep = " ")
-      met.altered <- subtype_subset(met.coloss, c(summary.full$`Hugo Symbol`[i], "gain"))
-      met.unaltered <- subtype_subset(met.coloss, c(summary.full$`Hugo Symbol`[i], "WT"))
+      met.altered <- subtype_subset(met.ST, c(summary.full$`Hugo Symbol`[i], "gain"))
+      met.unaltered <- subtype_subset(met.ST, c(summary.full$`Hugo Symbol`[i], "WT"))
       met.altered.name <- paste(summary.full$`Hugo Symbol`[i], "Altered", sep = " ")
       met.unaltered.name <- paste(summary.full$`Hugo Symbol`[i], "WT", sep = " ")
     }
@@ -209,7 +208,7 @@ gleason.barplot <- function(input){
   for (k in 1:nrow(input)){
     gene <- input$`Hugo Symbol`[k]
 # Plot subtype high-risk enrichment
-    sample.names <- colnames(TCGA.coloss)[2:ncol(TCGA.coloss)]
+    sample.names <- colnames(TCGA.ST)[2:ncol(TCGA.ST)]
     # Create data frame of rows = samples | columns = gleason score, risk group, Gene A expression
     data <- data.frame()
     for (i in 1:length(sample.names)){
@@ -225,7 +224,7 @@ gleason.barplot <- function(input){
       data[i,3] <- TCGA.mRNA[index2,index]
       }
     colnames(data) <- c("Score", "Risk Group", "Expression")
-    # Order dataset by gene expression. Subset into high and low expressors.
+    # Order dataset by gene expression. Subset into high and low expressers.
     data <- data[order(data[,2], decreasing = TRUE),]
     # Stratify patients into n=2 quantiles.
     quantiles <- quantile(data$Expression, c(0.50))
@@ -237,20 +236,11 @@ gleason.barplot <- function(input){
     colnames(low.expressing)[4] <- "mRNA Expression"
     data <- rbind(low.expressing, high.expressing)
     data$`mRNA Expression` <- factor(data$`mRNA Expression`, levels = c("Low Expressers", "High Expressers"))
-    # Compute high-risk enrichment
-    # Construct contingency table
-    high.expressing.high.risk <- nrow(high.expressing[high.expressing$`Risk Group` == "High",])
-    high.expressing.not.high.risk <- nrow(high.expressing) - high.expressing.high.risk
-    low.expressing.high.risk <- nrow(low.expressing[low.expressing$`Risk Group` == "High",])
-    low.expressing.not.high.risk <- nrow(low.expressing) - low.expressing.high.risk
-    contignecy.table <- matrix(data = c(high.expressing.high.risk, high.expressing.not.high.risk,
-                                        low.expressing.high.risk, low.expressing.not.high.risk), 
-                               ncol = 2, nrow = 2, byrow = TRUE)
-    # Compute high-risk gleason enrichment between high and low expressers
-    fishers.test <- fisher.test(contignecy.table)
-    pval <- fishers.test$p.value
+    # Index high-risk enrichment from summary.full table
+    pval.index <- which(gene == summary.full$`Hugo Symbol`)
+    pval <- summary.full$`ST High-Grade Enrichment FDR`[pval.index]
     stats <- t(c("Count", "Low Expressers", "High Expressers",
-                 paste("p=", formatC(pval, format = "e", digits = 2), sep = "")))
+                 paste("FDR=", formatC(pval, format = "e", digits = 2), sep = "")))
     stats <- as.data.frame(stats)
     colnames(stats) <- c(".y.", "group1", "group2", "p")
     print((ggplot(data, aes(`mRNA Expression`)) + geom_bar(aes(fill=`Risk Group`)) 
@@ -285,20 +275,10 @@ gleason.barplot <- function(input){
     colnames(low.expressing)[4] <- "mRNA Expression"
     data <- rbind(low.expressing, high.expressing)
     data$`mRNA Expression` <- factor(data$`mRNA Expression`, levels = c("Low Expressers", "High Expressers"))
-    # Compute high-risk enrichment
-    # Construct contingency table
-    high.expressing.high.risk <- nrow(high.expressing[high.expressing$`Risk Group` == "High",])
-    high.expressing.not.high.risk <- nrow(high.expressing) - high.expressing.high.risk
-    low.expressing.high.risk <- nrow(low.expressing[low.expressing$`Risk Group` == "High",])
-    low.expressing.not.high.risk <- nrow(low.expressing) - low.expressing.high.risk
-    contignecy.table <- matrix(data = c(high.expressing.high.risk, high.expressing.not.high.risk,
-                                        low.expressing.high.risk, low.expressing.not.high.risk), 
-                               ncol = 2, nrow = 2, byrow = TRUE)
-    # Compute high-risk gleason enrichment between high and low expressers
-    fishers.test <- fisher.test(contignecy.table)
-    pval <- fishers.test$p.value
+    # Index high-risk enrichment from summary.full table
+    pval <- summary.full$`WT High-Grade Enrichment FDR`[pval.index]
     stats <- t(c("Count", "Low Expressers", "High Expressers",
-                 paste("p=", formatC(pval, format = "e", digits = 2), sep = "")))
+                 paste("FDR=", formatC(pval, format = "e", digits = 2), sep = "")))
     stats <- as.data.frame(stats)
     colnames(stats) <- c(".y.", "group1", "group2", "p")
     print((ggplot(data, aes(`mRNA Expression`)) + geom_bar(aes(fill=`Risk Group`)) 

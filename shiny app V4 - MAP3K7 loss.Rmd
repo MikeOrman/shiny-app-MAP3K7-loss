@@ -1,0 +1,491 @@
+---
+title: "Shiny app V4 - MAP3K7 loss"
+output:
+  html_document: default
+---
+```{r, message=FALSE, warning=FALSE}
+source("analysis scripts.R")
+```
+# Genomic Analysis
+## Load alteration profiles
+```{r}
+primary.alteration <- read.table("primary alteration.txt", header = TRUE, check.names = FALSE, sep = "\t")
+primary.LOF <- read.table("primary LOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+primary.GOF <- read.table("primary GOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+met.alteration <- read.table("met alteration.txt", header = TRUE, check.names = FALSE, sep = "\t")
+met.LOF <- read.table("met LOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+met.GOF <- read.table("met GOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+TCGA.alteration <- read.table("TCGA alteration.txt", header = TRUE, check.names = FALSE, sep = "\t")
+TCGA.LOF <- read.table("TCGA LOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+TCGA.GOF <- read.table("TCGA GOF.txt", header = TRUE, check.names = FALSE, sep = "\t")
+```
+## Subset alteration profiles by genetic background
+Define primary and metastatic genetic backgrounds (Generalize here). For the subtype group (ST): 
+If the user chooses "LOF" as the alteration, then primary.LOF and met.LOF are the input datasets.
+If the user chooses "GOF" as the alteration, then primary.GOF and met.GOF are the input datasets.
+```{r}
+# Primary
+primary.ST <- alteration_subset(primary.LOF, c("MAP3K7", "altered"))
+primary.ST.patients <- colnames(primary.ST)[2:ncol(primary.ST)]
+primary.WT <- alteration_subset(primary.alteration, c("MAP3K7", "unaltered"))
+primary.WT.patients <- colnames(primary.alteration)[2:ncol(primary.WT)]
+# Metastatic
+met.ST <- alteration_subset(met.LOF, c("MAP3K7", "altered"))
+met.ST.patients <- colnames(met.ST)[2:ncol(met.ST)]
+met.WT <- alteration_subset(met.alteration, c("MAP3K7", "unaltered"))
+met.WT.patients <- colnames(met.alteration)[2:ncol(met.WT)]
+# TCGA background for DGE
+TCGA.ST <- alteration_subset(TCGA.LOF, c("MAP3K7", "altered"))
+TCGA.WT <- alteration_subset(TCGA.alteration, c("MAP3K7", "unaltered"))
+```
+Subset primary LOF/GOF alteration profiles by genetic background
+```{r}
+# Primary LOF WT
+primary.LOF.WT.patients <- intersect(colnames(primary.LOF)[2:ncol(primary.LOF)], primary.WT.patients)
+index <- c(TRUE)
+for (i in 2:ncol(primary.LOF)){
+  if (sum(colnames(primary.LOF)[i] == primary.LOF.WT.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(primary.LOF)[i] == primary.LOF.WT.patients) == 0) {index[i] = FALSE}
+}
+primary.LOF.WT <- primary.LOF[,index]
+# Primary GOF WT
+primary.GOF.WT.patients <- intersect(colnames(primary.GOF)[2:ncol(primary.GOF)], primary.WT.patients)
+index <- c(TRUE)
+for (i in 2:ncol(primary.GOF)){
+  if (sum(colnames(primary.GOF)[i] == primary.GOF.WT.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(primary.GOF)[i] == primary.GOF.WT.patients) == 0) {index[i] = FALSE}
+}
+primary.GOF.WT <- primary.GOF[,index]
+primary.GOF.WT.patients <- intersect(colnames(primary.GOF)[2:ncol(primary.GOF)], primary.WT.patients)
+# Primary LOF ST
+primary.LOF.ST.patients <- intersect(colnames(primary.LOF)[2:ncol(primary.LOF)], primary.ST.patients)
+index <- c(TRUE)
+for (i in 2:ncol(primary.LOF)){
+  if (sum(colnames(primary.LOF)[i] == primary.LOF.ST.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(primary.LOF)[i] == primary.LOF.ST.patients) == 0) {index[i] = FALSE}
+}
+primary.LOF.ST <- primary.LOF[,index]
+# Primary GOF ST
+primary.GOF.ST.patients <- intersect(colnames(primary.GOF)[2:ncol(primary.GOF)], primary.ST.patients)
+index <- c(TRUE)
+for (i in 2:ncol(primary.GOF)){
+  if (sum(colnames(primary.GOF)[i] == primary.GOF.ST.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(primary.GOF)[i] == primary.GOF.ST.patients) == 0) {index[i] = FALSE}
+}
+primary.GOF.ST <- primary.GOF[,index]
+primary.GOF.ST.patients <- intersect(colnames(primary.GOF)[2:ncol(primary.GOF)], primary.ST.patients)
+```
+Subset metastatic LOF/GOF alteration profiles by genetic background
+```{r}
+# Met LOF WT
+met.LOF.WT.patients <- intersect(colnames(met.LOF)[2:ncol(met.LOF)], met.WT.patients)
+index <- c(TRUE)
+for (i in 2:ncol(met.LOF)){
+  if (sum(colnames(met.LOF)[i] == met.LOF.WT.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(met.LOF)[i] == met.LOF.WT.patients) == 0) {index[i] = FALSE}
+}
+met.LOF.WT <- met.LOF[,index]
+# Met GOF WT
+met.GOF.WT.patients <- intersect(colnames(met.GOF)[2:ncol(met.GOF)], met.WT.patients)
+index <- c(TRUE)
+for (i in 2:ncol(met.GOF)){
+  if (sum(colnames(met.GOF)[i] == met.GOF.WT.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(met.GOF)[i] == met.GOF.WT.patients) == 0) {index[i] = FALSE}
+}
+met.GOF.WT <- met.GOF[,index]
+met.GOF.WT.patients <- intersect(colnames(met.GOF)[2:ncol(met.GOF)], met.WT.patients)
+# Met LOF ST
+met.LOF.ST.patients <- intersect(colnames(met.LOF)[2:ncol(met.LOF)], met.ST.patients)
+index <- c(TRUE)
+for (i in 2:ncol(met.LOF)){
+  if (sum(colnames(met.LOF)[i] == met.LOF.ST.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(met.LOF)[i] == met.LOF.ST.patients) == 0) {index[i] = FALSE}
+}
+met.LOF.ST <- met.LOF[,index]
+# Met GOF ST
+met.GOF.ST.patients <- intersect(colnames(met.GOF)[2:ncol(met.GOF)], met.ST.patients)
+index <- c(TRUE)
+for (i in 2:ncol(met.GOF)){
+  if (sum(colnames(met.GOF)[i] == met.GOF.ST.patients) == 1) {index[i] = TRUE}
+  if (sum(colnames(met.GOF)[i] == met.GOF.ST.patients) == 0) {index[i] = FALSE}
+}
+met.GOF.ST <- met.GOF[,index]
+met.GOF.ST.patients <- intersect(colnames(met.GOF)[2:ncol(met.GOF)], met.ST.patients)
+```
+## Compute Enrichment
+```{r}
+LOF.enrichment <- alteration.enrichment(met.LOF.ST, primary.LOF.ST)
+LOF.enrichment[,7] <- p.adjust(LOF.enrichment[,6], method = "fdr")
+colnames(LOF.enrichment)[7] <- "Alteration Enrichment FDR"
+GOF.enrichment <- alteration.enrichment(met.GOF.ST, primary.GOF.ST)
+GOF.enrichment[,7] <- p.adjust(GOF.enrichment[,6], method = "fdr")
+colnames(GOF.enrichment)[7] <- "Alteration Enrichment FDR"
+```
+## Compute LOF/GOF alteration rates
+Compute LOF alteration rates in subtype patients
+```{r}
+# Primary
+primary.ST.LOF.frequency <- alterationRank(primary.LOF.ST)
+primary.ST.LOF.frequency <- primary.ST.LOF.frequency[,c(1,5)]
+colnames(primary.ST.LOF.frequency)[2] <- "LOF alteration rate: Primary ST patients"
+# Metastatic
+met.ST.LOF.frequency <- alterationRank(met.LOF.ST)
+met.ST.LOF.frequency <- met.ST.LOF.frequency[,c(1,5)]
+colnames(met.ST.LOF.frequency)[2] <- "LOF alteration rate: Metastatic ST patients"
+```
+Compute LOF alteration rates in WT patients
+```{r}
+# Primary
+primary.WT.LOF.frequency <- alterationRank(primary.LOF.WT)
+primary.WT.LOF.frequency <- primary.WT.LOF.frequency[,c(1,5)]
+colnames(primary.WT.LOF.frequency)[2] <- "LOF alteration rate: Primary WT patients"
+# Metastatic
+met.WT.LOF.frequency <- alterationRank(met.LOF.WT)
+met.WT.LOF.frequency <- met.WT.LOF.frequency[,c(1,5)]
+colnames(met.WT.LOF.frequency)[2] <- "LOF alteration rate: Metastatic WT patients"
+```
+Compute GOF alteration rates in subtype patients
+```{r}
+# Primary
+primary.ST.GOF.frequency <- alterationRank(primary.GOF.ST)
+primary.ST.GOF.frequency <- primary.ST.GOF.frequency[,c(1,5)]
+colnames(primary.ST.GOF.frequency)[2] <- "GOF alteration rate: Primary ST patients"
+# Metastatic
+met.ST.GOF.frequency <- alterationRank(met.GOF.ST)
+met.ST.GOF.frequency <- met.ST.GOF.frequency[,c(1,5)]
+colnames(met.ST.GOF.frequency)[2] <- "GOF alteration rate: Metastatic ST patients"
+```
+Compute GOF alteration rates in WT patients
+```{r}
+# Primary
+primary.WT.GOF.frequency <- alterationRank(primary.GOF.WT)
+primary.WT.GOF.frequency <- primary.WT.GOF.frequency[,c(1,5)]
+colnames(primary.WT.GOF.frequency)[2] <- "GOF alteration rate: Primary WT patients"
+# Metastatic
+met.WT.GOF.frequency <- alterationRank(met.GOF.WT)
+met.WT.GOF.frequency <- met.WT.GOF.frequency[,c(1,5)]
+colnames(met.WT.GOF.frequency)[2] <- "GOF alteration rate: Metastatic WT patients"
+```
+## Filter subtype-specific metastatic regulators
+### Create data frames for filtering
+LOF alterations
+```{r}
+LOF.alterations <- merge.data.frame(primary.WT.LOF.frequency, primary.ST.LOF.frequency)
+LOF.alterations <- merge.data.frame(LOF.alterations, met.WT.LOF.frequency)
+LOF.alterations <- merge.data.frame(LOF.alterations, met.ST.LOF.frequency)
+```
+GOF alterations
+```{r}
+GOF.alterations <- merge.data.frame(primary.WT.GOF.frequency, primary.ST.GOF.frequency)
+GOF.alterations <- merge.data.frame(GOF.alterations, met.WT.GOF.frequency)
+GOF.alterations <- merge.data.frame(GOF.alterations, met.ST.GOF.frequency)
+```
+### Constraint 1 (C1): Alteration rate is greater in the primary setting (gene is co-altered in primary patients)
+LOF alteration rate greater in primary subtype
+```{r}
+index.LOF.C1 <- (LOF.alterations$`LOF alteration rate: Primary ST patients` > LOF.alterations$`LOF alteration rate: Primary WT patients`)
+LOF.C1.genes <- LOF.alterations$Hugo_Symbol[index.LOF.C1]
+```
+GOF alteration rate greater in primary subtype
+```{r}
+index.GOF.C1 <- (GOF.alterations$`GOF alteration rate: Primary ST patients` > GOF.alterations$`GOF alteration rate: Primary WT patients`)
+GOF.C1.genes <- GOF.alterations$Hugo_Symbol[index.GOF.C1]
+```
+### Constraint 2 (C2): Alteration rate in WT metastatic patients ~ alteration rate in WT primary patients (gene is not under metastatic selection pressure)
+Determine reasonable cutoff for C2
+```{r}
+library(ggplot2)
+# Test genes captured at different effect sizes and report as table
+C2.table <- data.frame()
+for (i in seq(.2, 1e-5, length.out = 20)){
+  index.LOF.C2 <- (abs(LOF.alterations$`LOF alteration rate: Metastatic WT patients`-LOF.alterations$`LOF alteration rate: Primary WT patients`) <= i)
+  LOF.C2.genes <- LOF.alterations$Hugo_Symbol[index.LOF.C2]
+  index.GOF.C2 <- ((abs(GOF.alterations$`GOF alteration rate: Metastatic WT patients`- GOF.alterations$`GOF alteration rate: Primary WT patients`)) <= i)
+  GOF.C2.genes <- GOF.alterations$Hugo_Symbol[index.GOF.C2]
+  LOF.genes <- intersect(LOF.C1.genes, LOF.C2.genes)
+  GOF.genes <- intersect(GOF.C1.genes, GOF.C2.genes)
+  genes.captured <- length(LOF.genes) + length(GOF.genes)
+  C2.table[nrow(C2.table)+1,c(1,2)] <- c(i, genes.captured)
+}
+colnames(C2.table) <- c("WT Alteration Ratio Difference: |Met - Primary|", "Genes Remaining")
+library(DT)
+ggplot(data = C2.table, aes(`WT Alteration Ratio Difference: |Met - Primary|`, `Genes Remaining`)) + geom_point() + xlab("Constraint 2 Cutoff")
+print("A C2 cutoff of <= 2% captures ~2500 genes that remain for analysis as subtype-specific metastatic regulators")
+```
+Apply C2 cutoff
+```{r}
+# Set cutoff
+cutoff <- 0.02
+# Filter LOF.alterations
+index.LOF.C2 <- (abs(LOF.alterations$`LOF alteration rate: Metastatic WT patients`-LOF.alterations$`LOF alteration rate: Primary WT patients`) <= cutoff)
+LOF.C2.genes <- LOF.alterations$Hugo_Symbol[index.LOF.C2]
+# Filter ampplifications
+index.GOF.C2 <- ((abs(GOF.alterations$`GOF alteration rate: Metastatic WT patients`- GOF.alterations$`GOF alteration rate: Primary WT patients`)) <= cutoff)
+GOF.C2.genes <- GOF.alterations$Hugo_Symbol[index.GOF.C2]
+```
+## Report ranked alterations
+Assign alteration status
+```{r}
+filtered.LOF.alterations <- intersect(LOF.C1.genes, LOF.C2.genes)
+filtered.GOF.alterations <- intersect(GOF.C1.genes, GOF.C2.genes)
+LOF.genes <- setdiff(filtered.LOF.alterations, filtered.GOF.alterations)
+GOF.genes <- setdiff(filtered.GOF.alterations, filtered.LOF.alterations)
+```
+Construct summary table
+```{r}
+# Construct LOF alteration table
+if (length(LOF.genes) > 0){
+  LOF.genes <- as.data.frame(LOF.genes)
+  LOF.genes[,2] <- "LOF"
+  for (i in (1:nrow(LOF.genes))) {
+    index1 <- which(met.ST.LOF.frequency$Hugo_Symbol == LOF.genes[i,1])
+    index2 <- which(primary.ST.LOF.frequency$Hugo_Symbol == LOF.genes[i,1])
+    index3 <- which(LOF.enrichment$`Hugo Symbol` == LOF.genes[i,1])
+    LOF.genes[i,3] <- (met.ST.LOF.frequency$`LOF alteration rate: Metastatic ST patients`[index1] -
+                         primary.ST.LOF.frequency$`LOF alteration rate: Primary ST patients`[index2])
+    LOF.genes[i,4] <- LOF.enrichment$`Alteration Enrichment FDR`[index3]
+  }
+colnames(LOF.genes) <- c("Hugo Symbol", "Alteration", "Subtype Alteration Ratio Difference (Met - Primary)","Enrichment FDR")
+}
+# Construct GOF alteration table
+if (length(GOF.genes) > 0){
+  GOF.genes <- as.data.frame(GOF.genes)
+  GOF.genes[,2] <- "GOF"
+  for (i in (1:nrow(GOF.genes))) {
+    index1 <- which(met.ST.GOF.frequency$Hugo_Symbol == GOF.genes[i,1])
+    index2 <- which(primary.ST.GOF.frequency$Hugo_Symbol == GOF.genes[i,1])
+    index3 <- which(GOF.enrichment$`Hugo Symbol` == GOF.genes[i,1])
+    GOF.genes[i,3] <- (met.ST.GOF.frequency$`GOF alteration rate: Metastatic ST patients`[index1] -
+                         primary.ST.GOF.frequency$`GOF alteration rate: Primary ST patients`[index2])
+    GOF.genes[i,4] <- GOF.enrichment$`Alteration Enrichment FDR`[index3]
+  }
+colnames(GOF.genes) <- c("Hugo Symbol", "Alteration", "Subtype Alteration Ratio Difference (Met - Primary)","Enrichment FDR")
+}
+# Combine alteration tables
+if ((length(LOF.genes) > 0) & (length(GOF.genes) > 0)){
+  summary <- rbind(LOF.genes, GOF.genes)
+  }
+if ((length(LOF.genes) > 0) & (length(GOF.genes) == 0)){
+  summary <- (LOF.genes)
+  }
+if ((length(LOF.genes) == 0) & (length(GOF.genes) > 0)){
+  summary <- (GOF.genes)
+}
+# Clear genes with NA enrichment values from summary table
+summary <- na.omit(summary)
+library(DT)
+datatable(summary)
+```
+p-value distribution
+```{r}
+metastatic <- summary$`Enrichment FDR`
+hist(metastatic, breaks = seq(0, 1, by = 0.05),
+     xlab = "Enrichment FDR", ylab = "Number of genes", main = "Met:Primary Subtype Enrichment")
+```
+Order summary table by difference in alteration ratio
+```{r}
+library(ggplot2)
+library(ggrepel)
+# Order hits by increasing alteration rate in metastatic subtype
+summary <- summary[order(summary$`Subtype Alteration Ratio Difference (Met - Primary)`, decreasing = TRUE),]
+summary[,5] <- c(1:nrow(summary))
+colnames(summary)[5] <- "Gene Rank"
+# Report summary
+datatable(summary)
+# Plot ranked summary data
+ggplot(data = summary, mapping = aes(`Gene Rank`, `Subtype Alteration Ratio Difference (Met - Primary)`, label = `Hugo Symbol`)) + geom_point() + ggtitle("Alteration Frequency Difference: Met - Primary") + ylim(-.4,.4) + geom_text_repel(data = subset(summary, `Gene Rank` <= 2 | `Gene Rank` >= 3044), nudge_x = 0, nudge_y = -.165)
+```
+
+# Transcriptomic Analysis
+## Format gene expression datasets and filter genes that lack mRNA seq measurements
+```{r, message=FALSE}
+# Abida RNA seq data in FPKM
+Abida.mRNA <- read.table("Abida mRNA seq.txt", header = TRUE, sep = "\t", check.names = FALSE)
+Abida.mRNA[,2:ncol(Abida.mRNA)] <- Abida.mRNA[,2:ncol(Abida.mRNA)] + 1
+Abida.mRNA[,2:ncol(Abida.mRNA)] <- log2(Abida.mRNA[,2:ncol(Abida.mRNA)])
+Abida.mRNA <- Abida.mRNA[duplicated(Abida.mRNA$`Hugo_Symbol`) == FALSE,]
+# TCGA RNA seq data in RSEM
+TCGA.mRNA <- read.table("TCGA mRNA seq.txt", header = TRUE, sep = "\t", check.names = FALSE)
+TCGA.mRNA <- TCGA.mRNA[,c(1,3:ncol(TCGA.mRNA))]
+TCGA.mRNA[,2:ncol(TCGA.mRNA)] <- TCGA.mRNA[,2:ncol(TCGA.mRNA)] + 1
+TCGA.mRNA[,2:ncol(TCGA.mRNA)] <- log2(TCGA.mRNA[,2:ncol(TCGA.mRNA)])
+TCGA.mRNA <- TCGA.mRNA[duplicated(TCGA.mRNA$`Hugo_Symbol`) == FALSE,]
+# Take intersection of genes in mRNA datasets and primary / met alteration profiles
+genes <- intersect(Abida.mRNA$Hugo_Symbol, TCGA.mRNA$Hugo_Symbol)
+genes <- intersect(genes, met.alteration$Hugo_Symbol)
+# Filter genes from Abida mRNA dataset that are not in metastatic alteration profile
+for (i in 1:nrow(Abida.mRNA)){
+  if (sum(Abida.mRNA$Hugo_Symbol[i] == met.alteration$Hugo_Symbol) > 0) {index[i] <- TRUE}
+  else {index[i] <- FALSE}
+}
+Abida.mRNA <- Abida.mRNA[index,]
+# Filter genes from TCGA mRNA dataset that are not in primary alteration profile
+index <- c()
+for (i in 1:nrow(TCGA.mRNA)){
+  if (sum(TCGA.mRNA$Hugo_Symbol[i] == primary.alteration$Hugo_Symbol) > 0) {index[i] <- TRUE}
+  else {index[i] <- FALSE}
+}
+TCGA.mRNA <- TCGA.mRNA[index,]
+```
+## Compute concordant DGE
+```{r}
+# Compute genome-wide DGE in met ST
+Abida.DGE <- genome_wide_DGE(met.ST, Abida.mRNA)
+# Filter summary table for concordant DGE
+Abida.DGE <- concordant_DGE(summary, Abida.DGE)
+# Compute genome-wide DGE in primary ST
+TCGA.DGE <- genome_wide_DGE(primary.ST, TCGA.mRNA)
+# Filter summary table for concordant DGE
+TCGA.DGE <- concordant_DGE(summary, TCGA.DGE)
+```
+## Filter by concordant expression
+```{r}
+# Filter genes lacking concordant expression measurements (>= 3 samples) in both primary and metastatic settings.
+Abida.DGE.filtered <- na.omit(Abida.DGE)
+TCGA.DGE.filtered <- na.omit(TCGA.DGE)
+genes <- intersect(Abida.DGE.filtered$`Hugo Symbol`, TCGA.DGE.filtered$`Hugo Symbol`)
+index <- c()
+for (i in 1:nrow(Abida.DGE.filtered)){
+  if (sum(Abida.DGE.filtered[i,1] == genes) > 0){
+    index[i] <- TRUE
+  }
+    if (sum(Abida.DGE.filtered[i,1] == genes) == 0){
+    index[i] <- FALSE
+  }
+}
+Abida.DGE.filtered <- Abida.DGE.filtered[index,]
+index <- c()
+for (i in 1:nrow(TCGA.DGE.filtered)){
+  if (sum(TCGA.DGE.filtered[i,1] == genes) > 0){
+    index[i] <- TRUE
+  }
+    if (sum(TCGA.DGE.filtered[i,1] == genes) == 0){
+    index[i] <- FALSE
+  }
+}
+TCGA.DGE.filtered <- TCGA.DGE.filtered[index,]
+```
+## Create single table holding concordant DGE for TCGA and Abida
+```{r}
+library(metap)
+concordant.DGE <- data.frame()
+for (i in 1:nrow(Abida.DGE.filtered)){
+  concordant.DGE[i,1] <- Abida.DGE.filtered$`Hugo Symbol`[i]
+  concordant.DGE[i,2] <- Abida.DGE.filtered$Alteration[i]
+  concordant.DGE[i,3] <- TCGA.DGE.filtered$`Concordant FC (altered:unaltered)`[i]
+  concordant.DGE[i,4] <- TCGA.DGE.filtered$FDR[i]
+  concordant.DGE[i,5] <- Abida.DGE.filtered$`Concordant FC (altered:unaltered)`[i]
+  concordant.DGE[i,6] <- Abida.DGE.filtered$FDR[i]
+}
+colnames(concordant.DGE) <- c("Hugo Symbol", "Alteration", "FC Expression in Primary Subtype (Altered:Unaltered)", "Primary Expression FDR", "FC Expression in Metastatic Subtype (Altered:Unaltered)", "Metastatic Expression FDR")
+```
+## Update summary table to include concordant gene expression
+```{r}
+library(metap)
+summary.concordance <- data.frame()
+for (i in 1:nrow(concordant.DGE)){
+  # Add gene and alteration type
+  summary.concordance[i,1] <- concordant.DGE$`Hugo Symbol`[i]
+  summary.concordance[i,2] <- concordant.DGE$Alteration[i]
+  # Add genomic analysis information
+  genomic.index <- which(concordant.DGE$`Hugo Symbol`[i] == summary$`Hugo Symbol`)
+  summary.concordance[i,3] <- summary$`Subtype Alteration Ratio Difference (Met - Primary)`[genomic.index]
+  summary.concordance[i,4] <- summary$`Enrichment FDR`[genomic.index]
+  # Add concordant gene expression information
+  summary.concordance[i,5] <- concordant.DGE$`FC Expression in Primary Subtype (Altered:Unaltered)`[i]
+  summary.concordance[i,6] <- concordant.DGE$`Primary Expression FDR`[i]
+  summary.concordance[i,7] <- concordant.DGE$`FC Expression in Metastatic Subtype (Altered:Unaltered)`[i]
+  summary.concordance[i,8] <- concordant.DGE$`Metastatic Expression FDR`[i]
+}
+colnames(summary.concordance) <- c("Hugo Symbol", "Alteration", "Alteration Ratio Difference in Subtype (Metastatic - Primary)", "Enrichment FDR", "FC Expression in Primary Subtype (Altered:Unaltered)", "Primary Expression FDR", "FC Expression in Metastatic Subtype (Altered:Unaltered)", "Metastatic Expression FDR")
+```
+# Clinical Analysis
+Reformat TCGA mRNA data for clinical analysis
+```{r}
+TCGA.mRNA <- read.table("TCGA mRNA seq.txt", header = TRUE, sep = "\t", check.names = FALSE)
+TCGA.mRNA <- TCGA.mRNA[,c(1,3:ncol(TCGA.mRNA))]
+TCGA.mRNA[,2:ncol(TCGA.mRNA)] <- TCGA.mRNA[,2:ncol(TCGA.mRNA)] + 1
+TCGA.mRNA[,2:ncol(TCGA.mRNA)] <- log2(TCGA.mRNA[,2:ncol(TCGA.mRNA)])
+TCGA.mRNA <- TCGA.mRNA[duplicated(TCGA.mRNA$`Hugo_Symbol`) == FALSE,]
+# Harmonize genes in TCGA mRNA and TCGA alteration profiles
+genes <- intersect(TCGA.mRNA$Hugo_Symbol, TCGA.alteration$Hugo_Symbol)
+# Filter TCGA mRNA dataset
+index <- c()
+for (i in 1:nrow(TCGA.mRNA)){
+  if (sum(TCGA.mRNA$Hugo_Symbol[i] == genes) > 0) {index[i] <- TRUE} else {index[i] <- FALSE}
+}
+TCGA.mRNA <- TCGA.mRNA[index,]
+# Filter TCGA WT dataset
+index <- c()
+for (i in 1:nrow(TCGA.WT)){
+  if (sum(TCGA.WT$Hugo_Symbol[i] == genes) > 0) {index[i] <- TRUE} else {index[i] <- FALSE}
+}
+TCGA.WT <- TCGA.WT[index,]
+TCGA.WT <- TCGA.WT[duplicated(TCGA.WT$Hugo_Symbol) == FALSE,]
+# Filter TCGA ST dataset
+index <- c()
+for (i in 1:nrow(TCGA.ST)){
+  if (sum(TCGA.ST$Hugo_Symbol[i] == genes) > 0) {index[i] <- TRUE} else {index[i] <- FALSE}
+}
+TCGA.ST <- TCGA.ST[index,]
+TCGA.ST <- TCGA.ST[duplicated(TCGA.ST$Hugo_Symbol) == FALSE,]
+```
+## Primary tumor grade in primary subtype (TCGA data)
+Compute association of gene with tumor grade in WT and ST primary patients
+```{r}
+# Primary WT patients
+WT.grade <- genome_wide_gleason(TCGA.WT)
+colnames(WT.grade)[3] <- "WT High-Grade Enrichment"
+# Primary ST patients
+ST.grade <- genome_wide_gleason(TCGA.ST)
+colnames(ST.grade)[3] <- "ST High-Grade Enrichment"
+```
+Combine WT and ST gleason data
+```{r}
+Grade.Enrichment <- data.frame(WT.grade$`Hugo Symbol`, 
+                               WT.grade$`WT High-Grade Enrichment`, ST.grade$`ST High-Grade Enrichment`)
+colnames(Grade.Enrichment) <- c("Hugo Symbol", "Wild-Type High Grade Enrichment FDR", "Subtype High Grade Enrichment FDR")
+```
+Add tumor grade associations to summary.concordance table
+```{r}
+summary.full <- summary.concordance
+for (i in 1:nrow(summary.full)){
+  index <- which(summary.full$`Hugo Symbol`[i] == Grade.Enrichment$`Hugo Symbol`)
+  summary.full$`Wild-Type High Grade Enrichment FDR`[i] <- Grade.Enrichment$`Wild-Type High Grade Enrichment FDR`[index]
+  summary.full$`Subtype High Grade Enrichment FDR`[i] <- Grade.Enrichment$`Subtype High Grade Enrichment FDR`[index]
+}
+```
+## Add subtype and WT DFS.
+Genome-wide calculation: Association of gene with BCR risk in ST and WT patients
+```{r}
+# Primary WT patients
+WT.recurrence <- genome_wide_survival(TCGA.WT)
+# Primary ST patients
+ST.recurrence <- genome_wide_survival(TCGA.ST)
+```
+Combine WT and ST survival data
+```{r}
+Survival <- data.frame(WT.recurrence[,1], WT.recurrence[,3], ST.recurrence[,3])
+colnames(Survival) <- c("Hugo Symbol", 
+                        "Wild-Type BCR Risk FDR", "Subtype BCR Risk FDR")
+```
+Add BCR risk association to summary.full table
+```{r}
+for (i in 1:nrow(summary.full)){
+  index <- which(summary.full$`Hugo Symbol`[i] == Survival$`Hugo Symbol`)
+  summary.full$`Wild-Type BCR Risk`[i] <- Survival$`Wild-Type BCR Risk FDR`[index]
+  summary.full$`Subtype BCR Risk`[i] <- Survival$`Subtype BCR Risk FDR`[index]
+}
+```
+## Add cytogenetic band to summary table
+Add Cytogenetic Band
+```{r}
+library(org.Hs.eg.db)
+loci <- Bands(summary.full$`Hugo Symbol`)
+summary.full$`Cytogenetic Band` <- loci$Band
+```
+# Finalized output for MAP3K7 LOF-altered background
+```{r}
+library(DT)
+datatable(summary.full)
+```
