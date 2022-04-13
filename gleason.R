@@ -2,7 +2,7 @@
 # Genes in binary matrix and genes in mRNA data must be harmonized
 # Input = binary alteration matrix
 clinical.sample <- read.table("TCGA clinical sample.txt", header = TRUE, sep = "\t", check.names = FALSE)
-genome_wide_gleason <- function(input){
+gleason <- function(input){
   output <- data.frame()
 # For each gene in the summary table:
   for (k in 1:nrow(input)){
@@ -43,10 +43,11 @@ genome_wide_gleason <- function(input){
     # Compute high-risk gleason enrichment between high and low expressers
     fishers.test <- fisher.test(contignecy.table)
     pval <- fishers.test$p.value
-# Add high risk pval to summary table
-    output[k,2] <- pval
+# Add high risk OR and pval to summary table
+    output[k,2] <- fishers.test$estimate
+    output[k,3] <- pval
   }
-  output[,3] <- p.adjust(output[,2], method = "fdr")
-  colnames(output) <- c("Hugo Symbol", "Tumor Grade pval", "Tumor Grade FDR")
+  output[,4] <- p.adjust(output[,2], method = "fdr")
+  colnames(output) <- c("Hugo Symbol", "Odds Ratio", "Tumor Grade pval", "Tumor Grade FDR")
   return(output)
 }

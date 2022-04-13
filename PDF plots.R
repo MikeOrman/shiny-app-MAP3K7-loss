@@ -1,19 +1,22 @@
-# Output plots to PDF. Can be run independently of the "Shiny app V3.Rmd"
+# Output plots to PDF. Can be run independently of the "Shiny app V4.Rmd"
 source("plotting functions.R")
-# Rank relative to other genes
+# Rank plot of output
 gene.rank.dotplot(summary.full)
-# Cytogenetic location relative to other genes
-karyoplots(summary.full)
+# Define Hits as lowest 5% FDR
+cutoff <- quantile(summary.full$`Combined FDR`, 0.05)
+hits <- summary.full[summary.full$`Combined FDR`<= cutoff,]
+# Cytogenetic location relative to other hits
+karyoplots(hits)
 # Genomic
-genomic.plots(summary.full)
+genomic.plots(hits)
 # Concordant DGE
-concordant.DGE.boxplot(summary.full)
+concordant.DGE.boxplot(hits)
 # Tumor Grade
-gleason.barplot(summary.full)
+gleason.barplot(hits)
 #---------------------------------------SURVIVAL BENEFIT------------------------
 # Unfortunately, the survfit function does not work when called inside of a custom function. As a work-around, 
-# I have placed the full function here
-input <- summary.full
+# I have placed the full function here.
+input <- hits
   clinical.sample <- read.table("TCGA clinical sample.txt", header = TRUE, sep = "\t", check.names = FALSE)
   clinical.patient <- read.table("TCGA clinical patient.txt", header = TRUE, sep = "\t", check.names = FALSE)
   pdf("Survival plots.pdf")
@@ -21,7 +24,7 @@ input <- summary.full
   for (k in 1:nrow(input)){
     gene <- input$`Hugo Symbol`[k]
     # Obtain sample names for primary subtype
-    sample.names <- colnames(TCGA.coloss)[2:ncol(TCGA.coloss)]
+    sample.names <- colnames(TCGA.ST)[2:ncol(TCGA.ST)]
     sample.names.WT <- colnames(TCGA.WT)[2:ncol(TCGA.WT)]
     # Create  coloss data frame of rows = samples | columns = Patient ID, Group, Time, Status
     data <- data.frame()

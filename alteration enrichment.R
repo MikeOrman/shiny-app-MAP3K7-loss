@@ -21,15 +21,19 @@ alteration.enrichment <- function(set1, set2){
       if (is.na(set1.altered) | is.na(set1.unaltered) | is.na(set2.altered) | is.na(set2.unaltered)) {
         output[i,6] <- NA
         output[i,7] <- NA
+        output[i,8] <- NA
       }
       else{
         contingency.table <- matrix(data = c(set1.altered, set1.unaltered, set2.altered, set2.unaltered),
                                     nrow = 2, ncol = 2, byrow = TRUE)
         fishers.test <- fisher.test(contingency.table)
-        output[i,6] <- fishers.test$p.value}
-      }
+        output[i,6] <- fishers.test$estimate
+        output[i,7] <- fishers.test$p.value}
+    }
+    output[,8] <- p.adjust(output[,7], method = "fdr")
     colnames(output) <- c("Hugo Symbol", "Set 1 altered count", "Set 1 unaltered count",
-                        "Set 2 altered count", "Set 2 unaltered count", "Enrichment p-val")
+                        "Set 2 altered count", "Set 2 unaltered count", "Odds Ratio", 
+                        "Enrichment p-val", "Enrichment FDR")
     return(output)
   }
   if (nrow(set1) != nrow(set2)) {

@@ -1,7 +1,7 @@
 # dataset = primary.alteration or met.alteration data frame
 # mRNA = formatted mRNA data
 #--------------------------------------COMPUTE GENOME-WIDE DGE FDR--------------
-genome_wide_DGE <- function(dataset, mRNA){
+DGE <- function(dataset, mRNA){
   DGE <- data.frame()
   for (i in 1:nrow(mRNA)){
     gene <- mRNA$Hugo_Symbol[i]
@@ -64,12 +64,14 @@ concordant_DGE <- function(summary, input){
     index <- which(concordant.DGE[i,1] == input[,1])[1]
     if (concordant.DGE[i,2] == "LOF" & input[index,2] < 1 & is.na(input[index,2]) == FALSE){
       concordant.DGE[i,3] <- input[index,2]
-      concordant.DGE[i,4] <- input[index,4]}
+      concordant.DGE[i,4] <- input[index,3]
+      concordant.DGE[i,5] <- input[index,4]}
     if (concordant.DGE[i,2] == "GOF" & input[index,2] > 1 & is.na(input[index,2]) == FALSE){
       concordant.DGE[i,3] <- input[index,2]
-      concordant.DGE[i,4] <- input[index,4]}
+      concordant.DGE[i,4] <- input[index,3]
+      concordant.DGE[i,5] <- input[index,4]}
     }
-  colnames(concordant.DGE) <- c("Hugo Symbol", "Alteration", "Concordant FC (altered:unaltered)", "FDR")
+  colnames(concordant.DGE) <- c("Hugo Symbol", "Alteration", "Concordant FC (altered:unaltered)", "pval", "FDR")
   concordant.DGE <- na.omit(concordant.DGE)
   return(concordant.DGE)
   }

@@ -2,14 +2,14 @@
 clinical.sample <- read.table("TCGA clinical sample.txt", header = TRUE, sep = "\t", check.names = FALSE)
 clinical.patient <- read.table("TCGA clinical patient.txt", header = TRUE, sep = "\t", check.names = FALSE)
 library(survival)
-genome_wide_survival <- function(input){
+survival <- function(input){
   output <- data.frame()
   # For each gene in the summary table:
   for (k in 1:nrow(input)){
     gene <- input$Hugo_Symbol[k]
     output[k,1] <- gene
-    # Obtain sample names for primary subtype
-    sample.names <- colnames(TCGA.ST)[2:ncol(TCGA.ST)]
+    # Obtain sample names for input
+    sample.names <- colnames(input)[2:ncol(input)]
     # Create data frame of rows = samples | columns = Patient ID, Group, Time, Status
     data <- data.frame()
     for (i in 1:length(sample.names)){
@@ -53,9 +53,10 @@ genome_wide_survival <- function(input){
     test <- survdiff(surv_object ~ Group, data = surv_data, rho = 0)
     chisq <- test$chisq
     pval <- pchisq(chisq, length(test$n)-1, lower.tail = FALSE)
-    output[k,2] <- pval
+    output[k,2] <- test$exp[1] - test$exp[2]
+    output[k,3] <- pval
   }
-  output[,3] <- p.adjust(output[,2], method = "fdr")
-  colnames(output) <- c("Hugo Symbol", "Risk of BCR pval", "Risk of BCR FDR")
+  output[,4] <- p.adjust(output[,3], method = "fdr")
+  colnames(output) <- c("Hugo Symbol", "DFS median difference (High Expressers - Low Expressers", "Risk of BCR pval", "Risk of BCR FDR")
   return(output)
 }
